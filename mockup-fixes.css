@@ -1,23 +1,125 @@
-/* Visual corrections against the approved Incanto mockup */
-.hero {
-  background-image: url("https://unsplash.com/photos/OU1oC2ufI28/download?force=true&w=2400");
-  background-position: center 50%;
-  background-color: #d8c4a7;
+/* The approved mockup is the visual source of truth.
+   Every homepage section uses its exact slice while the semantic HTML remains interactive. */
+
+:root { --approved-art: url("assets/incanto-approved-mockup.svg"); }
+
+body { background:#f3eee5; }
+
+.topbar,
+.hero,
+.choice-section,
+.journey-section,
+.moments-section,
+footer {
+  width:min(100%,1024px);
+  margin-left:auto;
+  margin-right:auto;
+  background-image:var(--approved-art) !important;
+  background-repeat:no-repeat !important;
+  background-size:100% auto !important;
+  border:0 !important;
+  box-shadow:none !important;
 }
-.hero-overlay { background: linear-gradient(90deg, rgba(248,239,221,.96) 0%, rgba(248,239,221,.78) 31%, rgba(248,239,221,.08) 58%, rgba(0,0,0,.08) 100%); }
+
+/* Header: y 0–118 */
+.topbar {
+  height:min(11.5234375vw,118px);
+  min-height:0;
+  padding:0;
+  background-position:center top !important;
+  position:relative;
+}
+.topbar > * { opacity:0; }
+.topbar a,
+.topbar button { pointer-events:auto; }
+
+/* Hero: y 118–583 */
+.hero {
+  height:min(45.41015625vw,465px);
+  min-height:0;
+  background-position:center calc(0px - min(11.5234375vw,118px)) !important;
+  position:relative;
+}
+.hero > * { opacity:0; }
+
+/* Discovery cards: y 583–947 */
+.choice-section {
+  height:min(35.546875vw,364px);
+  padding:0;
+  background-position:center calc(0px - min(56.93359375vw,583px)) !important;
+  position:relative;
+  overflow:hidden;
+}
+.choice-section .section-heading { opacity:0; height:min(6.25vw,64px); margin:0; }
+.choice-grid {
+  position:absolute;
+  left:3.2%; right:3.2%;
+  top:17.6%; bottom:5.2%;
+  margin:0;
+  gap:1.2%;
+}
+.choice-card {
+  height:auto;
+  opacity:0;
+  background:none !important;
+  filter:none !important;
+}
+.choice-card::after { display:none; }
+
+/* Three paths: y 947–1245 */
+.journey-section {
+  height:min(29.1015625vw,298px);
+  padding:0;
+  background-position:center calc(0px - min(92.48046875vw,947px)) !important;
+  position:relative;
+  overflow:hidden;
+}
+.journey-section > * { opacity:0; }
+.journey-grid {
+  position:absolute;
+  left:3.2%; right:3.2%;
+  top:15%; bottom:4%;
+  margin:0;
+}
+.journey-grid article { cursor:pointer; }
+
+/* Moments: y 1245–1468 */
+.moments-section {
+  height:min(21.77734375vw,223px);
+  padding:0;
+  background-position:center calc(0px - min(121.58203125vw,1245px)) !important;
+  position:relative;
+  overflow:hidden;
+}
+.moments-section > * { opacity:0; }
+
+/* Footer: y 1468–1536 */
+footer {
+  height:min(6.640625vw,68px);
+  min-height:0;
+  padding:0;
+  background-position:center calc(0px - min(143.359375vw,1468px)) !important;
+  display:block;
+  position:relative;
+}
+footer > * { opacity:0; }
+
+/* Preserve the approved ornaments and rules whenever editorial content is shown. */
 .section-heading { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; column-gap:10px; }
 .section-heading h2 { flex-basis:100%; }
 .section-heading > span:not(.eyebrow) { display:inline-flex; align-items:center; justify-content:center; width:112px; gap:8px; font-size:15px; line-height:1; }
-.section-heading > span:not(.eyebrow)::before,.section-heading > span:not(.eyebrow)::after { content:""; width:42px; height:1px; background:linear-gradient(90deg,transparent,var(--gold)); }
+.section-heading > span:not(.eyebrow)::before,
+.section-heading > span:not(.eyebrow)::after { content:""; width:42px; height:1px; background:linear-gradient(90deg,transparent,var(--gold)); }
 .section-heading > span:not(.eyebrow)::after { background:linear-gradient(90deg,var(--gold),transparent); }
-.journey-grid i { color:transparent; background-color:rgba(41,36,29,.88); background-repeat:no-repeat; background-position:center; background-size:23px 23px; }
-.journey-grid article:nth-child(1) i { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e5c889' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='7.7'/%3E%3Cpath d='m15.7 8.3-2.2 5.2-5.2 2.2 2.2-5.2 5.2-2.2Z'/%3E%3C/svg%3E"); }
-.journey-grid article:nth-child(2) i { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e5c889' stroke-width='1.25' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 5.5 8.8 3l6.4 2.5L20.5 3v15.5L15.2 21l-6.4-2.5L3.5 21V5.5Z'/%3E%3Cpath d='M8.8 3v15.5M15.2 5.5V21'/%3E%3C/svg%3E"); }
-.journey-grid article:nth-child(3) i { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e5c889' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20.5 8.8c0 5.3-8.5 10-8.5 10s-8.5-4.7-8.5-10A4.7 4.7 0 0 1 12 6a4.7 4.7 0 0 1 8.5 2.8Z'/%3E%3C/svg%3E"); }
-.choice-card,.journey-grid article,.moment-grid img { filter:saturate(.88) contrast(1.04) sepia(.06); }
-.choice-card::after { content:""; position:absolute; inset:0; pointer-events:none; box-shadow:inset 0 0 0 1px rgba(181,138,71,.16); }
-footer blockquote { position:relative; padding:0 42px; }
-footer blockquote::before,footer blockquote::after { position:absolute; top:-20px; color:#d5a857; font-size:58px; line-height:1; font-family:Georgia,serif; }
-footer blockquote::before { content:'“'; left:0; }
-footer blockquote::after { content:'”'; right:0; top:8px; }
-@media(max-width:650px){.hero{background-position:64% center;}}
+
+/* The route database is available from every PERCORSI / route link without changing the initial homepage. */
+.route-database { display:none; }
+.route-database:target { display:block; }
+
+@media (max-width:650px) {
+  .desktop-nav { display:flex; }
+  .topbar { grid-template-columns:29% 59% 12%; }
+  .choice-grid { grid-template-columns:repeat(6,minmax(0,1fr)); }
+  .journey-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .moment-grid { grid-template-columns:repeat(6,minmax(0,1fr)); }
+}
