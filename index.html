@@ -7,85 +7,88 @@
   <title>Incanto — Viviamo il sogno.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Italiana&family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Italiana&family=Parisienne&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <button class="icon-button" id="menuButton" aria-label="Menü öffnen"><span></span><span></span></button>
-    <a class="wordmark" href="#top">INCANTO</a>
-    <button class="icon-button search-icon" id="searchButton" aria-label="Suche öffnen"></button>
-  </header>
+<header class="topbar">
+  <a class="brand" href="#top"><span class="ornament">✣</span><strong>INCANTO</strong><small>VIVIAMO IL SOGNO.</small></a>
+  <nav class="desktop-nav" aria-label="Hauptnavigation">
+    <a href="#discover"><b>LUOGHI</b><span>Entdecken</span></a>
+    <a href="#discover"><b>SAPORI</b><span>Genießen</span></a>
+    <a href="#routes"><b>PERCORSI</b><span>Routen</span></a>
+    <a href="#moments"><b>ATTIMI D'INCANTO</b><span>Momente</span></a>
+    <a href="#diario"><b>DIARIO</b><span>Erinnerungen</span></a>
+  </nav>
+  <div class="header-actions">
+    <button class="search-icon" id="searchButton" aria-label="Suche öffnen"></button>
+    <button class="menu-icon" id="menuButton" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </div>
+</header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-shade"></div>
-      <div class="hero-copy">
-        <p class="kicker">Il nostro viaggio in Italia</p>
-        <h1>Incanto</h1>
-        <p class="hero-slogan">Viviamo il sogno.</p>
-      </div>
-      <a class="scroll-cue" href="#routes">Routen entdecken <span>↓</span></a>
-    </section>
-
-    <section class="intro shell">
-      <p class="section-label">Der erste Sammelpunkt</p>
-      <h2>Wohin zieht es uns?</h2>
-      <p class="intro-copy">Keine fertige Reise, die wir nur noch abfahren. Neun Ausgangspunkte, aus denen wir unsere eigene Route entwickeln — mit bekannten Höhepunkten und den Abzweigungen, die am Ende vielleicht viel besser zu uns passen.</p>
-      <div class="filters" id="filters" aria-label="Routen filtern">
-        <button class="filter active" data-filter="all">Alle Routen</button>
-        <button class="filter" data-filter="sea">Meer</button>
-        <button class="filter" data-filter="wine">Wein & Genuss</button>
-        <button class="filter" data-filter="mountain">Berge & Seen</button>
-        <button class="filter" data-filter="long">Große Reise</button>
-      </div>
-    </section>
-
-    <section class="routes shell" id="routes">
-      <div class="route-grid" id="routeGrid" aria-live="polite"></div>
-    </section>
-
-    <section class="manifesto">
-      <div class="manifesto-inner shell">
-        <p class="section-label">Der rote Faden</p>
-        <blockquote>„Nicht die perfekte Route suchen. Sondern die Reise, bei der wir schon beim Planen nicht mehr aufhören wollen.“</blockquote>
-        <div class="signature">David &amp; Kay</div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <a class="footer-mark" href="#top">INCANTO</a>
-    <p>Un viaggio privato di David &amp; Kay.</p>
-    <p class="footer-quote">Viviamo il sogno.</p>
-  </footer>
-
-  <dialog id="routeDialog" class="route-dialog">
-    <button class="dialog-close" id="dialogClose" aria-label="Schließen">×</button>
-    <div id="dialogContent"></div>
-  </dialog>
-
-  <dialog id="searchDialog" class="search-dialog">
-    <button class="dialog-close" id="searchClose" aria-label="Schließen">×</button>
-    <div class="search-panel">
-      <p class="section-label">Incanto durchsuchen</p>
-      <input id="searchInput" type="search" placeholder="Toskana, Wein, Meer, Keramik …" autocomplete="off">
-      <div id="searchResults" class="search-results"></div>
+<main id="top">
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-copy">
+      <h1>Viviamo<br>il sogno.</h1>
+      <h2>Wir leben den Traum.</h2>
+      <span class="gold-line"></span>
+      <p>Incanto – Verzauberung.<br>Die kleinen und großen Momente,<br>die eine Reise unvergesslich machen.</p>
+      <div class="script-line">L'arte di vivere.</div>
+      <div class="script-caption">DIE KUNST, ZU LEBEN.</div>
     </div>
-  </dialog>
+    <aside class="hero-quote"><span>“</span><p>Ein Ort.<br>Ein Moment.<br>Eine Erinnerung,<br>die bleibt.</p><i>✣</i></aside>
+    <div class="hero-table"><div class="cup">☕</div><div class="book">INCANTO</div></div>
+  </section>
 
-  <aside class="menu-drawer" id="menuDrawer" aria-hidden="true">
-    <button class="drawer-close" id="drawerClose">×</button>
-    <p class="section-label">Incanto</p>
-    <nav>
-      <a href="#routes">Percorsi <small>Routen</small></a>
-      <a href="#routes">Luoghi <small>Orte entstehen aus den Routen</small></a>
-      <a href="#routes">Sapori <small>Wein & Genuss</small></a>
-      <a href="#routes">Attimi d'Incanto <small>Unsere Abzweigungen</small></a>
-    </nav>
-  </aside>
-  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <section class="choice-section" id="discover">
+    <header class="section-heading"><h2>Wonach ist euch heute?</h2><span>✣</span></header>
+    <div class="choice-grid">
+      <a class="choice-card" href="#routes" style="--img:url('https://images.unsplash.com/photo-1473973266408-ed4e27abdd47?auto=format&fit=crop&w=900&q=85')"><div><span>♧</span><h3>WEIN &amp; GENUSS</h3><p>Geschmack, der<br>in Erinnerung bleibt.</p></div></a>
+      <a class="choice-card" href="#routes" style="--img:url('https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=900&q=85')"><div><span>≈</span><h3>SAND &amp; MEER</h3><p>Italiens schönste<br>Strände &amp; Küsten.</p></div></a>
+      <a class="choice-card" href="#routes" style="--img:url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=85')"><div><span>⌂</span><h3>STIL &amp; LUXUS</h3><p>Besondere Hotels<br>und Orte.</p></div></a>
+      <a class="choice-card" href="#moments" style="--img:url('https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&w=900&q=85')"><div><span>▱</span><h3>FUNDSTÜCKE</h3><p>Märkte, Schätze<br>&amp; Geheimtipps.</p></div></a>
+      <a class="choice-card" href="#moments" style="--img:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85')"><div><span>▣</span><h3>ATTIMI D'INCANTO</h3><p>Augenblicke,<br>die verzaubern.</p></div></a>
+      <a class="choice-card" href="#diario" style="--img:url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=85')"><div><span>▤</span><h3>DIARIO</h3><p>Unsere Reisen,<br>unsere Erinnerungen.</p></div></a>
+    </div>
+  </section>
 
-  <script src="app.js"></script>
+  <section class="journey-section">
+    <header class="section-heading"><h2>Drei Wege zu eurer nächsten Reise</h2><span>✣</span></header>
+    <div class="journey-grid">
+      <article><img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=1200&q=85" alt="Wohnmobil an der italienischen Küste"><div><i>◉</i><h3>Eigene Routen planen</h3><p>Plant eure individuelle Tour ganz nach euren Wünschen.</p><a href="#routes">ROUTE PLANEN →</a></div></article>
+      <article><img src="https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=85" alt="Straße durch italienische Landschaft"><div><i>▧</i><h3>Inspiration finden</h3><p>Entdeckt fertige Routen aus ausgewählten Quellen.</p><a href="#routes">ROUTEN ENTDECKEN →</a></div></article>
+      <article><img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1200&q=85" alt="Italienkarte"><div><i>♡</i><h3>Unsere Lieblingsrouten</h3><p>Unsere persönlichen Routen, Erlebnisse und Empfehlungen.</p><a href="#routes">LIEBLINGSROUTEN ANSEHEN →</a></div></article>
+    </div>
+  </section>
+
+  <section class="moments-section" id="moments">
+    <header class="section-heading"><h2>Attimi d’Incanto – Augenblicke der Verzauberung</h2></header>
+    <div class="moment-grid">
+      <figure><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=85" alt="Espresso"><figcaption>Der perfekte Espresso<br>auf einer Piazza.</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=700&q=85" alt="Weinberg"><figcaption>Ein Glas Brunello<br>bei Sonnenuntergang.</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?auto=format&fit=crop&w=700&q=85" alt="Gasse"><figcaption>Ein versteckter Ort,<br>der verzaubert.</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=700&q=85" alt="Küstenstraße"><figcaption>Eine Straße mit Aussicht,<br>die man nie vergisst.</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=700&q=85" alt="Markt"><figcaption>Der Duft eines Marktes<br>am Morgen.</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&w=700&q=85" alt="Kleiner Laden"><figcaption>Ein Fundstück mit<br>Geschichte.</figcaption></figure>
+    </div>
+    <a class="outline-button" href="#routes">MEHR MOMENTE ENTDECKEN →</a>
+  </section>
+
+  <section class="route-database" id="routes">
+    <header class="section-heading"><span class="eyebrow">PERCORSI</span><h2>Routen, die nach Incanto klingen</h2><p>Ausgewählte Grundrouten, Quellen und unsere eigenen Abzweigungen.</p></header>
+    <div class="filters" id="filters" aria-label="Routen filtern">
+      <button class="filter active" data-filter="all">Alle</button><button class="filter" data-filter="sea">Meer</button><button class="filter" data-filter="wine">Wein &amp; Genuss</button><button class="filter" data-filter="mountain">Berge &amp; Seen</button><button class="filter" data-filter="long">Große Reise</button>
+    </div>
+    <div class="route-grid" id="routeGrid" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer id="diario"><blockquote>“ <em>Incanto sammelt keine Orte.<br>Incanto sammelt Gründe, sich an sie zu erinnern.</em> ”</blockquote><span class="footer-ornament">✣</span><div class="footer-signature"><strong>David &amp; Kay</strong><small>FÜR UNSERE GEMEINSAMEN REISEN.</small></div></footer>
+
+<dialog id="routeDialog" class="route-dialog"><button class="dialog-close" id="dialogClose" aria-label="Schließen">×</button><div id="dialogContent"></div></dialog>
+<dialog id="searchDialog" class="search-dialog"><button class="dialog-close" id="searchClose" aria-label="Schließen">×</button><div class="search-panel"><p class="section-label">Incanto durchsuchen</p><input id="searchInput" type="search" placeholder="Toskana, Wein, Meer, Keramik …" autocomplete="off"><div id="searchResults" class="search-results"></div></div></dialog>
+<aside class="menu-drawer" id="menuDrawer" aria-hidden="true"><button class="drawer-close" id="drawerClose">×</button><p class="section-label">Incanto</p><nav><a href="#discover">Luoghi <small>Entdecken</small></a><a href="#discover">Sapori <small>Genießen</small></a><a href="#routes">Percorsi <small>Routen</small></a><a href="#moments">Attimi d'Incanto <small>Momente</small></a><a href="#diario">Diario <small>Erinnerungen</small></a></nav></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
+<script src="app.js"></script>
 </body>
 </html>
