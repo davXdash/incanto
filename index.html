@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Incanto – das private Italienmagazin von David & Kay.">
+  <title>Incanto — Viviamo il sogno.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=Italiana&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-button" id="menuButton" aria-label="Menü öffnen"><span></span><span></span></button>
+    <a class="wordmark" href="#top">INCANTO</a>
+    <button class="icon-button search-icon" id="searchButton" aria-label="Suche öffnen"></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="kicker">Il nostro viaggio in Italia</p>
+        <h1>Incanto</h1>
+        <p class="hero-slogan">Viviamo il sogno.</p>
+      </div>
+      <a class="scroll-cue" href="#routes">Routen entdecken <span>↓</span></a>
+    </section>
+
+    <section class="intro shell">
+      <p class="section-label">Der erste Sammelpunkt</p>
+      <h2>Wohin zieht es uns?</h2>
+      <p class="intro-copy">Keine fertige Reise, die wir nur noch abfahren. Neun Ausgangspunkte, aus denen wir unsere eigene Route entwickeln — mit bekannten Höhepunkten und den Abzweigungen, die am Ende vielleicht viel besser zu uns passen.</p>
+      <div class="filters" id="filters" aria-label="Routen filtern">
+        <button class="filter active" data-filter="all">Alle Routen</button>
+        <button class="filter" data-filter="sea">Meer</button>
+        <button class="filter" data-filter="wine">Wein & Genuss</button>
+        <button class="filter" data-filter="mountain">Berge & Seen</button>
+        <button class="filter" data-filter="long">Große Reise</button>
+      </div>
+    </section>
+
+    <section class="routes shell" id="routes">
+      <div class="route-grid" id="routeGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-inner shell">
+        <p class="section-label">Der rote Faden</p>
+        <blockquote>„Nicht die perfekte Route suchen. Sondern die Reise, bei der wir schon beim Planen nicht mehr aufhören wollen.“</blockquote>
+        <div class="signature">David &amp; Kay</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-mark" href="#top">INCANTO</a>
+    <p>Un viaggio privato di David &amp; Kay.</p>
+    <p class="footer-quote">Viviamo il sogno.</p>
+  </footer>
+
+  <dialog id="routeDialog" class="route-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Schließen">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <dialog id="searchDialog" class="search-dialog">
+    <button class="dialog-close" id="searchClose" aria-label="Schließen">×</button>
+    <div class="search-panel">
+      <p class="section-label">Incanto durchsuchen</p>
+      <input id="searchInput" type="search" placeholder="Toskana, Wein, Meer, Keramik …" autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </dialog>
+
+  <aside class="menu-drawer" id="menuDrawer" aria-hidden="true">
+    <button class="drawer-close" id="drawerClose">×</button>
+    <p class="section-label">Incanto</p>
+    <nav>
+      <a href="#routes">Percorsi <small>Routen</small></a>
+      <a href="#routes">Luoghi <small>Orte entstehen aus den Routen</small></a>
+      <a href="#routes">Sapori <small>Wein & Genuss</small></a>
+      <a href="#routes">Attimi d'Incanto <small>Unsere Abzweigungen</small></a>
+    </nav>
+  </aside>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
