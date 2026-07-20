@@ -1,3 +1,4 @@
+const mockupStyles=document.createElement('link');mockupStyles.rel='stylesheet';mockupStyles.href='mockup-fixes.css?v=20260720-2';document.head.appendChild(mockupStyles);
 let routes=[];
 const grid=document.querySelector('#routeGrid');
 const routeDialog=document.querySelector('#routeDialog');
