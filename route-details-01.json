@@ -1,0 +1,84 @@
+{
+  "cilento-kueste": {
+    "intro": "Der Cilento ist keine einzelne Sehenswürdigkeit, sondern eine Reise aus mehreren starken Kapiteln: griechische Tempel in Paestum, mittelalterliche Orte über dem Meer, lange Sandstrände, kleine Fischerhäfen, die Geschichte der Mittelmeerdiät und eine spektakuläre Küste mit Grotten und Buchten. Die Route funktioniert besonders gut als langsame Wohnmobilreise mit zwei festen Basen. So bleibt genug Zeit für Badetage, gutes Essen und Abende in Orten, die erst nach dem Tagesbetrieb ihre eigentliche Atmosphäre zeigen.",
+    "idealFor": "Ideal ist diese Route für eine Sommerreise, bei der Meer und Genuss im Vordergrund stehen, aber nicht jeder Tag nur aus Strand bestehen soll. Sie verbindet Archäologie, Küstendörfer, Märkte, regionale Küche und Bootsausflüge, ohne dass daraus eine anstrengende Rundreise mit täglichem Platzwechsel wird.",
+    "routeLogic": [
+      "Nördliche Basis bei Paestum, Agropoli oder Castellabate für Tempel, Mozzarella, Punta Licosa und Acciaroli.",
+      "Südliche Basis bei Palinuro oder Marina di Camerota für Grotten, Baia del Buondormire, Cala Bianca und Baia degli Infreschi.",
+      "Pioppi, Velia und Pisciotta liegen sinnvoll zwischen beiden Basen und werden als ruhige Übergangstage eingeplant.",
+      "Für die Kernroute sind 8 bis 10 Tage stimmig. Mit Salerno, Padula oder Maratea wird daraus eine 12- bis 14-tägige Reise."
+    ],
+    "days": [
+      {"day":"Tag 1","title":"Ankommen in Paestum","text":"Die erste Basis liegt am besten außerhalb der dichtesten Küstenorte. Nach der Ankunft bleibt Zeit für den langen Sandstrand von Paestum und einen ersten Einkauf bei einem Caseificio. Der Abend gehört einer einfachen Kombination aus Büffelmozzarella, Tomaten, Brot und einem Glas Fiano oder Aglianico del Cilento."},
+      {"day":"Tag 2","title":"Paestum: Tempel, Museum und Mozzarella","text":"Der archäologische Park ist der kulturelle Höhepunkt der Route. Die drei großen dorischen Tempel gehören zu den am besten erhaltenen griechischen Tempelanlagen Italiens. Danach lohnt das Museum mit den Funden aus Poseidonia und dem berühmten Grab des Tauchers. Für den zweiten Teil des Tages passt der Besuch eines Büffelhofs mit Verkostung: Nicht nur Mozzarella, sondern auch Ricotta, Joghurt und Gelato aus Büffelmilch gehören hier zum Erlebnis."},
+      {"day":"Tag 3","title":"Agropoli und Castellabate","text":"Agropoli ist das Eingangstor zum Cilento. Vom historischen Zentrum und der Burg öffnet sich der Blick über den Golf von Salerno. Anschließend geht es nach Castellabate: zuerst hinauf in den mittelalterlichen Ort mit Belvedere und engen Gassen, später hinunter nach Santa Maria oder San Marco di Castellabate für Promenade, Hafen und Abendessen. Wer einen Badestopp möchte, wählt Trentova oder einen Strandabschnitt rund um Santa Maria."},
+      {"day":"Tag 4","title":"Punta Licosa, Acciaroli und Pioppi","text":"Punta Licosa steht für Pinien, klares Wasser und die geschützte Küstenlandschaft des nördlichen Cilento. Danach folgt Acciaroli mit Hafen, normannischem Turm und einer sehr angenehmen Abendstimmung. Pioppi ist kleiner und inhaltlich besonders: Im Palazzo Vinciprova befinden sich das Meeresmuseum und die Ausstellung zur Mittelmeerdiät. Hier wird verständlich, warum Olivenöl, Gemüse, Hülsenfrüchte, Fisch und ein maßvoller Lebensrhythmus zur Identität des Cilento gehören."},
+      {"day":"Tag 5","title":"Velia, Pisciotta und Wechsel nach Süden","text":"Die Ausgrabungen von Velia zeigen die zweite große antike Welt der Route. Die griechische Stadt Elea war Heimat der Philosophen Parmenides und Zenon; die Porta Rosa gilt als eines der frühesten erhaltenen Rundbogentore der Antike. Danach passt Pisciotta mit steinernen Gassen, Olivenhainen und Blick auf die Küste. Am späten Nachmittag wird die südliche Basis bei Palinuro oder Marina di Camerota bezogen."},
+      {"day":"Tag 6","title":"Palinuro und die Grotten","text":"Der wichtigste Programmpunkt ist eine Bootsfahrt um Capo Palinuro. Die Grotta Azzurra erhält ihre intensive Farbe durch unterirdisch einfallendes Licht. Dazu kommen Felsformationen, kleine Buchten und die vom Meer geprägte Silhouette des Kaps. Für den Badeteil des Tages ist die Baia del Buondormire besonders stark: goldener Sand, smaragdgrünes Wasser und der Scoglio del Coniglio vor der Bucht. Der Zugang wird häufig per Boot organisiert."},
+      {"day":"Tag 7","title":"Marina di Camerota und Baia degli Infreschi","text":"Dieser Tag gehört dem Meer. Von Marina di Camerota starten Bootstouren entlang der geschützten Costa degli Infreschi e della Masseta. Cala Bianca, Baia degli Infreschi und weitere kleine Buchten liegen zwischen Felsen, Grotten und klarem Wasser. Die Bootslösung ist für diese Route ideal, weil sie mehrere der schönsten Küstenabschnitte bequem miteinander verbindet. Am Abend bleibt Zeit für den Hafen von Marina di Camerota und ein Fischessen."},
+      {"day":"Tag 8","title":"Freier Lieblingstag","text":"Der letzte volle Tag wird bewusst nicht mit einer weiteren Pflichtetappe gefüllt. Möglich sind ein zweiter Bootstag, ein langer Sandstrand bei Palinuro, ein langsamer Abend in Acciaroli, ein Besuch in Scario am Golf von Policastro oder ein kulinarischer Tag mit Produzenten und kleinen Orten. Genau dieser freie Tag entscheidet oft darüber, ob sich die Reise wie eine Rundfahrt oder wie Urlaub anfühlt."}
+    ],
+    "places": [
+      {"name":"Paestum","why":"Hier treffen UNESCO-Welterbe, griechische Tempel und die berühmteste Büffelmozzarella der Region direkt aufeinander.","must":"Tempel der Hera, Tempel des Neptun, Athena-Tempel, Museum und Grab des Tauchers.","time":"Ein voller Tag ist sinnvoll."},
+      {"name":"Castellabate","why":"Der obere Ort liefert mittelalterliche Atmosphäre und Aussicht, die Küstenorte darunter Meer, Promenade und Restaurants.","must":"Belvedere, Castello dell’Abate, Santa Maria di Castellabate und San Marco.","time":"Halber bis ganzer Tag."},
+      {"name":"Acciaroli","why":"Der Hafenort steht für das ruhige, gepflegte Cilento und eignet sich besonders für einen langen Abend am Wasser.","must":"Hafen, normannischer Turm, Kirche Santa Maria und Promenade.","time":"Drei bis fünf Stunden, am besten bis nach Sonnenuntergang."},
+      {"name":"Pioppi","why":"Klein, aber inhaltlich wichtig: Hier wird die Mittelmeerdiät nicht als Schlagwort, sondern als lokale Lebensweise greifbar.","must":"Palazzo Vinciprova, Meeresmuseum, Museum der Mittelmeerdiät und Uferpromenade.","time":"Zwei bis vier Stunden."},
+      {"name":"Velia","why":"Die antike Stadt ergänzt Paestum um Philosophiegeschichte, Stadtmauern und die Porta Rosa.","must":"Porta Rosa, Akropolis, Thermen und Reste der antiken Elea.","time":"Zwei bis drei Stunden."},
+      {"name":"Palinuro","why":"Das Kap bündelt die dramatischste Küstenlandschaft der Route mit Grotten, Felsbögen und außergewöhnlichen Buchten.","must":"Bootsfahrt, Grotta Azzurra, Arco Naturale und Baia del Buondormire.","time":"Mindestens ein ganzer Tag."},
+      {"name":"Marina di Camerota","why":"Bester Ausgangspunkt für die geschützte Küste der Infreschi und gleichzeitig ein lebendiger Hafenort für den Abend.","must":"Bootstour nach Cala Bianca und Baia degli Infreschi, Hafen und Altstadtbereich.","time":"Ein ganzer Tag plus Abend."}
+    ],
+    "secrets": [
+      {"title":"Paestum nicht nur als Tempelstopp sehen","text":"Die stärkste Kombination entsteht aus Archäologie und einem Besuch bei einem Büffelhof. Erst dadurch wird aus dem UNESCO-Ort ein vollständiger Cilento-Tag."},
+      {"title":"Den Abend in Acciaroli lassen","text":"Der Ort wirkt nach dem Strandbetrieb am besten. Hafen, warme Fassaden, kleine Lokale und das langsame Kommen und Gehen auf der Promenade sind hier der eigentliche Höhepunkt."},
+      {"title":"Pioppi wegen des Inhalts einplanen","text":"Der Ort ist kein großer Fotospot. Sein Wert liegt in der Geschichte von Ancel Keys, der Mittelmeerdiät und der Verbindung zwischen Meer, Ernährung und Lebensweise."},
+      {"title":"Velia nicht gegen Paestum ausspielen","text":"Paestum ist monumentaler, Velia intimer. Zusammen erzählen beide Orte die griechische Geschichte des Cilento viel vollständiger."},
+      {"title":"Die schönsten Buchten per Boot erleben","text":"Buondormire, Cala Bianca und Infreschi lassen sich so an einem entspannten Tag verbinden. Das ist kein Ersatzprogramm, sondern die landschaftlich stärkste Perspektive auf die Küste."},
+      {"title":"Mindestens zwei Nächte pro Basis","text":"Ein häufiger Wechsel nimmt der Route ihren Charakter. Zwei längere Standorte geben Raum für spontane Strandtage, Abendessen und Wetteralternativen."}
+    ],
+    "food": [
+      {"name":"Mozzarella di Bufala Campana DOP","text":"Frisch ist sie milchig, elastisch und deutlich aromatischer als abgepackte Supermarktware. Rund um Paestum wird sie direkt auf Höfen und in Caseifici verkauft. Besonders gut passt eine Verkostung mit Ricotta, Joghurt und Gelato aus Büffelmilch."},
+      {"name":"Alici di Menaica","text":"Diese Sardellen werden bei Pisciotta nach einer alten Methode mit speziellen Netzen gefangen. Sie sind größer, festfleischiger und weniger bitter als gewöhnliche Sardellen und werden frisch, mariniert oder gesalzen serviert."},
+      {"name":"Cilento-Olivenöl","text":"Olivenhaine prägen weite Teile der Region. Das Öl ist ein Grundbestandteil der lokalen Küche und verbindet Bruschetta, Gemüse, Hülsenfrüchte, Fisch und Pasta. Eine Verkostung bei einem Produzenten macht die Unterschiede zwischen Sorten und Reifegraden sichtbar."},
+      {"name":"Cacioricotta del Cilento","text":"Ein Käse zwischen Ricotta und gereiftem Schnittkäse. Jung wird er weich gegessen, gereift über Pasta gerieben. Besonders typisch ist er zu Fusilli cilentani mit Tomatensauce."},
+      {"name":"Fusilli cilentani","text":"Handgerollte Pasta, häufig mit Ragù oder Tomatensauce und geriebenem Cacioricotta. Sie ist eines der Gerichte, an denen man sofort erkennt, dass man nicht mehr in Neapel, sondern im Cilento isst."},
+      {"name":"Maracucciata und Hülsenfrüchte","text":"Der Maracuoccio ist eine alte Hülsenfrucht aus dem Raum Lentiscosa. Als cremige Maracucciata zeigt sie die bäuerliche Seite der Mittelmeerdiät jenseits von Fisch und Strandküche."},
+      {"name":"Feigen aus dem Cilento","text":"Weiße Cilento-Feigen werden frisch, getrocknet, gefüllt oder mit Schokolade verarbeitet. Sie sind ein gutes Mitbringsel und tauchen in Pasticcerie und kleinen Spezialitätengeschäften auf."},
+      {"name":"Fiano und Aglianico del Cilento","text":"Fiano bringt Frische und Kräuteraromen zu Fisch und Mozzarella. Aglianico ist kräftiger und passt zu Fleisch, Ragù und gereiftem Käse. Beide geben der Route eine klare regionale Weinidentität."}
+    ],
+    "beaches": [
+      {"name":"Paestum","type":"Langer Sandstrand","best":"Für einen unkomplizierten ersten oder letzten Badetag mit viel Platz."},
+      {"name":"Trentova","type":"Bucht bei Agropoli","best":"Für die Kombination aus Agropoli-Besuch und Baden."},
+      {"name":"Santa Maria di Castellabate","type":"Sandige, gut erschlossene Küste","best":"Für einen komfortablen Strandtag mit Restaurants und Promenade."},
+      {"name":"Punta Licosa","type":"Felsige, geschützte Küste","best":"Für klares Wasser, Pinien und einen ruhigeren Landschaftstag."},
+      {"name":"Baia del Buondormire","type":"Kleine goldene Sandbucht","best":"Für den spektakulärsten Badestopp bei Palinuro, meist mit Bootszugang."},
+      {"name":"Cala Bianca","type":"Helle Kies- und Felsbucht","best":"Für außergewöhnlich klares Wasser während einer Bootstour ab Marina di Camerota."},
+      {"name":"Baia degli Infreschi","type":"Geschützte Naturbucht","best":"Für den landschaftlichen Höhepunkt der südlichen Küste."}
+    ],
+    "camper": {
+      "strategy":"Die Route sollte mit zwei Camping- oder Agricamping-Basen geplant werden. Eine nördliche Basis erschließt Paestum, Agropoli, Castellabate, Acciaroli und Pioppi. Eine südliche Basis erschließt Palinuro, Marina di Camerota und die Bootsausflüge. Dadurch muss das Wohnmobil nicht täglich durch kleine Ortskerne bewegt werden.",
+      "north":"Im Raum Paestum sind größere Campingplätze und strandnahe Anlagen sinnvoll. Für Castellabate oder Acciaroli funktionieren Plätze außerhalb der historischen Zentren mit anschließendem Bus, Shuttle oder kurzem Transfer.",
+      "south":"Palinuro und Marina di Camerota besitzen eine ausgeprägte Campingstruktur. Ein Platz mit Strom, Schatten und Strand- oder Hafenanbindung ist hier wertvoller als ein möglichst zentraler Stellplatz.",
+      "cityAccess":"Paestum lässt sich gut von außen anfahren. Castellabate, Pisciotta und andere historische Orte werden besser ohne Wohnmobilkernfahrt besucht. Für Bootstage bleibt das Fahrzeug idealerweise auf dem Platz.",
+      "comfort":"Für diese Sommerroute sind Stromanschluss, Schatten, Sanitärqualität und möglichst gute Erreichbarkeit von Strand oder Shuttle die entscheidenden Komfortmerkmale. Die Route gewinnt durch längere Aufenthalte auf guten Plätzen, nicht durch tägliches Umsetzen."
+    },
+    "bookable": [
+      "Geführter Rundgang durch den archäologischen Park und das Museum von Paestum.",
+      "Besuch und Verkostung auf einem Büffelhof im Raum Paestum.",
+      "Bootsfahrt zu den Grotten von Capo Palinuro und zur Baia del Buondormire.",
+      "Bootstour ab Marina di Camerota nach Cala Bianca und Baia degli Infreschi.",
+      "Verkostung von Cilento-Weinen und Olivenöl bei regionalen Produzenten.",
+      "Geführter Besuch im Museum der Mittelmeerdiät in Pioppi, sofern angeboten."
+    ],
+    "connections": [
+      {"route":"Amalfiküste und Salerno","text":"Vor der Cilento-Route lassen sich Salerno und ein gezielter Tag an der Amalfiküste ergänzen. Danach beginnt bewusst der ruhigere Teil der Reise."},
+      {"route":"Padula und Vallo di Diano","text":"Die Certosa di Padula erweitert die Route um einen großen barocken Klosterkomplex im Hinterland."},
+      {"route":"Maratea und Kalabrien","text":"Nach Marina di Camerota führt die Küste logisch weiter nach Scario, Sapri und Maratea. Von dort kann die Kalabrien-Route anschließen."}
+    ],
+    "sources": [
+      {"name":"Italia.it – Green and blue Cilento: 7-day itinerary","url":"https://www.italia.it/en/campania/things-to-do/cilento-itinerary"},
+      {"name":"Italia.it – Cilento between sea, history and nature","url":"https://www.italia.it/en/campania/salerno/cilento"},
+      {"name":"Italia.it – Marina di Pioppi","url":"https://www.italia.it/de/kampanien/salerno/marina-di-pioppi"},
+      {"name":"Italia.it – The Sibilla Route by boat","url":"https://www.italia.it/en/campania/things-to-do/sibilla-boat-tour-campania-by-boat"}
+    ]
+  }
+}
