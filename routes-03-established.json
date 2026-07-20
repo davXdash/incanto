@@ -1,0 +1,42 @@
+[
+  {
+    "id":"sizilien-westkueste",
+    "title":"Westsizilien zwischen Palermo und Agrigent",
+    "eyebrow":"Märkte · Salz · Tempel · Inseln",
+    "region":"Sizilien",
+    "days":"10–14 Tage",
+    "distance":"ca. 560 km vor Ort",
+    "image":"https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1800&q=85",
+    "summary":"Eine große Westsizilienroute zwischen Palermo, Trapani, Marsala, Selinunte und Agrigent. Märkte, arabisch-normannische Architektur, Salzlandschaften, Inseln, Wein und Sandstrände werden zu einer langsamen Wohnmobilreise verbunden.",
+    "stops":["Palermo","Monreale","Cefalù","Castellammare del Golfo","Erice","Trapani","Favignana","Marsala","Mazara del Vallo","Selinunte","Agrigent"],
+    "detours":[
+      {"title":"Favignana als kompletter Inseltag","text":"Die Egadeninsel funktioniert am besten ohne Wohnmobil und mit früh reservierter Fähre, Leihrad oder Inseltransfer."},
+      {"title":"Salinen zum Abendlicht","text":"Zwischen Trapani und Marsala werden Windmühlen, Salzbecken und rosa Licht zum stärksten Landschaftsmoment der Route."},
+      {"title":"Selinunte bis Sonnenuntergang","text":"Die Tempel über dem Meer wirken am späten Tag besonders eindrucksvoll und geben der Route einen ruhigeren archäologischen Höhepunkt."}
+    ],
+    "why":"Palermo, Inseln, Wein, Salzlandschaften, Tempel und Sandstrände ergeben eine der vielseitigsten großen Sizilienreisen.",
+    "source":{"name":"Visit Sicily – Tour of Western Sicily","url":"https://www.visitsicily.info/en/itinerario/touring-west-sicily/"},
+    "source2":{"name":"Visit Sicily – Sicily itineraries","url":"https://www.visitsicily.info/en/itinerari/"},
+    "meta":{"themes":["sea","beach","wine","culinary","culture","markets","islands","history"],"landscape":["coast","salt-pans","vineyards"],"water":["sea","sand-beach","boat"],"activities":["markets","boat-trip","wine-tasting","easy-walks","swimming"],"summer_nrw":true,"mobility":"easy","demanding_hikes":false,"camper_fit":"very-good-with-bases","car_fit":"very-good","hearts":5}
+  },
+  {
+    "id":"basilikata-coast-to-coast",
+    "title":"Basilikata coast to coast",
+    "eyebrow":"Maratea · Matera · Dörfer · Zwei Meere",
+    "region":"Basilikata",
+    "days":"9–12 Tage",
+    "distance":"ca. 520 km vor Ort",
+    "image":"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=85",
+    "summary":"Von Marateas Felsküste über Bergdörfer, Dolomiti Lucane und Matera bis zur ionischen Küste. Die Route verbindet zwei Meere mit Felslandschaften, Höhlenstadt, regionaler Küche und ruhigen Wohnmobilbasen.",
+    "stops":["Maratea","Trecchina","Lagonegro","Castelmezzano","Pietrapertosa","Aliano","Craco","Matera","Metapont","Policoro"],
+    "detours":[
+      {"title":"Maratea nicht nur als Küstenstopp","text":"Altstadt, Christusstatue, Buchten und Hafen verdienen mehrere Nächte als westliche Basis."},
+      {"title":"Dolomiti Lucane langsam erleben","text":"Castelmezzano und Pietrapertosa werden als Dorf- und Aussichtstage geplant, nicht als sportliche Durchquerung."},
+      {"title":"Matera mit zwei Nächten","text":"Sassi, Höhlenkirchen und Abendlicht brauchen mehr als einen kurzen Tagesbesuch."}
+    ],
+    "why":"Zwei Meere, Matera, spektakuläre Felsdörfer und eine unverwechselbare Küche machen diese Route zu einer starken Ergänzung zwischen Kampanien, Apulien und Kalabrien.",
+    "source":{"name":"Italia.it – Basilicata coast to coast","url":"https://www.italia.it/en/basilicata/things-to-do/basilicata-itineraries"},
+    "source2":{"name":"APT Basilicata – Official tourism","url":"https://www.basilicataturistica.it/"},
+    "meta":{"themes":["sea","beach","culinary","villages","culture","history","panorama"],"landscape":["coast","mountain-villages","badlands"],"water":["sea","sand-beach"],"activities":["easy-walks","sightseeing","markets","swimming"],"summer_nrw":true,"mobility":"mostly-easy","demanding_hikes":false,"camper_fit":"very-good","car_fit":"very-good","hearts":5}
+  }
+]
