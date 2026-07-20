@@ -1,0 +1,154 @@
+{
+  "comer-see-villen": {
+    "intro": "Der Comer See ist keine klassische Rundreise mit täglichem Standortwechsel, sondern eine Reise aus Wasser, Villen, Gärten und kleinen Uferorten. Der See funktioniert am besten, wenn das Wohnmobil für mehrere Nächte auf einer festen Basis bleibt und Bellagio, Varenna, Menaggio, Lenno und Tremezzo per Schiff verbunden werden. So wird aus engen Uferstraßen eine elegante Seereise mit Blickachsen, Promenaden, historischen Häusern und langen Abenden am Wasser.",
+    "idealFor": "Ideal ist diese Route für eine kürzere, stilvolle Reise mit viel Atmosphäre, Bootstagen, Gärten, Aperitivo und schönen Orten. Sie eignet sich besonders, wenn ihr Wasser und Luxusgefühl sucht, aber keine große Distanz zurücklegen möchtet.",
+    "routeLogic": [
+      "Basis 1 im Raum Como, Cernobbio oder südliches Westufer für Como, Villa Olmo und die ersten Villen.",
+      "Basis 2 im zentralen Seedreieck bei Menaggio, Lenno oder Tremezzina für Bellagio, Varenna und die großen Gartenanlagen.",
+      "Die stärkste Verbindung entsteht per Schiff zwischen Menaggio, Bellagio und Varenna; das Wohnmobil bleibt dabei stehen.",
+      "Für die Kernroute sind 6 bis 8 Tage ideal. Mit Bergamo, Iseosee oder Veltlin lässt sie sich sinnvoll verlängern."
+    ],
+    "days": [
+      {"day":"Tag 1","title":"Ankommen bei Como","text":"Nach der Ankunft reicht ein erster Abend an der Uferpromenade. Como wirkt nicht nur als Startpunkt, sondern als eigenständige Stadt mit Dom, Arkaden, Cafés und Blick auf den südlichen See. Der Auftakt soll ruhig bleiben: ein Spaziergang, Aperitivo und Abendessen statt sofortiger Weiterfahrt."},
+      {"day":"Tag 2","title":"Como, Villa Olmo und Cernobbio","text":"Am Vormittag gehören der Dom, die Altstadt und die Seepromenade zusammen. Danach folgt Villa Olmo mit Park und neoklassizistischer Architektur. Cernobbio ergänzt den Tag um elegante Uferatmosphäre, historische Hotels und einen Abend direkt am Wasser."},
+      {"day":"Tag 3","title":"Tremezzina, Lenno und Villa del Balbianello","text":"Jetzt wird die zentrale Seelandschaft erreicht. Lenno ist der ideale Ausgangspunkt für Villa del Balbianello. Die Villa liegt auf einer bewaldeten Landzunge und verbindet Gartenarchitektur, Seeblick und Filmgeschichte. Danach bleibt Zeit für die Promenade von Lenno oder einen Abstecher zur Isola Comacina."},
+      {"day":"Tag 4","title":"Villa Carlotta, Tremezzo und Menaggio","text":"Villa Carlotta ist wegen der Gärten und Kunstsammlung einer der großen Höhepunkte. Tremezzo liefert die klassische Uferkulisse, Menaggio dagegen einen lebendigeren Ort mit Piazza und Promenade. Der Tag funktioniert ohne weite Fahrten und endet am besten in Menaggio."},
+      {"day":"Tag 5","title":"Bellagio per Schiff","text":"Bellagio liegt auf der Landspitze zwischen den beiden südlichen Armen des Sees. Die Anreise per Schiff ist Teil des Erlebnisses. In Bellagio gehören die Treppengassen, die Uferpromenade, Pescallo und die Gärten der Villa Melzi zusammen. Für den Abend lohnt es sich, nicht zu früh zurückzufahren."},
+      {"day":"Tag 6","title":"Varenna und Villa Monastero","text":"Varenna ist kleiner und kompakter als Bellagio. Der Weg vom Anleger über die kurze Uferpromenade bis zur Piazza und weiter zur Villa Monastero bildet einen perfekten halben bis ganzen Tag. Garten, Hausmuseum, farbige Fassaden und Wasser liegen eng beieinander."},
+      {"day":"Tag 7","title":"Freier Seetag","text":"Der letzte volle Tag bleibt bewusst offen. Möglich sind ein zweiter Villenbesuch, eine längere Schiffsrunde, ein ruhiger Nachmittag in Menaggio, ein Ausflug nach Bellano oder ein Lieblingstag in Varenna. Dieser freie Tag verhindert, dass die Route zu einer Pflichtliste wird."}
+    ],
+    "places": [
+      {"name":"Como","why":"Die Stadt verbindet See, Dom, klassische Cafékultur und die Geschichte Alessandro Voltas.","must":"Dom, Piazza Cavour, Seepromenade, Villa Olmo und Tempio Voltiano.","time":"Ein voller Tag."},
+      {"name":"Cernobbio","why":"Elegant, kompakt und ideal für einen Abend am Wasser.","must":"Promenade, Ortskern und Blick auf historische Villen und Grandhotels.","time":"Zwei bis vier Stunden."},
+      {"name":"Lenno","why":"Der Ort ist der beste Zugang zur Villa del Balbianello und besitzt eine ruhige Promenade.","must":"Villa del Balbianello, Uferweg und optional Isola Comacina.","time":"Halber bis ganzer Tag."},
+      {"name":"Tremezzo","why":"Hier liegen einige der ikonischsten Villen- und Gartenanlagen des Sees.","must":"Villa Carlotta, Uferstraße und Ausblicke auf Bellagio.","time":"Halber Tag."},
+      {"name":"Menaggio","why":"Die beste praktische Basis im zentralen Seedreieck mit Fähren nach Bellagio und Varenna.","must":"Piazza Garibaldi, Promenade und Hafen.","time":"Drei bis fünf Stunden plus Abend."},
+      {"name":"Bellagio","why":"Der Ort bündelt Seepanorama, Villengärten, Gassen und die berühmteste Kulisse des Comer Sees.","must":"Villa Melzi, Altstadt, Pescallo und Uferpromenade.","time":"Ein voller Tag."},
+      {"name":"Varenna","why":"Kleiner, intimer und ideal für einen langsamen Tag zwischen Garten und Wasser.","must":"Villa Monastero, Piazza San Giorgio und Uferpromenade.","time":"Halber bis ganzer Tag."}
+    ],
+    "secrets": [
+      {"title":"Das Seedreieck per Schiff erleben","text":"Menaggio, Bellagio und Varenna liegen so, dass die Schiffsverbindung nicht nur praktisch, sondern der eigentliche rote Faden der Route ist."},
+      {"title":"Villa del Balbianello früh reservieren","text":"Die Villa ist eine der gefragtesten Attraktionen am See. Ein festes Zeitfenster macht den Tag deutlich entspannter."},
+      {"title":"Pescallo in Bellagio nicht auslassen","text":"Nur wenige Minuten von der touristischen Hauptachse entfernt liegt ein kleinerer, ruhigerer Uferbereich auf der anderen Seite der Landspitze."},
+      {"title":"Varenna bis zum Abend behalten","text":"Wenn die Tagesgäste abreisen, wirken Promenade, Piazza und Restaurants deutlich ruhiger."},
+      {"title":"Nicht jeden Villengarten besuchen","text":"Balbianello, Carlotta, Melzi und Monastero sind unterschiedlich genug. Drei gut gewählte Anlagen reichen für eine starke Reise."},
+      {"title":"Wohnmobil stehen lassen","text":"Die schönsten Tage entstehen genau dann, wenn das Fahrzeug auf dem Platz bleibt und der See selbst zum Verkehrsmittel wird."}
+    ],
+    "food": [
+      {"name":"Risotto con pesce persico","text":"Ein klassisches Reisgericht mit Egli aus dem See. Es verbindet lombardisches Risotto mit der lokalen Fischküche und passt besonders zu einem Abend direkt am Wasser."},
+      {"name":"Missoltini","text":"Getrocknete und gepresste Agonen aus dem See, meist gegrillt und mit Polenta serviert. Der Geschmack ist kräftig und typisch für den Lario."},
+      {"name":"Polenta uncia","text":"Polenta mit Käse, Butter und Knoblauch. Ein rustikales Gericht aus dem Hinterland, das die elegante Seeseite um eine bodenständige Komponente ergänzt."},
+      {"name":"Lavarello und Seefisch","text":"Felchen und andere Seefische erscheinen gebraten, gegrillt oder mariniert auf den Karten. Sie sind die feinere Alternative zu schweren Fleischgerichten."},
+      {"name":"Aperitivo am Wasser","text":"Der Aperitivo gehört hier weniger zu einem einzelnen Produkt als zum Tagesrhythmus. Besonders in Como, Cernobbio, Menaggio und Bellagio ist er Teil des Reisegefühls."},
+      {"name":"Nebbiolo und Veltliner Weine","text":"Am See selbst ist die Weinkultur kleiner. Gute Karten greifen häufig auf Nebbiolo aus dem Veltlin oder Weine aus der Lombardei zurück und schaffen so die Verbindung zur Anschlussroute."}
+    ],
+    "beaches": [
+      {"name":"Lenno und Tremezzina","type":"Kleine Seezugänge und Lidos","best":"Für eine kurze Badepause zwischen Villenbesuchen."},
+      {"name":"Menaggio","type":"Lido und Uferbereiche","best":"Für einen komfortablen Nachmittag mit Nähe zu Ort und Fähre."},
+      {"name":"Bellagio","type":"Kleine Lidos und Kiesufer","best":"Für die Kombination aus Ortsbesuch und Badestopp."},
+      {"name":"Varenna und Perledo","type":"Kleine Seezugänge","best":"Für einen ruhigen Sprung ins Wasser nach dem Villenbesuch."}
+    ],
+    "camper": {
+      "strategy":"Die Route lebt von festen Basen. Eine südliche Basis erschließt Como und Cernobbio. Eine zweite Basis im Raum Menaggio, Lenno oder Tremezzina erschließt das zentrale Seedreieck. Das Wohnmobil sollte an den meisten Tagen auf dem Platz bleiben.",
+      "north":"Im zentralen Seeabschnitt sind Plätze im Hinterland oder am Westufer oft sinnvoller als ein Stellplatz direkt im engsten Ortskern. Entscheidend sind Bus- oder Fähranbindung.",
+      "south":"Für Como funktioniert eine Basis außerhalb der Innenstadt mit ÖPNV oder kurzem Transfer. So lassen sich Dom, Promenade und Villa Olmo ohne Parkplatzsuche erleben.",
+      "cityAccess":"Bellagio und Varenna werden am besten per Schiff besucht. Como, Cernobbio, Lenno und Tremezzo lassen sich von einer Basis aus kombinieren.",
+      "comfort":"Strom, Schatten und gute ÖPNV- oder Fähranbindung sind wichtiger als ein Stellplatz unmittelbar am Wasser. Der Gewinn liegt in der Lage zur Infrastruktur, nicht in täglichem Umsetzen."
+    },
+    "bookable": [
+      "Eintrittszeitfenster für Villa del Balbianello.",
+      "Eintritt für Villa Carlotta, Villa Melzi oder Villa Monastero an stark nachgefragten Tagen.",
+      "Schiffstickets oder Tageskarten für das zentrale Seedreieck.",
+      "Restaurant am Wasser für einen besonderen Abend in Bellagio, Varenna oder Cernobbio."
+    ],
+    "connections": [
+      {"name":"Veltlin","text":"Ab Colico führt die Reise direkt weiter nach Morbegno, Sondrio, Tirano und Bormio."},
+      {"name":"Bergamo und Iseosee","text":"Eine passende Verlängerung für Altstadt, Wein und einen zweiten See."},
+      {"name":"Lago Maggiore","text":"Für eine längere Seenreise mit weiteren Villen und Inseln."}
+    ],
+    "sources": [
+      {"name":"Italia.it – Villenroute am Comer See","url":"https://www.italia.it/en/lombardy/things-to-do/itinerary-for-the-villas-on-lake-como"},
+      {"name":"Italia.it – Comer See","url":"https://www.italia.it/en/lombardy/lake-como"},
+      {"name":"InLombardia – Lake Como","url":"https://www.in-lombardia.it/en/tourism-in-lombardy/lake-como"}
+    ]
+  },
+  "valtellina-genussroute": {
+    "intro": "Das Veltlin ist eine lineare Genussroute vom nördlichen Comer See bis nach Bormio. Terrassierte Weinberge, kleine Städte, Pizzoccheri, Bresaola, Käse, Thermen und die Berninabahn geben der Reise eine klare Dramaturgie. Anders als am Comer See fährt das Wohnmobil hier tatsächlich weiter, aber nicht täglich: Zwei bis drei Basen reichen, um das Tal in Ruhe zu erleben.",
+    "idealFor": "Ideal ist diese Route für eine Reise mit Wein, regionaler Küche, Alpenpanorama und Wellness. Sie passt besonders gut, wenn ihr im Hochsommer angenehmere Temperaturen, klare Tagesetappen und eine starke kulinarische Identität sucht.",
+    "routeLogic": [
+      "Westliche Basis bei Chiavenna oder Morbegno für historische Orte, Bitto-Täler und ersten Genuss.",
+      "Mittlere Basis bei Sondrio oder Teglio für Weinterrassen, Kellereien und Pizzoccheri.",
+      "Östliche Basis bei Tirano oder Bormio für Berninabahn, Felszeichnungen, Hochgebirge und Thermen.",
+      "Für die Kernroute sind 7 bis 9 Tage sinnvoll. Mit Comer See oder Südtirol wird daraus eine größere Alpenreise."
+    ],
+    "days": [
+      {"day":"Tag 1","title":"Vom Comer See nach Chiavenna","text":"Die Route beginnt ruhig nördlich des Comer Sees. Chiavenna besitzt einen kompakten historischen Kern, Steinhäuser, kleine Plätze und die typischen Crotti. Der erste Abend gehört regionaler Küche statt einer langen Weiterfahrt."},
+      {"day":"Tag 2","title":"Chiavenna und seine Crotti","text":"Chiavenna lässt sich zu Fuß erleben. Besonders wichtig sind die Crotti, natürliche Felsenkeller mit konstantem Luftzug, in denen Lebensmittel und Wein gelagert werden. Ein Mittag- oder Abendessen in einem Crotto macht die lokale Esskultur direkt verständlich."},
+      {"day":"Tag 3","title":"Morbegno, Bitto und Talorte","text":"Morbegno ist das Tor zum unteren Veltlin und eng mit Bitto und Valtellina Casera verbunden. Ein Produzentenbesuch oder Käseladen gehört zum Tag. Die Altstadt, kleine Palazzi und ein langsames Essen reichen als Programm."},
+      {"day":"Tag 4","title":"Sondrio und die Weinterrassen","text":"Sondrio ist der beste Ausgangspunkt für die terrassierten Nebbiolo-Lagen. Castello Masegra, Altstadt und eine Weinprobe lassen sich gut verbinden. Die terrassierten Hänge zeigen, wie stark der Weinbau die Landschaft geprägt hat."},
+      {"day":"Tag 5","title":"Teglio und Pizzoccheri","text":"Teglio ist der kulinarische Mittelpunkt der Route. Pizzoccheri aus Buchweizen, Kartoffeln, Kohl, Käse und Butter werden hier nicht als touristisches Gericht, sondern als lokale Identität verstanden. Ein Besuch der Mühle oder der Accademia del Pizzocchero vertieft das Erlebnis."},
+      {"day":"Tag 6","title":"Tirano und Bernina","text":"Tirano verbindet Altstadt, Wallfahrtskirche und die berühmte rote Berninabahn. Ein ganzer Tagesausflug mit der Bahn ist die bequemste Art, große Alpenlandschaft zu erleben, ohne das Wohnmobil über Pässe bewegen zu müssen."},
+      {"day":"Tag 7","title":"Grosio und Bormio","text":"Auf dem Weg nach Bormio lohnt der Archäologiepark von Grosio mit Felszeichnungen und Burgruinen. Bormio selbst verbindet historischen Kern, Bergort und Thermenkultur. Der Abend bleibt bewusst ruhig."},
+      {"day":"Tag 8","title":"Thermen und freier Genusstag","text":"Der letzte volle Tag gehört den Thermen, einem kurzen Abschnitt des Sentiero Valtellina oder einem zweiten Essen mit regionalen Spezialitäten. So endet die Route nicht mit einer weiteren Besichtigung, sondern mit Erholung."}
+    ],
+    "places": [
+      {"name":"Chiavenna","why":"Historischer Ort mit Crotti, Steinarchitektur und einer eigenständigen Esskultur.","must":"Altstadt, Collegiate Church, Crotti und regionale Küche.","time":"Ein voller Tag."},
+      {"name":"Morbegno","why":"Zentrum für Bitto, Valtellina Casera und die Produkte des unteren Tals.","must":"Altstadt, Käseverkostung und Produzentenbesuch.","time":"Halber bis ganzer Tag."},
+      {"name":"Sondrio","why":"Die Stadt ist die praktische Basis für die Weinterrassen und mehrere DOCG-Lagen.","must":"Altstadt, Castello Masegra und Weinprobe.","time":"Ein voller Tag."},
+      {"name":"Teglio","why":"Hier werden Pizzoccheri, Buchweizen und traditionelle Küche konkret erlebbar.","must":"Pizzoccheri, Menaglio-Mühle und Ortskern.","time":"Halber bis ganzer Tag."},
+      {"name":"Tirano","why":"Die Stadt verbindet regionale Küche, Geschichte und den Startpunkt der Berninabahn.","must":"Altstadt, Basilica Madonna di Tirano und Bernina Express.","time":"Ein bis zwei Tage."},
+      {"name":"Grosio","why":"Felszeichnungen und Burgruinen ergänzen die Genussroute um Archäologie.","must":"Parco delle Incisioni Rupestri und Castello Nuovo.","time":"Zwei bis vier Stunden."},
+      {"name":"Bormio","why":"Thermen, historischer Ort und Bergkulisse bilden den perfekten Abschluss.","must":"Altstadt, Thermalbad und ruhiger Abend.","time":"Mindestens ein voller Tag."}
+    ],
+    "secrets": [
+      {"title":"Nebbiolo heißt hier Chiavennasca","text":"Die Rebsorte ist dieselbe wie im Piemont, entwickelt in den steilen Terrassen des Veltlins aber eine eigene, alpine Stilistik."},
+      {"title":"Pizzoccheri in Teglio essen","text":"Das Gericht ist im ganzen Tal verbreitet, aber in Teglio wird seine Herkunft und Zubereitung besonders greifbar."},
+      {"title":"Die Berninabahn als Ruhetag nutzen","text":"Der Zug übernimmt die große Alpenetappe. Das Wohnmobil bleibt stehen und der Tag wird trotzdem landschaftlich spektakulär."},
+      {"title":"Sondrio nicht nur als Durchfahrt sehen","text":"Die Stadt ist das organisatorische und vinophile Zentrum der Route und verdient mindestens einen vollen Tag."},
+      {"title":"Bormio nicht mit Programm überladen","text":"Der Abschluss gewinnt durch Thermen, Altstadt und gutes Essen, nicht durch eine weitere Liste von Ausflügen."},
+      {"title":"Käse direkt im Tal kaufen","text":"Bitto und Valtellina Casera schmecken beim Produzenten anders als als anonymer Supermarktkäse und erklären die alpine Landwirtschaft."
+      }
+    ],
+    "food": [
+      {"name":"Pizzoccheri","text":"Kurze Buchweizennudeln mit Kartoffeln, Wirsing oder Mangold, Valtellina Casera, Butter und Knoblauch. Das Gericht ist kräftig, aber für die Region zentral."},
+      {"name":"Bresaola della Valtellina IGP","text":"Luftgetrocknetes Rindfleisch, fein geschnitten und oft mit Öl, Zitrone oder Rucola serviert. Es ist leichter als viele andere alpine Fleischspezialitäten."},
+      {"name":"Bitto DOP","text":"Ein Bergkäse aus den alpinen Tälern, der jung aromatisch und gereift deutlich komplexer wird. Verkostungen zeigen die Unterschiede besonders gut."},
+      {"name":"Valtellina Casera DOP","text":"Der Käse ist zentral für Pizzoccheri und andere Talgerichte. Er schmilzt gut und verbindet Buchweizen, Kartoffeln und Gemüse."},
+      {"name":"Sforzato di Valtellina DOCG","text":"Aus angetrockneten Nebbiolo-Trauben entsteht ein konzentrierter, kräftiger Wein. Er ist der repräsentativste Wein der Region."},
+      {"name":"Valtellina Superiore DOCG","text":"Sassella, Grumello, Inferno und Valgella sind bekannte Teilzonen. Die Weine zeigen Nebbiolo schlanker und alpiner als viele piemontesische Varianten."},
+      {"name":"Sciatt","text":"Knusprig ausgebackene Buchweizenteigbällchen mit geschmolzenem Käsekern. Sie sind ein typischer Auftakt zu einem Veltliner Essen."},
+      {"name":"Torta Fioretto und Bisciola","text":"Lokale Backwaren aus Chiavenna beziehungsweise dem Veltlin. Sie ergänzen die herzhafte Küche um eine süße Seite."
+      }
+    ],
+    "beaches": [
+      {"name":"Lago di Mezzola und Colico","type":"Seeufer und Badestellen","best":"Für einen ersten oder letzten Badestopp nahe Comer See."},
+      {"name":"Sentiero Valtellina","type":"Flussnahe Rast- und Grünbereiche","best":"Für kurze Pausen, Spaziergänge oder eine einfache Radetappe."},
+      {"name":"Thermen von Bormio","type":"Thermalwasser","best":"Für den erholsamen Abschluss der Route."}
+    ],
+    "camper": {
+      "strategy":"Drei Basen sind ideal: Chiavenna oder Morbegno, Sondrio oder Teglio sowie Tirano oder Bormio. So bleiben die Etappen kurz und jede Region bekommt genügend Zeit.",
+      "north":"Chiavenna und Morbegno eignen sich als erste Basis. Von dort werden Crotti, Käseproduzenten und der untere Talabschnitt erkundet.",
+      "south":"Bormio oder Tirano bilden die östliche Basis. Für die Berninabahn ist Tirano praktisch, für Wellness und Abschluss Bormio stärker.",
+      "cityAccess":"Die Talorte sind grundsätzlich gut erreichbar. Für Altstädte und Thermen ist ein Platz außerhalb mit kurzer Bus- oder Fußverbindung sinnvoll.",
+      "comfort":"Strom, gute Sanitäranlagen und eine ruhige Lage sind wichtiger als unmittelbare Innenstadtlage. In Bormio lohnt eine Basis für mehrere Nächte."
+    },
+    "bookable": [
+      "Weinprobe bei einem Produzenten in den terrassierten Lagen rund um Sondrio.",
+      "Bernina-Express oder Regionalzug auf der Berninalinie ab Tirano.",
+      "Thermalbad oder Spa-Zeitfenster in Bormio.",
+      "Pizzoccheri-Erlebnis, Kochkurs oder geführte Verkostung in Teglio.",
+      "Käseverkostung oder Produzentenbesuch im Raum Morbegno."
+    ],
+    "connections": [
+      {"name":"Comer See","text":"Die Route beginnt oder endet logisch in Colico, Menaggio oder Como."},
+      {"name":"Südtirol","text":"Von Bormio lässt sich die Reise Richtung Reschen, Meran oder Bozen fortsetzen."},
+      {"name":"Engadin","text":"Die Berninalinie schafft eine direkte landschaftliche Verbindung in die Schweiz."}
+    ],
+    "sources": [
+      {"name":"Italia.it – Route durch das Veltlin","url":"https://www.italia.it/de/lombardei/sondrio/erlebnisse-und-sehenswertes/spaziergang-im-veltlin"},
+      {"name":"Valtellina Turismo – Spezialitäten","url":"https://www.valtellina.it/en/tourist-activities/specialities"},
+      {"name":"Valtellina Turismo – Teglio und Pizzoccheri","url":"https://www.valtellina.it/en/tourist-activities/wine-and-food-experiences/teglio"},
+      {"name":"Italia.it – Sentiero Valtellina","url":"https://www.italia.it/de/lombardei/erlebnisse-und-sehenswertes/sentiero-valtellina"}
+    ]
+  }
+}
