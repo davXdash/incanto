@@ -1,0 +1,222 @@
+{
+  "sizilien-ost-sued": {
+    "intro":"Diese Route verbindet den Vulkan, die Märkte von Catania, das antike Syrakus, die Barockstädte des Südostens und mehrere sehr unterschiedliche Küstenabschnitte. Sie wird nicht als tägliche Ortsjagd geplant, sondern mit drei Basen: Ätna/Catania, Syrakus/Noto und Ragusa/Marina di Ragusa. So bleiben Etna-Wein, Fischmärkte, Stadtleben, Strand und lange Abende in Ortigia oder Ragusa Ibla wirklich erlebbar.",
+    "idealFor":"Ideal für 11 bis 14 Tage, wenn ihr Siziliens größte kulturelle Dichte mit Meer, Wein und Essen verbinden möchtet. Die Route ist besonders stark für eine erste Inselreise, die Taormina, Etna, Syrakus und die Barockstädte ausführlich statt oberflächlich zeigt.",
+    "routeLogic":["Basis 1 bei Catania, Aci Castello oder am Etna für Catania, Taormina, Vulkan und Weingüter.","Basis 2 bei Syrakus oder südlich davon für Ortigia, Archäologie, Noto und Vendicari.","Basis 3 bei Ragusa, Modica oder Marina di Ragusa für Scicli, Schokolade, Montalbano-Orte und südliche Strände.","Mindestens zwei freie Strand- oder Wiederholungstage verhindern, dass aus der Reise eine UNESCO-Checkliste wird."],
+    "days":[
+      {"day":"Tag 1","title":"Ankommen zwischen Catania und Etna","text":"Der erste Abend gehört einer festen Basis. Je nach Ankunft passt Aci Castello mit Lavafelsen und Meer oder ein Agricamping an den unteren Etna-Hängen mit Blick auf Weinberge und Vulkan."},
+      {"day":"Tag 2","title":"Catania: Markt, Barock und Kioskkultur","text":"Beginnt am Fischmarkt La Pescheria, geht über Piazza Duomo, Via Etnea und Kloster San Nicolò l’Arena und probiert an einem Chiosco Seltz mit Zitrone und Salz. Pasta alla Norma und ein Abend im Zentrum machen Catania als lebendige Stadt verständlich."},
+      {"day":"Tag 3","title":"Etna und Etna-Wein","text":"Die komfortable Vulkanversion führt bis Rifugio Sapienza und je nach Bedingungen mit Seilbahn weiter. Danach folgt ein reserviertes Weingut an der Nord- oder Ostflanke. Etna Bianco aus Carricante und Etna Rosso aus Nerello Mascalese erklären, wie stark Höhe und Lava den Wein prägen."},
+      {"day":"Tag 4","title":"Taormina und Isola Bella","text":"Taormina erhält einen vollen Tag mit antikem Theater, Corso Umberto, Aussicht und einem Badestopp bei Isola Bella. Das Wohnmobil bleibt außerhalb; Shuttle, Bus oder Bahn übernehmen die schwierige letzte Strecke."},
+      {"day":"Tag 5","title":"Syrakus und Ortigia","text":"Nach dem Basiswechsel gehört der Tag Ortigia: Markt, Apollontempel, Domplatz, Fonte Aretusa und Uferpromenade. Der Dom ist besonders, weil antike Säulen des Athena-Tempels sichtbar in die Kirche integriert sind."},
+      {"day":"Tag 6","title":"Archäologisches Syrakus und freier Abend","text":"Am Vormittag folgen griechisches Theater, Ohr des Dionysios und römisches Amphitheater. Danach bleibt der Nachmittag bewusst frei für Strand, Pool oder einen zweiten Ortigia-Abend."},
+      {"day":"Tag 7","title":"Noto, Vendicari und Marzamemi","text":"Noto wird früh oder am späten Nachmittag erlebt. Dazwischen passt Vendicari mit Strand und Tonnara-Ruinen. Marzamemi ist ideal für einen langen Abend zwischen Tonnara-Platz, Fischprodukten und kleinen Lokalen."},
+      {"day":"Tag 8","title":"Freier Küstentag","text":"Dieser Tag bleibt für San Lorenzo, Fontane Bianche, einen zweiten Vendicari-Besuch oder schlicht den Campingplatz. Er ist notwendig, damit der Südosten nicht nur aus Architektur besteht."},
+      {"day":"Tag 9","title":"Modica und Schokolade","text":"Modica verbindet gestaffelte Stadtlandschaft, San Giorgio und traditionelle Schokolade mit körniger Textur. Eine Manufakturführung erklärt Verarbeitung, Gewürze und die Geschichte hinter dem Produkt besser als ein schneller Einkauf."},
+      {"day":"Tag 10","title":"Ragusa Ibla","text":"Ragusa Ibla braucht Zeit für Giardino Ibleo, Duomo di San Giorgio, Treppen und Aussichtspunkte. Der Abend ist besonders stark, wenn die Tagesgäste verschwinden und die beleuchteten Fassaden wirken."},
+      {"day":"Tag 11","title":"Scicli und Sampieri","text":"Scicli ist kompakter und weniger monumental als Noto, aber atmosphärisch sehr stark. Via Mormina Penna, Palazzo Beneventano und ein später Strandstopp bei Sampieri ergeben einen ausgewogenen Tag."},
+      {"day":"Tag 12","title":"Freier Lieblingstag","text":"Zur Wahl stehen ein weiterer Barockort, ein Strandtag bei Marina di Ragusa, Punta Secca und das Haus des Commissario Montalbano oder ein Weingut rund um Vittoria mit Cerasuolo di Vittoria."}
+    ],
+    "places":[
+      {"name":"Catania","why":"Die Stadt verbindet Markt, schwarzen Lavastein, Barock, Streetfood und den direkten Blick auf den Etna.","must":"Pescheria, Piazza Duomo, Via Etnea, Chiosco und Kloster San Nicolò l’Arena.","time":"Ein voller Tag."},
+      {"name":"Etna","why":"Der Vulkan erklärt Landschaft, Landwirtschaft und Wein der gesamten Ostküste.","must":"Rifugio Sapienza, Panoramapunkte und reserviertes Weingut.","time":"Ein voller Tag."},
+      {"name":"Ortigia","why":"Antike, Barock, Markt und Meer liegen auf einer kleinen Insel eng zusammen.","must":"Markt, Dom, Fonte Aretusa und Uferpromenade.","time":"Mindestens ein voller Tag plus Abend."},
+      {"name":"Noto","why":"Die geschlossenste Barockkulisse der Route.","must":"Kathedrale, Corso Vittorio Emanuele, Palazzo Nicolaci und Granita-Pause.","time":"Drei bis fünf Stunden."},
+      {"name":"Modica","why":"Barockstadt und Herkunftsort einer eigenständigen Schokoladentradition.","must":"San Giorgio, Altstadt und Manufakturverkostung.","time":"Halber bis ganzer Tag."},
+      {"name":"Ragusa Ibla","why":"Die gestaffelte Stadtlandschaft und der Abend geben der Route ihren romantischsten Stadtmoment.","must":"Giardino Ibleo, Duomo und Aussichtspunkte.","time":"Ein voller Tag oder langer Nachmittag bis abends."},
+      {"name":"Scicli","why":"Kleinere, sehr atmosphärische Barockstadt mit Filmkulissen und guten Küstenanschlüssen.","must":"Via Mormina Penna, Palazzo Beneventano und San Bartolomeo.","time":"Halber Tag plus Strand."}
+    ],
+    "secrets":[
+      {"title":"Etna und Wein an einem Tag verbinden","text":"Erst durch die Kombination aus Lava, Höhenlage und Verkostung wird verständlich, warum Etna-Weine so anders schmecken."},
+      {"title":"Ortigia zweimal erleben","text":"Ein Tagesbesuch reicht für die wichtigsten Orte, aber Markt am Morgen und Ufer am Abend sind zwei völlig verschiedene Stimmungen."},
+      {"title":"Noto nicht in die Mittagshitze legen","text":"Früher Vormittag oder spätes Licht bringen bessere Atmosphäre und angenehmere Bedingungen."},
+      {"title":"Modica-Schokolade erklären lassen","text":"Die körnige Textur und niedrige Verarbeitungstemperatur wirken erst dann wie Tradition und nicht wie Produktionsfehler."},
+      {"title":"Ragusa Ibla bis nach Einbruch der Dunkelheit lassen","text":"Die beleuchteten Treppen, Kuppeln und Plätze sind ein eigener Höhepunkt."},
+      {"title":"Cerasuolo di Vittoria nicht übersehen","text":"Der einzige DOCG-Wein Siziliens verbindet Nero d’Avola und Frappato und passt hervorragend zur südöstlichen Küche."}
+    ],
+    "food":[
+      {"name":"Pasta alla Norma","text":"Catanias Pastagericht mit Tomate, Aubergine, Basilikum und geriebener Ricotta salata. Die Qualität steht und fällt mit frittierten Auberginen und kräftigem Käse."},
+      {"name":"Arancini","text":"Im Osten Siziliens meist maskulin bezeichnet. Klassisch mit Ragù oder Butterfüllung, aber regional in vielen Varianten erhältlich."},
+      {"name":"Granita con brioche","text":"Kein Dessert nach dem Essen, sondern typisches Frühstück oder Zwischenmahlzeit. Mandel, Zitrone, Pistazie und Maulbeere sind wichtige Sorten."},
+      {"name":"Etna Rosso und Etna Bianco","text":"Nerello Mascalese liefert oft helle, würzige Rotweine; Carricante mineralische Weißweine mit Spannung und Frische."},
+      {"name":"Pasta con le sarde","text":"Sardinen, wilder Fenchel, Rosinen, Pinienkerne und Semmelbrösel verbinden süße, salzige und aromatische Einflüsse der Insel."},
+      {"name":"Cioccolato di Modica","text":"Traditionell bei niedriger Temperatur verarbeitet, sodass Zuckerkristalle erhalten bleiben und die Textur körnig wirkt."},
+      {"name":"Cerasuolo di Vittoria","text":"Cuvée aus Nero d’Avola und Frappato. Frappato bringt Duft und Leichtigkeit, Nero d’Avola Struktur und dunklere Frucht."}
+    ],
+    "beaches":[
+      {"name":"Isola Bella","type":"Kleine Kies- und Felsbucht","best":"Für die Verbindung mit Taormina."},
+      {"name":"Vendicari","type":"Naturstrand mit Tonnara-Ruinen","best":"Für Landschaft, Baden und Vogelbeobachtung."},
+      {"name":"San Lorenzo","type":"Heller Sand und klares Wasser","best":"Für einen komfortablen Badetag nahe Marzamemi."},
+      {"name":"Sampieri","type":"Langer Sandstrand","best":"Für Scicli plus entspannten Küstenabschluss."},
+      {"name":"Marina di Ragusa","type":"Gut erschlossener Sandstrand","best":"Für einen vollständigen freien Urlaubstag."}
+    ],
+    "camper":{"strategy":"Drei feste Basen sind sinnvoll: Catania/Etna, Syrakus/Noto und Ragusa/Marina di Ragusa. Catania, Taormina, Ortigia, Noto und Ragusa werden von außen mit Bus, Shuttle oder ausgewiesenen Parklösungen besucht.","north":"Etna oder Aci Castello als erste Basis mit Zugang zu Catania, Taormina und Weingütern.","south":"Zweite Basis bei Syrakus oder Noto, danach eine dritte im Raum Ragusa oder Marina di Ragusa.","cityAccess":"Taormina und Ortigia nicht mit dem Wohnmobilkern anfahren. Für Ragusa und Modica äußere Parkflächen nutzen.","comfort":"Schatten, Strom und Pool sind im Hochsommer wichtig; an Küstentagen zählt Strand- oder Shuttle-Anbindung."},
+    "bookable":["Etna-Seilbahn oder geführte Vulkanexkursion entsprechend aktueller Bedingungen.","Etna-Weingut mit Verkostung.","Archäologischer Park Syrakus bei Führungswunsch.","Schokoladenmanufaktur in Modica.","Campingplätze rund um Noto, Marzamemi und Marina di Ragusa."],
+    "connections":[{"title":"Westsizilien","text":"Über Piazza Armerina oder Agrigent lässt sich die Inselreise Richtung Palermo und Trapani fortsetzen."},{"title":"Kalabrien","text":"Messina und die Fähre nach Villa San Giovanni verbinden die Route mit Scilla und Tropea."},{"title":"Malta","text":"Pozzallo bietet eine mögliche Fährverlängerung für eine zusätzliche Inselkomponente."}],
+    "sources":[{"name":"Visit Sicily – Tour of Eastern Sicily","url":"https://www.visitsicily.info/en/itinerario/tour-of-eastern-sicily/"},{"name":"Visit Sicily – Eastern Sicily by car","url":"https://www.visitsicily.info/en/itinerario/east-sicily-places-you-cannot-miss-by-car-motorcycle-bike/"},{"name":"Italia.it – Südostsizilien","url":"https://www.italia.it/en/sicily/things-to-do/south-eastern-sicily-itinerary"}]
+  },
+  "rom-sizilien": {
+    "intro":"Diese große Reise ist kein einzelner Roadtrip, sondern vier klar getrennte Kapitel: Rom, Kampanien, Kalabrien und Sizilien. Nur mit längeren Basen bleibt sie Urlaub. Rom wird von außen erschlossen, Kampanien bündelt Neapel, Pompeji und Paestum, Kalabrien konzentriert sich auf die stärkste Tyrrhenische Küste und Sizilien erhält mehrere eigene Standorte.",
+    "idealFor":"Ideal für 24 bis 30 Tage und für eine Reise, die bewusst groß gedacht ist. Sie passt, wenn ihr nicht nur einzelne Regionen sehen, sondern den kulturellen und kulinarischen Wandel von Rom bis Sizilien erleben möchtet.",
+    "routeLogic":["Rom erhält mindestens drei Nächte auf einer ÖPNV-Basis außerhalb des Zentrums.","Kampanien wird mit einer Basis bei Neapel/Pompeji und einer zweiten bei Paestum oder im Cilento organisiert.","Kalabrien braucht zwei ruhige Küstenbasen rund um Tropea/Capo Vaticano und Scilla.","Sizilien wird nicht komplett umrundet, sondern je nach Zeit als Ost-Süd-Route oder Westschleife angehängt.","Mindestens alle vier bis fünf Tage bleibt ein freier Tag ohne Ortswechsel."],
+    "days":[
+      {"day":"Tag 1–3","title":"Rom als eigener Reiseblock","text":"Drei Tage erlauben antikes Rom, historisches Zentrum und einen langsameren Viertel- oder Marktstag. Kolosseum und Vatikan werden reserviert; Trastevere, Testaccio oder eine klassische römische Trattoria sorgen dafür, dass Rom nicht nur aus Monumenten besteht."},
+      {"day":"Tag 4","title":"Castelli Romani oder Küstentag","text":"Vor der Weiterfahrt passt Frascati mit Wein und Porchetta oder ein ruhiger Tag am Campingplatz. Dieser Puffer trennt Großstadt und Süden."},
+      {"day":"Tag 5–7","title":"Neapel, Pompeji und Golf","text":"Neapel bekommt einen Markttag mit Spaccanapoli, Pignasecca und Pizza. Pompeji erhält einen eigenen frühen Tag. Ein dritter Tag bleibt für Herculaneum, eine Bootsfahrt oder einen freien Golfabend."},
+      {"day":"Tag 8–10","title":"Paestum und nördliches Cilento","text":"Paestum verbindet Tempel, Museum, Büffelhof und Sandstrand. Castellabate oder Acciaroli ergänzen einen kleinen Küstenort und einen freien Badetag."},
+      {"day":"Tag 11–13","title":"Südliches Cilento und Maratea","text":"Palinuro oder Marina di Camerota bilden eine Basis für Bootsbuchten. Maratea ist danach der elegante Übergang nach Basilikata und Kalabrien."},
+      {"day":"Tag 14–17","title":"Tropea, Pizzo und Capo Vaticano","text":"Pizzo liefert Tartufo und Piedigrotta, Tropea Altstadt und Strand, Capo Vaticano Buchten und Bootstag. Einer der vier Tage bleibt völlig frei."},
+      {"day":"Tag 18–19","title":"Scilla und Reggio Calabria","text":"Chianalea ist der atmosphärische Abendort. Reggio ergänzt Promenade, Bronzen von Riace und den Blick über die Straße von Messina."},
+      {"day":"Tag 20","title":"Fähre nach Sizilien","text":"Die kurze Überfahrt wird als Übergangstag behandelt. Danach folgt keine lange Inselquerung, sondern eine erste Basis bei Messina, Taormina oder Catania."},
+      {"day":"Tag 21–24","title":"Etna, Catania und Taormina","text":"Markt, Vulkan, Wein und Küste bilden den ersten Inselblock. Ein Tag bleibt frei für Wetter oder Strand."},
+      {"day":"Tag 25–28","title":"Syrakus und Barockstädte","text":"Ortigia, Noto, Modica und Ragusa werden mit zwei bis drei Nächten pro Basis erlebt. Wer nur 24 Tage hat, beendet hier die Reise oder nimmt eine Fähre zurück."},
+      {"day":"Tag 29–30","title":"Abschluss und Rückreise","text":"Je nach Fährroute passen Palermo, Catania oder Messina als Abschluss. Eine Nacht vor der Fähre bleibt grundsätzlich ohne großes Programm."}
+    ],
+    "places":[
+      {"name":"Rom","why":"Antike, Barock, Märkte und römische Küche bilden den monumentalen Auftakt.","must":"Kolosseum/Forum, Pantheon, historisches Zentrum, Vatikan nach Interesse und ein Marktviertel.","time":"Mindestens drei volle Tage."},
+      {"name":"Neapel","why":"Die intensivste Stadt der Reise und Ursprung zentraler süditalienischer Esskultur.","must":"Spaccanapoli, Markt, Ufer, Archäologisches Museum und Pizza.","time":"Zwei volle Tage."},
+      {"name":"Pompeji","why":"Der vollständigste Blick auf eine römische Stadt des Alltags.","must":"Forum, Häuser, Thermen, Theater und ausgewählte Villen.","time":"Ein voller früher Tag."},
+      {"name":"Paestum","why":"Griechische Tempel und Büffelmozzarella verbinden Kultur und Genuss besonders klar.","must":"Tempel, Museum und Caseificio.","time":"Ein voller Tag."},
+      {"name":"Tropea","why":"Altstadt, Santa Maria dell’Isola und Strand ergeben die stärkste klassische Küstenkulisse Kalabriens.","must":"Belvedere, Altstadt, Strand und Abendessen.","time":"Ein voller Tag plus Abend."},
+      {"name":"Scilla","why":"Chianalea und die Straße von Messina bilden den atmosphärischen Abschluss des Festlands.","must":"Chianalea, Castello Ruffo und Schwertfisch.","time":"Halber Tag plus Übernachtung."},
+      {"name":"Syrakus und Ortigia","why":"Antike, Markt, Barock und Meer geben dem Sizilienblock maximale Dichte.","must":"Ortigia, Markt, Dom und archäologischer Park.","time":"Zwei Tage."}
+    ],
+    "secrets":[
+      {"title":"Die Reise in Kapitel denken","text":"Rom, Kampanien, Kalabrien und Sizilien benötigen jeweils eigene Basen und einen klaren Rhythmus."},
+      {"title":"Amalfi nicht automatisch erzwingen","text":"Cilento, Paestum und Maratea passen für das Wohnmobil oft organischer in die Nord-Süd-Linie."},
+      {"title":"Fährtage freihalten","text":"An- und Abfahrt, Check-in und mögliche Wartezeit verdienen einen eigenen Tag ohne weitere Pflichtpunkte."},
+      {"title":"Nicht ganz Sizilien versprechen","text":"Eine konzentrierte Ost-Süd-Route ist hochwertiger als eine vollständige Inselrunde im Eiltempo."},
+      {"title":"Produkte an ihrem Herkunftsort erleben","text":"Carbonara in Rom, Pizza in Neapel, Mozzarella bei Paestum, Tartufo in Pizzo und Etna-Wein am Vulkan machen den roten Faden sichtbar."},
+      {"title":"Jeder vierte oder fünfte Tag bleibt frei","text":"Bei einer so langen Reise ist Erholung Bestandteil der Planung und kein verlorener Tag."}
+    ],
+    "food":[
+      {"name":"Carbonara, Amatriciana und Cacio e pepe","text":"Die drei römischen Pastaklassiker sollten nicht an einem Abend gesammelt werden. Gute Trattorien arbeiten mit wenigen Zutaten, kräftigem Pecorino und korrekter Emulsion statt Sahne."},
+      {"name":"Pizza napoletana","text":"Weicher, luftiger Rand, dünne Mitte und kurze Backzeit im sehr heißen Ofen. Margherita oder Marinara zeigen die Qualität am klarsten."},
+      {"name":"Mozzarella di Bufala Campana DOP","text":"Rund um Paestum direkt im Caseificio probieren, möglichst am Produktionstag und ergänzt um Ricotta oder Joghurt aus Büffelmilch."},
+      {"name":"Tartufo di Pizzo","text":"Halbgefrorenes Schokoladen- und Haselnusseis mit flüssigem Schokoladenkern, traditionell von Hand geformt."},
+      {"name":"’Nduja und Tropea-Zwiebel","text":"Die streichfähige scharfe Wurst und die süßere rote Zwiebel sind zwei zentrale kalabrische Produkte, die in Pasta, Bruschetta und Saucen auftauchen."},
+      {"name":"Schwertfisch an der Straße von Messina","text":"In Scilla und Reggio traditionell eng mit der lokalen Fischerei verbunden, häufig gegrillt oder als involtini serviert."},
+      {"name":"Sizilianische Granita und Cannoli","text":"Granita mit Brioche gehört eher zum Frühstück, Cannoli werden idealerweise frisch gefüllt, damit die Hülle knusprig bleibt."}
+    ],
+    "beaches":[
+      {"name":"Paestum","type":"Langer Sandstrand","best":"Für Erholung nach Rom und Neapel."},
+      {"name":"Palinuro und Marina di Camerota","type":"Sandbuchten und Bootsküste","best":"Für mehrere ruhige Cilento-Tage."},
+      {"name":"Capo Vaticano","type":"Helle Buchten und klares Wasser","best":"Für den stärksten kalabrischen Badetag."},
+      {"name":"Scilla","type":"Stadtstrand unter der Burg","best":"Für Meer und Chianalea an einem Tag."},
+      {"name":"Südostsizilien","type":"Sandstrände bei Vendicari, San Lorenzo und Marina di Ragusa","best":"Für freie Inseltage zwischen Barockstädten."}
+    ],
+    "camper":{"strategy":"Die Reise braucht mindestens sieben Basen: Rom, Neapel/Pompeji, Cilento Nord, Cilento Süd/Maratea, Tropea, Scilla und zwei bis drei auf Sizilien. Großstädte werden ausschließlich von außen mit ÖPNV besucht.","north":"Rom und Kampanien mit gut angebundenen Campingplätzen; Paestum als entspannter Übergang.","south":"Kalabrien mit zwei Küstenbasen, Sizilien anschließend in klaren Regionen statt täglicher Inselquerung.","cityAccess":"Rom, Neapel, Taormina, Catania und Syrakus von außen organisieren. Pompeji und Paestum besitzen geeignete Besucherlogik.","comfort":"Bei drei bis vier Wochen sind Sanitärqualität, Waschmöglichkeit, Schatten, Strom und mehrere echte Ruhetage unverzichtbar."},
+    "bookable":["Kolosseum/Forum und Vatikanische Museen.","Pompeji-Führung oder Zeitfenster.","Campingplätze in Rom, am Golf von Neapel und im Cilento.","Bootsausflug im Cilento oder bei Capo Vaticano.","Fähren über die Straße von Messina und gegebenenfalls Rückfähre vom sizilianischen Hafen.","Etna-Ausflug und Weingut."],
+    "connections":[{"title":"Westsizilien","text":"Bei vier oder mehr Wochen kann ab Agrigent eine Westschleife ergänzt werden."},{"title":"Basilikata coast to coast","text":"Maratea ermöglicht eine zusätzliche Inlandsschleife über Matera und die ionische Küste."},{"title":"Sardinien","text":"Über Civitavecchia oder später über eine passende Fährverbindung kann eine weitere Inselreise angeschlossen werden."}],
+    "sources":[{"name":"Visit Sicily – Sicily itineraries","url":"https://www.visitsicily.info/en/itinerari/"},{"name":"Italia.it – Küstendörfer Kalabriens","url":"https://www.italia.it/en/calabria/things-to-do/itinerary-among-the-seaside-villages-of-calabria"},{"name":"Italia.it – Cilento itinerary","url":"https://www.italia.it/en/campania/things-to-do/cilento-itinerary"}]
+  },
+  "sizilien-westkueste": {
+    "intro":"Westsizilien verbindet Palermo mit Märkten und arabisch-normannischer Architektur, die Salzlandschaften von Trapani und Marsala, Inseln, Weingüter, Sandstrände und zwei der größten antiken Stätten der Insel. Die Route funktioniert mit vier Basen und ausreichend freien Tagen, nicht als tägliche Küstenhatz.",
+    "idealFor":"Ideal für 11 bis 14 Tage, wenn ihr Kultur, Märkte, Wein, Bootstage und Sandstrände gleichwertig verbinden möchtet. Sie ist weniger vulkanisch als der Osten, dafür stärker von arabisch-normannischer Geschichte, Salz, Couscous, Marsala und Inseln geprägt.",
+    "routeLogic":["Basis 1 außerhalb Palermos für Stadt, Monreale und optional Cefalù.","Basis 2 bei Castellammare del Golfo oder San Vito Lo Capo für Segesta, Zingaro-Küste und Strand.","Basis 3 bei Trapani oder Marsala für Erice, Salinen, Egaden und Weingüter.","Basis 4 bei Selinunte oder Agrigent für Tempel, südliche Küste und ruhigen Abschluss."],
+    "days":[
+      {"day":"Tag 1","title":"Ankommen bei Palermo","text":"Der erste Abend bleibt auf dem Platz oder führt in ein nahe gelegenes Küstenviertel. Palermo selbst beginnt am nächsten Morgen ohne Anreisehektik."},
+      {"day":"Tag 2","title":"Palermo: Märkte und Monumente","text":"Ballarò oder Capo, Quattro Canti, Kathedrale und Cappella Palatina bilden den kulturellen Kern. Streetfood wird nicht nebenbei gegessen, sondern als eigener Marktblock mit Panelle, Crocchè, Sfincione und Arancine erlebt."},
+      {"day":"Tag 3","title":"Monreale und zweiter Palermo-Abend","text":"Monreales Dom erklärt die normannisch-arabisch-byzantinische Mischung über Goldmosaike und Kreuzgang. Danach bleibt Zeit für einen ruhigeren Palermo-Nachmittag oder einen Abend in Kalsa."},
+      {"day":"Tag 4","title":"Cefalù oder freier Küstentag","text":"Cefalù ist die optionale Ostausdehnung mit normannischem Dom, Strand und Altstadt. Alternativ bleibt der Tag frei, bevor die Route nach Westen wechselt."},
+      {"day":"Tag 5","title":"Segesta und Castellammare del Golfo","text":"Segestas Tempel steht frei in einer Hügellandschaft und wirkt anders als die großen Tempelparks im Süden. Castellammare ergänzt Hafen, Burg und Abendessen am Wasser."},
+      {"day":"Tag 6","title":"San Vito Lo Capo oder Zingaro per Boot","text":"Ein vollständiger Meerestag führt an Sandstrand und Küstenlandschaft. Statt langer Wanderung wird die Zingaro-Küste per Boot oder organisierter Küstentour erlebt."},
+      {"day":"Tag 7","title":"Erice und Trapani","text":"Erice beginnt oben mit Burg, Gassen und Genovesi-Gebäck. Danach folgt Trapani mit Altstadt, Couscous und Ufer. Seilbahn oder Bus sind komfortabler als die Bergfahrt mit dem Wohnmobil."},
+      {"day":"Tag 8","title":"Favignana","text":"Frühfähre, Inseltransfer oder E-Bike und mehrere Badebuchten ergeben den großen Inseltag. Das Wohnmobil bleibt in Trapani."},
+      {"day":"Tag 9","title":"Salinen und Marsala","text":"Marsala verbindet Altstadt und historischen Likörwein. Am späten Nachmittag gehören die Salinen zwischen Trapani und Marsala mit Windmühlen und Lichtstimmung zum Pflichtprogramm."},
+      {"day":"Tag 10","title":"Mazara del Vallo und Selinunte","text":"Mazara zeigt nordafrikanische Einflüsse, Kasbah-Gassen und Fischküche. Selinunte folgt am späten Nachmittag mit Tempeln über dem Meer und möglichst bis zum warmen Abendlicht."},
+      {"day":"Tag 11","title":"Freier Strand- und Weintag","text":"Dieser Tag bleibt für Menfi, Porto Palo, ein Weingut, Strand oder Erholung am Campingplatz."},
+      {"day":"Tag 12","title":"Agrigent und Tal der Tempel","text":"Das Tal der Tempel wird früh oder am späten Nachmittag besucht. Concordia, Hera, Herakles und die Landschaft brauchen mindestens einen halben, besser einen ganzen Tag."},
+      {"day":"Tag 13","title":"Scala dei Turchi und Abschluss","text":"Je nach Zugänglichkeit wird die weiße Kalkküste von ausgewiesenen Aussichtspunkten oder einem nahen Strand erlebt. Danach bleibt der letzte Abend frei."}
+    ],
+    "places":[
+      {"name":"Palermo","why":"Märkte, Streetfood, Paläste und die arabisch-normannische Geschichte bilden das dichteste Stadterlebnis der Route.","must":"Cappella Palatina, Kathedrale, Quattro Canti, Markt und Kalsa.","time":"Zwei volle Tage."},
+      {"name":"Monreale","why":"Goldmosaike und Kreuzgang machen die kulturelle Mischung der Insel unmittelbar sichtbar.","must":"Dom und Kreuzgang.","time":"Drei bis vier Stunden."},
+      {"name":"Erice","why":"Mittelalterlicher Bergort mit weitem Blick, Burg und eigener Gebäcktradition.","must":"Castello di Venere, Dom und Genovesi.","time":"Halber Tag."},
+      {"name":"Trapani","why":"Praktische Inselbasis und kulinarisches Zentrum für Couscous und Fisch.","must":"Altstadt, Ufer, Fischküche und Fähre nach Favignana.","time":"Ein Tag plus Inselstart."},
+      {"name":"Marsala","why":"Historischer Wein, Salinen und westliches Abendlicht liegen eng zusammen.","must":"Altstadt, Kellerführung und Salinenroute.","time":"Ein voller Tag."},
+      {"name":"Selinunte","why":"Großer Tempelpark in direkter Meernähe mit außergewöhnlichem Abendlicht.","must":"Östlicher Hügel, Akropolis und Küstenblick.","time":"Halber bis ganzer Tag."},
+      {"name":"Agrigent","why":"Das Tal der Tempel bildet den monumentalen Abschluss.","must":"Concordia, Hera, Herakles und archäologisches Museum nach Interesse.","time":"Ein voller Tag."}
+    ],
+    "secrets":[
+      {"title":"Palermo über einen Markt erschließen","text":"Die Stadt wird verständlicher, wenn Essen, Lärm, Alltag und Architektur zusammen beginnen."},
+      {"title":"Erice und Trapani an einem Tag verbinden","text":"Bergort am Vormittag, Hafenstadt und Couscous am Abend ergeben einen starken Kontrast."},
+      {"title":"Favignana nicht als Nebenstopp behandeln","text":"Die Insel verdient einen kompletten Tag mit vorab geklärter Mobilität."},
+      {"title":"Marsala-Wein erklären lassen","text":"Trocken, halbtrocken, süß, unterschiedliche Reifeverfahren und Solera-ähnliche Systeme sind komplexer als der Ruf als Küchenwein."},
+      {"title":"Salinen erst am späten Nachmittag besuchen","text":"Windmühlen, Wasserflächen und Salzberge wirken im tiefen Licht am stärksten."},
+      {"title":"Selinunte und Agrigent nicht gegeneinander ausspielen","text":"Selinunte lebt von Weite und Meer, Agrigent von Erhaltungszustand und klassischer Monumentalität."}
+    ],
+    "food":[
+      {"name":"Palermitanisches Streetfood","text":"Panelle, Crocchè, Sfincione, Arancine und Pane con la milza zeigen verschiedene Schichten der Stadtküche. Ein geführter Marktgang kann Herkunft und Zubereitung einordnen."},
+      {"name":"Couscous alla trapanese","text":"Mit Fischbrühe und Meeresfrüchten statt nordafrikanischer Fleischvariante. Es zeigt die historischen Verbindungen über das Mittelmeer."},
+      {"name":"Busiate al pesto trapanese","text":"Gedrehte Pasta mit Tomate, Mandel, Knoblauch, Basilikum und Pecorino. Frischer und körniger als genuesisches Pesto."},
+      {"name":"Genovesi di Erice","text":"Warm serviertes Mürbeteiggebäck mit Cremefüllung. Der Name verweist nicht auf Ligurien als Geschmack, sondern auf eine lokale Konditoreitradition."},
+      {"name":"Marsala","text":"Aufgespriteter Wein in vielen Stilen und Reifestufen. Eine Kellerführung sollte trockene und süße Varianten gegenüberstellen."},
+      {"name":"Nero d’Avola, Grillo und Zibibbo","text":"Nero d’Avola liefert rote Struktur, Grillo frische bis kräftige Weißweine, Zibibbo aromatische trockene oder süße Weine."},
+      {"name":"Cannolo und Cassata","text":"Cannoli idealerweise frisch gefüllt; Cassata in kleinen Portionen probieren, da Ricotta, Marzipan und kandierte Früchte sehr intensiv sind."}
+    ],
+    "beaches":[
+      {"name":"San Vito Lo Capo","type":"Breiter heller Sandstrand","best":"Für den komfortabelsten klassischen Badetag."},
+      {"name":"Zingaro-Küste","type":"Felsbuchten und klares Wasser","best":"Für einen Bootstag ohne lange Wanderung."},
+      {"name":"Favignana","type":"Fels- und Sandbuchten","best":"Für den großen Inseltag."},
+      {"name":"Menfi und Porto Palo","type":"Ruhigere Sandküste","best":"Für den freien Tag zwischen Marsala und Agrigent."},
+      {"name":"Scala-dei-Turchi-Küste","type":"Helle Kalklandschaft und Strandabschnitte","best":"Für den landschaftlichen Abschluss unter Beachtung aktueller Zugangsregeln."}
+    ],
+    "camper":{"strategy":"Vier Basen: Palermo außen, Castellammare/San Vito, Trapani/Marsala und Selinunte/Agrigent. Palermo, Erice und historische Zentren werden per ÖPNV, Shuttle oder von außen besucht.","north":"Palermo und Castellammare als erste zwei Basen für Stadt, Monreale, Segesta und Nordwestküste.","south":"Trapani/Marsala für Inseln und Salz, danach Selinunte oder Agrigent für den Süden.","cityAccess":"Palermo und Erice nicht mit dem Wohnmobilkern anfahren. Für Favignana bleibt das Fahrzeug am Fährhafenplatz oder Campingplatz.","comfort":"Bei Insel- und Strandtagen sind sichere Standorte, Schatten, Strom und gute Hafen- oder Shuttle-Anbindung entscheidend."},
+    "bookable":["Cappella Palatina und gegebenenfalls geführter Palermo-Marktgang.","Fähre nach Favignana und Inselmobilität.","Marsala-Kellerführung.","Bootstour an der Zingaro-Küste.","Campingplätze bei San Vito, Trapani und Agrigent."],
+    "connections":[{"title":"Ostsizilien","text":"Über Piazza Armerina und Caltagirone führt eine kulturell starke Verbindung in den Südosten."},{"title":"Sardinien","text":"Palermo besitzt Fährverbindungen, die je nach Saison für eine weitere Inselroute geprüft werden können."},{"title":"Rom–Sizilien","text":"Die Westschleife kann als Verlängerung der großen Nord-Süd-Reise dienen."}],
+    "sources":[{"name":"Visit Sicily – Tour of Western Sicily","url":"https://www.visitsicily.info/en/itinerario/touring-west-sicily/"},{"name":"Visit Sicily – Itineraries","url":"https://www.visitsicily.info/en/itinerari/"},{"name":"Condé Nast Traveler – Sicily itinerary","url":"https://www.cntraveler.com/story/iconic-itineraries-sicily"}]
+  },
+  "basilikata-coast-to-coast": {
+    "intro":"Die Basilikata ist eine kompakte, aber extrem abwechslungsreiche Region zwischen zwei Meeren. Maratea liefert Felsküste und elegante Abende, die Dolomiti Lucane spektakuläre Dörfer, Aliano und Craco karge Landschaften, Matera Weltarchitektur und Metapont die ionische Ebene. Die Route ist als langsame Wohnmobilreise mit vier Basen angelegt.",
+    "idealFor":"Ideal für 9 bis 12 Tage, wenn ihr Matera mit Meer, Dörfern, regionaler Küche und einer weniger bekannten Landschaft verbinden möchtet. Sie passt besonders gut als Anschluss zwischen Cilento, Apulien und Kalabrien.",
+    "routeLogic":["Basis 1 in Maratea für Altstadt, Hafen, Buchten und Trecchina.","Basis 2 bei Castelmezzano oder Pietrapertosa für die Dolomiti Lucane und Potenza-Abstecher.","Basis 3 bei Matera für mindestens zwei volle Tage und Ausflüge nach Aliano oder Craco.","Basis 4 an der ionischen Küste bei Metapont oder Policoro für Tempel, Sandstrand und ruhigen Abschluss."],
+    "days":[
+      {"day":"Tag 1","title":"Ankommen in Maratea","text":"Der erste Abend gehört Hafen oder Altstadt. Maratea wird nicht als schnelle Küstenpause behandelt, sondern als eigene Basis mit mehreren Landschaftsebenen."},
+      {"day":"Tag 2","title":"Maratea, Christusstatue und Buchten","text":"Altstadt, Monte San Biagio und die Christusstatue liefern Aussicht. Danach folgt ein Badestopp in einer der Buchten oder ein Hafenabend. Die Zufahrt zur Statue wird je nach Saison mit Shuttle oder lokaler Regelung organisiert."},
+      {"day":"Tag 3","title":"Freier Meerestag oder Trecchina","text":"Ein kompletter Badetag bleibt möglich. Alternativ bietet Trecchina Bergortatmosphäre und eine ruhigere kulinarische Ergänzung."},
+      {"day":"Tag 4","title":"Castelmezzano und Pietrapertosa","text":"Die beiden Felsdörfer werden ohne sportliches Pflichtprogramm erlebt: Aussichtspunkte, Gassen, Mittagessen und kurze Transfers. Der berühmte Volo dell’Angelo bleibt optional, nicht Kern der Route."},
+      {"day":"Tag 5","title":"Dolomiti Lucane und freier Dorfabend","text":"Ein zweiter Tag vermeidet hektisches Weiterfahren. Möglich sind ein Produzent, ein ruhiger Aussichtstag, Potenza oder schlicht ein langer Dorfabend."},
+      {"day":"Tag 6","title":"Aliano und Calanchi","text":"Aliano verbindet Carlo Levi, Literaturgeschichte und die karge Calanchi-Landschaft. Aussichtspunkte und Museum machen den Ort ohne lange Wanderungen zugänglich."},
+      {"day":"Tag 7","title":"Craco und Ankunft Matera","text":"Craco wird nur im Rahmen aktueller zugelassener Führungen oder von sicheren Aussichtspunkten erlebt. Danach folgt Matera mit erstem Abendblick auf die Sassi."},
+      {"day":"Tag 8","title":"Matera: Sassi und Höhlenkirchen","text":"Sasso Caveoso, Sasso Barisano, Casa Grotta und eine Felsenkirche bilden den Kern. Der Tag braucht Pausen, weil Treppen und Steinflächen anstrengender sind als die Distanz vermuten lässt."},
+      {"day":"Tag 9","title":"Matera langsam und kulinarisch","text":"Der zweite Tag gehört Aussichtspunkten, Handwerk, Brot, einem Markt oder einer geführten Kulturroute. Am Abend wirkt die beleuchtete Stadt erneut völlig anders."},
+      {"day":"Tag 10","title":"Metapont und ionische Küste","text":"Die Tavole Palatine und weitere griechische Spuren verbinden Archäologie mit der flachen Küste. Danach folgt ein Sandstrandtag bei Metapont oder Policoro."},
+      {"day":"Tag 11","title":"Freier Strand- oder Genusstag","text":"Der Abschluss bleibt für Meer, Agricamping, Weingut oder einen Produzenten von Peperoni cruschi und Käse frei."}
+    ],
+    "places":[
+      {"name":"Maratea","why":"Felsküste, Altstadt, Hafen und Aussicht ergeben die eleganteste Meeresseite der Region.","must":"Altstadt, Christusstatue, Hafen und ausgewählte Bucht.","time":"Zwei bis drei Tage."},
+      {"name":"Castelmezzano","why":"Das Dorf sitzt direkt in den Felszacken der Dolomiti Lucane.","must":"Ortskern, Aussichtspunkte und regionales Mittagessen.","time":"Halber bis ganzer Tag."},
+      {"name":"Pietrapertosa","why":"Noch stärker in die Felsen eingebettet und guter Gegenpol zu Castelmezzano.","must":"Altstadt, arabisches Viertel und Aussicht.","time":"Halber Tag."},
+      {"name":"Aliano","why":"Carlo Levi und die Calanchi geben der Route literarische und landschaftliche Tiefe.","must":"Levi-Orte, Museum und Aussichtspunkte.","time":"Halber Tag."},
+      {"name":"Matera","why":"Sassi, Höhlenkirchen und Stadtlandschaft sind der kulturelle Höhepunkt.","must":"Sasso Caveoso, Sasso Barisano, Casa Grotta, Felsenkirche und Abendblick.","time":"Mindestens zwei volle Tage."},
+      {"name":"Metapont","why":"Griechische Geschichte und Sandküste bilden einen ruhigen Abschluss.","must":"Tavole Palatine, archäologischer Bereich und Strand.","time":"Ein voller Tag."}
+    ],
+    "secrets":[
+      {"title":"Maratea mehrere Nächte geben","text":"Erst mit Altstadt, Aussicht, Hafen und Badetag wird klar, warum der Ort mehr als eine Zwischenstation ist."},
+      {"title":"Dolomiti Lucane ohne Aktivitätsdruck planen","text":"Die Dörfer selbst, ihre Lage und das Essen tragen den Tag auch ohne Kletter- oder Flugprogramm."},
+      {"title":"Aliano wegen Carlo Levi einbauen","text":"Literatur und Landschaft erklären ein Basilikata-Bild jenseits von Matera."},
+      {"title":"Craco nur offiziell besuchen","text":"Geführte und freigegebene Zugänge machen den verlassenen Ort sicher und inhaltlich sinnvoll."},
+      {"title":"Matera zwei Abende schenken","text":"Sonnenuntergang und Nachtbeleuchtung sind zwei eigenständige Höhepunkte."},
+      {"title":"Peperoni cruschi nicht nur als Dekoration sehen","text":"Die knusprigen Paprika sind ein zentrales regionales Produkt und geben Pasta, Kartoffeln, Brot und Fleisch charakteristische Süße und Röstaromen."}
+    ],
+    "food":[
+      {"name":"Peperoni cruschi","text":"Getrocknete süße Paprika, kurz frittiert und dadurch knusprig. Sie werden zerbröselt, als Beilage serviert oder mit Pasta und Kartoffeln kombiniert."},
+      {"name":"Pane di Matera","text":"Charakteristisch geformtes Hartweizenbrot mit kräftiger Kruste und langer Haltbarkeit. Eine Bäckereiführung erklärt Teigführung und regionale Weizensorten."},
+      {"name":"Crapiata","text":"Materaner Gericht aus Hülsenfrüchten und Getreide, das die bäuerliche Küche und gemeinschaftliche Erntetradition zeigt."},
+      {"name":"Strascinati","text":"Von Hand gezogene Pasta, häufig mit Peperoni cruschi, Brotbröseln, Gemüse oder kräftigem Ragù serviert."},
+      {"name":"Caciocavallo podolico","text":"Aromatischer Käse aus Milch von Podolica-Rindern, oft gereift und in kleinen Mengen als Verkostung besonders interessant."},
+      {"name":"Aglianico del Vulture","text":"Kräftiger Rotwein von vulkanischen Böden im Norden der Basilikata. Auch wenn der Vulture nicht Kern der Route ist, gehört eine Vergleichsprobe zur regionalen Einordnung."},
+      {"name":"Amaro Lucano","text":"Historischer Kräuterlikör aus Pisticci, der als Digestif und Teil regionaler Produktgeschichte auftaucht."}
+    ],
+    "beaches":[
+      {"name":"Maratea-Küste","type":"Felsbuchten und kleinere Strandabschnitte","best":"Für dramatische Küstenlandschaft und klares Wasser."},
+      {"name":"Metapont","type":"Langer ionischer Sandstrand","best":"Für einen einfachen, ruhigen Abschluss."},
+      {"name":"Policoro","type":"Breite Sandküste","best":"Für Camping, Strandtag und Naturgebiete der ionischen Ebene."}
+    ],
+    "camper":{"strategy":"Vier Basen: Maratea, Dolomiti Lucane, Matera und ionische Küste. Historische Ortskerne werden von außen besucht; Matera braucht einen gut angebundenen Platz mit Shuttle oder Bus.","north":"Maratea als westliche Küstenbasis, danach ein Platz im Raum Castelmezzano/Pietrapertosa.","south":"Matera für zwei bis drei Nächte, anschließend Metapont oder Policoro als Küstenbasis.","cityAccess":"Maratea Altstadt, Felsdörfer und Matera nicht mit dem Wohnmobilkern anfahren. Craco nur nach offizieller Besucherregelung.","comfort":"Schatten, Strom, gute Sanitäranlagen und bei Matera verlässlicher Transfer sind wichtiger als maximale Zentrumsnähe."},
+    "bookable":["Campingplatz oder Shuttle-Lösung in Maratea.","Offizielle Führung in Craco, falls verfügbar.","Geführter Matera-Rundgang mit Höhlenkirche.","Bäckerei- oder Kochkurs rund um Pane di Matera und Strascinati.","Campingplatz an der ionischen Küste."],
+    "connections":[{"title":"Cilento","text":"Maratea schließt direkt an Palinuro, Camerota und die nördliche Tyrrhenische Küste an."},{"title":"Apulien","text":"Matera und Metapont verbinden die Route natürlich mit Valle d’Itria, Tarent oder Salento."},{"title":"Kalabrien","text":"Von Maratea oder der ionischen Küste lässt sich die Reise Richtung Tropea oder Nordkalabrien fortsetzen."}],
+    "sources":[{"name":"Italia.it – Basilicata coast to coast","url":"https://www.italia.it/en/basilicata/things-to-do/basilicata-itineraries"},{"name":"APT Basilicata – Official tourism","url":"https://www.basilicataturistica.it/"},{"name":"Visit Matera – Official tourism","url":"https://www.comune.matera.it/"}]
+  }
+}
