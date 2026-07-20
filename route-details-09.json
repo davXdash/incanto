@@ -1,0 +1,204 @@
+{
+  "venetien-prosecco-lagune": {
+    "intro":"Diese Route zeigt Venetien ohne Gardasee und ohne die Region auf Venedig zu reduzieren. Sie verbindet Trevisos Kanäle und Märkte, Asolos elegante Hügel, die Prosecco-Landschaft, Bassanos Handwerk und Grappa, Palladios Architektur in Vicenza, Giottos Fresken in Padua und zum Schluss die Lagune. Das Wohnmobil bleibt dabei auf wenigen guten Basen; Städte, Weinorte und Venedig werden von außen organisiert.",
+    "idealFor":"Ideal für eine Reise mit Wein, Architektur, Märkten, Kunst und gutem Essen. Sie wirkt urbaner und kultivierter als eine reine Weinroute, bleibt aber deutlich entspannter als eine klassische Städterundreise.",
+    "routeLogic":["Basis 1 bei Treviso oder Asolo für Treviso, Asolo, Conegliano und die Prosecco-Hügel.","Basis 2 bei Bassano oder Vicenza für Bassano, Marostica, Palladio und eine ausgewählte Villa.","Basis 3 bei Padua oder in Lagunennähe für Padua, Venedig und optional Chioggia.","Zehn bis zwölf Tage erlauben zwei Wein- und Genusstage sowie einen freien Tag ohne Pflichtprogramm."],
+    "days":[
+      {"day":"Tag 1","title":"Treviso ankommen und verstehen","text":"Treviso ist der leise Auftakt: Kanäle, freskierte Fassaden, Piazza dei Signori und der Fischmarkt auf seiner kleinen Insel. Der Abend gehört Cicchetti, einem Glas Prosecco und der Frage, wie Radicchio, Tiramisù und venezianische Snackkultur zusammengehören."},
+      {"day":"Tag 2","title":"Treviso, Markt und Küche","text":"Morgens wird der Markt besucht, danach Dom, Buranelli-Kanal und Altstadt. Am Nachmittag passt eine Tiramisù-Verkostung oder ein Kochkurs. Treviso soll nicht wie ein Venedig-Ersatz wirken, sondern als eigenständige Genussstadt."},
+      {"day":"Tag 3","title":"Asolo und Possagno","text":"Asolo verbindet Gassen, Villen, Aussicht und eine elegante Ruhe. Wer Kunst und Design vertiefen möchte, ergänzt Possagno mit Canovas Tempel und Gipsoteca. Der Tag bleibt kompakt und endet wieder in Asolo."},
+      {"day":"Tag 4","title":"Prosecco-Hügel und Valdobbiadene","text":"Ein ganzer Weintag gehört den Hügeln zwischen Conegliano und Valdobbiadene. Eine geführte Verkostung erklärt den Unterschied zwischen Prosecco DOC, Conegliano Valdobbiadene Prosecco Superiore DOCG, Rive und Cartizze. Dazu kommen Follina, Cison di Valmarino oder ein Mittagessen in den Weinbergen."},
+      {"day":"Tag 5","title":"Conegliano und freier Hügelabend","text":"Conegliano ergänzt die Weinreise um Altstadt, Schlossblick und die Geschichte der Weinbauschule. Danach bleibt bewusst Zeit für einen zweiten Produzenten oder einen langen Abend auf dem Agricamping."},
+      {"day":"Tag 6","title":"Bassano del Grappa und Marostica","text":"Bassano wird über die Holzbrücke, Keramik, Grappa und den Fluss verstanden. Eine Brennereiführung erklärt, was Grappa tatsächlich ist. Marostica ergänzt den Tag um Mauern, Piazza und die Geschichte des Schachspiels."},
+      {"day":"Tag 7","title":"Vicenza und Palladio","text":"Vicenza braucht einen eigenen Tag: Basilica Palladiana, Teatro Olimpico, Corso Palladio und eine geführte Einführung in Palladios Architektur. Optional folgt eine Villa im Umland, aber nicht mehrere hintereinander."},
+      {"day":"Tag 8","title":"Padua: Markt, Fresken und Aperitivo","text":"Padua verbindet Piazza delle Erbe, Palazzo della Ragione, Basilika des heiligen Antonius und die Cappella degli Scrovegni. Der Markt und ein Aperitivo auf den Plätzen halten den Tag lebendig und verhindern reines Museumsprogramm."},
+      {"day":"Tag 9","title":"Venedig ohne Wohnmobilstress","text":"Von einer Außenbasis geht es per Bahn oder Boot nach Venedig. San Marco, Rialto und Canal Grande gehören dazu, aber der Schwerpunkt liegt auch auf Cannaregio, Dorsoduro, Bacari und einem langen Abend, wenn Tagestouristen abreisen."},
+      {"day":"Tag 10","title":"Freier Lagunentag","text":"Möglich sind Murano und Burano, ein zweiter Venedig-Tag, Chioggia mit Fischmarkt oder ein ruhiger Tag auf dem Platz. Dieser Puffer macht aus der Route Urlaub statt Pflichtliste."}
+    ],
+    "places":[
+      {"name":"Treviso","why":"Kleine Kanäle, Markt, Radicchio, Tiramisù und venezianische Alltagskultur in kompakter Form.","must":"Piazza dei Signori, Buranelli, Fischmarkt und Altstadt.","time":"Ein bis zwei Tage."},
+      {"name":"Asolo","why":"Eleganter Hügelort mit Villen, Aussicht und deutlich weniger Betriebsamkeit als die großen Städte.","must":"Piazza Garibaldi, Rocca-Blick, Gassen und Villa-Fassaden.","time":"Halber bis ganzer Tag."},
+      {"name":"Valdobbiadene","why":"Zentrum der Prosecco-Superiore-Landschaft und ideal für Produzentenbesuche.","must":"Ein Weingut, Panoramastraßen und ein Dorfstopp.","time":"Ein voller Tag im Gebiet."},
+      {"name":"Bassano del Grappa","why":"Brücke, Keramik, Grappa und Flusslandschaft ergeben einen sehr eigenständigen Stadtcharakter.","must":"Ponte degli Alpini, Altstadt, Keramik und Brennerei.","time":"Ein voller Tag."},
+      {"name":"Vicenza","why":"Palladios Stadt ist kein Nebenstopp, sondern ein Architekturkapitel.","must":"Teatro Olimpico, Basilica Palladiana und Corso Palladio.","time":"Ein voller Tag."},
+      {"name":"Padua","why":"Fresken, Markt und Universitätsstadt verbinden hohe Kunst mit lebendiger Alltagskultur.","must":"Scrovegni-Kapelle, Palazzo della Ragione und Märkte.","time":"Ein voller Tag."},
+      {"name":"Venedig","why":"Der Abschluss bündelt Lagune, Architektur, Handwerk und Cicchetti.","must":"Ein klassischer Kern plus ein ruhigeres Viertel am Abend.","time":"Mindestens ein voller Tag, besser zwei."}
+    ],
+    "secrets":[
+      {"title":"Prosecco-Stile erklären lassen","text":"Eine gute Probe stellt DOC, DOCG, Rive und Cartizze gegenüber. Erst dann wird verständlich, warum nicht jeder Prosecco gleich schmeckt."},
+      {"title":"Asolo bis zum Abend behalten","text":"Der Ort lebt weniger von großen Sehenswürdigkeiten als von Stimmung, Aussicht und einem langen Abend."},
+      {"title":"Nur eine Palladio-Villa auswählen","text":"Eine gut geführte Villa bleibt stärker im Gedächtnis als drei schnelle Außenbesichtigungen."},
+      {"title":"Treviso ernst nehmen","text":"Markt, Radicchio, Tiramisù und Kanäle machen die Stadt zu einem echten Auftakt, nicht zu einem Lückenfüller."},
+      {"title":"Venedig mit Übernachtungsrhythmus erleben","text":"Früher Morgen und später Abend verändern die Stadt stärker als ein weiterer berühmter Fotopunkt."}
+    ],
+    "food":[
+      {"name":"Conegliano Valdobbiadene Prosecco Superiore DOCG","text":"Schaumwein aus den steilen Hügeln zwischen Conegliano und Valdobbiadene. Rive bezeichnet einzelne Gemeinden oder Lagen, Cartizze ein besonders kleines und renommiertes Gebiet."},
+      {"name":"Cicchetti","text":"Kleine Brote und Häppchen in Bacari, häufig mit Fisch, Gemüse, Käse oder Salumi. Sie werden mit einem kleinen Glas Wein als lebendige venezianische Aperitivo-Kultur erlebt."},
+      {"name":"Radicchio di Treviso","text":"Bitter-süßes Wintergemüse, das roh, gegrillt, im Risotto oder in Pasta erscheint. In Treviso wird daraus ein regionales Leitprodukt."},
+      {"name":"Tiramisù","text":"Treviso beansprucht eine zentrale Rolle in seiner Entstehung. Eine gute Version lebt von Mascarpone, Kaffee, Kakao und klarer Balance statt übermäßiger Süße."},
+      {"name":"Baccalà alla vicentina","text":"Langsam gegarter Stockfisch mit Milch, Zwiebeln und Öl, meist mit Polenta. Das Gericht erklärt Vicenzas bodenständige Küchenseite."},
+      {"name":"Grappa","text":"Tresterbrand aus den Rückständen der Weinbereitung. Eine Brennereiführung zeigt Rebsorten, Destillation und Reifung und verhindert, dass Grappa nur als scharfer Abschluss wahrgenommen wird."}
+    ],
+    "beaches":[],
+    "camper":{"strategy":"Drei Basen sind ideal: Treviso/Asolo, Bassano/Vicenza und Padua/Lagune. Die Städte werden von außen besucht, Weingüter nur mit organisiertem Transfer oder anschließender Übernachtung.","north":"Agricamping oder Camping im Raum Treviso, Asolo oder Valdobbiadene für Prosecco und Treviso.","south":"Eine Basis bei Vicenza/Bassano und später eine zweite bei Padua oder Mestre/Jesolo für Venedig.","cityAccess":"Treviso, Vicenza und Padua über ausgewiesene Außenparkplätze oder ÖPNV; Venedig ausschließlich von außen.","comfort":"Strom, Schatten, gute Bahn- oder Busanbindung und reservierbare Transfers zu Weingütern sind wichtiger als maximale Zentrumsnähe."},
+    "bookable":["Prosecco-DOCG-Verkostung mit Kellerführung.","Cappella degli Scrovegni mit festem Zeitfenster.","Teatro Olimpico oder Palladio-Führung.","Brennereibesuch in Bassano.","Campingplatz und Bahn- oder Bootsverbindung für Venedig."],
+    "connections":[{"name":"Gardasee und Verona","text":"Als westliche Verlängerung, wenn See und Valpolicella dazukommen sollen."},{"name":"Friaul, Triest und Collio","text":"Östliche Fortsetzung mit Weißwein, Hafenstadt und Grado."},{"name":"Emilia-Romagna","text":"Südlich schließen Bologna, Modena und Parma an."}],
+    "sources":[{"name":"Veneto Outdoor – The Veneto Ring","url":"https://venetooutdoor.regione.veneto.it/tours/i2-the-veneto-ring/en.html"},{"name":"Visit Prosecco Hills","url":"https://www.visitproseccohills.it/en/"},{"name":"Asolando – Prosecco Hills, art and taste","url":"https://www.visitproseccohills.it/en/asolando-enjoy-venice-and-its-land"}]
+  },
+  "sardinien-suedkueste": {
+    "intro":"Südsardinien ist keine kleinere Kopie des Nordens. Cagliari bringt Markt, Geschichte und Stadtleben, der Südosten lange helle Sandstrände und Lagunen, der Südwesten Dünen, Carignano-Wein, Bergbaugeschichte und die Inselwelt um Sant’Antioco und Carloforte. Die Route funktioniert am besten mit drei langen Küstenbasen und mehreren freien Badetagen.",
+    "idealFor":"Ideal für Meer, Sandstrand, gutes Essen und Wein, wenn die Reise stärker nach Urlaub als nach Rundfahrt wirken soll. Cagliari und Sant’Antioco geben genug Kultur, damit die Tage nicht nur aus Strand bestehen.",
+    "routeLogic":["Basis 1 bei Cagliari oder Poetto für Stadt, Markt, Nora und erste Strandtage.","Basis 2 bei Villasimius, Cala Sinzias oder Costa Rei für mehrere Tage am Südostmeer.","Basis 3 bei Chia, Porto Pino oder Sant’Antioco für Dünen, Carignano und Carloforte.","Zwölf bis fünfzehn Tage erlauben mindestens vier echte freie Badetage."],
+    "days":[
+      {"day":"Tag 1","title":"Cagliari ankommen","text":"Der erste Abend gehört Marina, Bastione di Saint Remy und einem Aperitivo. Die Stadt soll nicht zwischen Fähre und Strand verschwinden."},
+      {"day":"Tag 2","title":"San Benedetto, Castello und sardische Küche","text":"Morgens wird der Markt San Benedetto besucht. Danach folgen Castello, Dom, Aussicht und Villanova. Am Abend werden Fregola, Bottarga oder gegrillter Fisch probiert."},
+      {"day":"Tag 3","title":"Poetto, Flamingos und freier Strandtag","text":"Poetto ist der unkomplizierte Stadtstrand. In den Lagunen von Molentargius lassen sich Flamingos beobachten, ohne daraus eine anstrengende Naturtour zu machen."},
+      {"day":"Tag 4","title":"Villasimius und Capo Carbonara","text":"Der Wechsel zur Südostbasis führt nach Villasimius. Porto Giunco, die Lagune und Capo Carbonara erklären die Mischung aus Sand, Felsen und Schutzgebiet."},
+      {"day":"Tag 5","title":"Cala Sinzias und Costa Rei","text":"Ein voller Strandtag mit Cala Sinzias oder dem langen Sandband der Costa Rei. Der Abend bleibt am Platz oder in Muravera."},
+      {"day":"Tag 6","title":"Freier Südosttag","text":"Noch einmal der Lieblingsstrand, eine Bootstour, ein Markt oder einfach ein Tag ohne Fahrzeugbewegung. Diese Route braucht bewusst Wiederholung statt ständig neuer Buchten."},
+      {"day":"Tag 7","title":"Muravera, Zitrusfrüchte und Inlandsküche","text":"Muravera bringt Markt, kleine Geschäfte und die landwirtschaftliche Seite des Sarrabus. Dazu passen Culurgiones, Malloreddus und regionale Süßwaren."},
+      {"day":"Tag 8","title":"Nora und Chia","text":"Auf dem Weg nach Westen wird Nora besucht: punische und römische Ruinen direkt am Meer. Danach folgt Chia mit Sand, Dünen und mehreren Strandoptionen."},
+      {"day":"Tag 9","title":"Chia als reiner Urlaubstag","text":"Su Giudeu, Campana oder Cala Cipolla werden nicht gesammelt, sondern nach Wind, Parkplatz und Stimmung ausgewählt. Der Tag bleibt lang und leer genug."},
+      {"day":"Tag 10","title":"Porto Pino und die weißen Dünen","text":"Porto Pino verbindet Lagune, Pinien und sehr hellen Sand. Der Besuch wird früh organisiert, damit aus Parkplatzsuche kein Hauptprogramm wird."},
+      {"day":"Tag 11","title":"Sant’Antioco und Carignano","text":"Sant’Antioco verbindet Archäologie, Fischerei und Wein. Eine Carignano-Probe erklärt, warum die Reben auf sandigen, windigen Böden einen so eigenständigen Stil entwickeln."},
+      {"day":"Tag 12","title":"Carloforte als Inseltag","text":"Per Fähre geht es nach Carloforte auf San Pietro. Der Ort hat ligurische Wurzeln und eine Küche, in der Thunfisch, Couscous-Einflüsse und Inselgeschichte zusammenkommen."},
+      {"day":"Tag 13","title":"Freier Südwesttag","text":"Ein letzter Strand, ein zweiter Carloforte-Tag, ein Weingut oder ein ruhiger Campingtag bilden den Abschluss."}
+    ],
+    "places":[
+      {"name":"Cagliari","why":"Marktstadt, Hafen, Aussicht und sardische Küche geben der Reise städtische Tiefe.","must":"San Benedetto, Castello, Marina und Poetto.","time":"Zwei bis drei Tage."},
+      {"name":"Villasimius","why":"Guter Ausgangspunkt für geschützte Buchten, Lagunen und Bootstouren.","must":"Porto Giunco, Capo Carbonara und Hafen.","time":"Zwei bis drei Tage als Basis."},
+      {"name":"Costa Rei","why":"Langes Sandband und entspannte Campingstruktur für echte Strandtage.","must":"Ein freier Strandtag und Cala Sinzias oder Cala Pira.","time":"Mindestens zwei Nächte."},
+      {"name":"Nora","why":"Punische und römische Geschichte liegt hier direkt am Meer.","must":"Archäologischer Park und Küstenblick.","time":"Zwei bis drei Stunden."},
+      {"name":"Chia","why":"Dünen, Lagunen und mehrere starke Sandstrände auf engem Raum.","must":"Su Giudeu oder Cala Cipolla und ein voller Ruhetag.","time":"Zwei bis drei Tage."},
+      {"name":"Sant’Antioco","why":"Insel, Archäologie, Fischerei und Carignano bilden einen eigenständigen Abschluss.","must":"Ort, Küste, Weingut und optional Carloforte.","time":"Zwei bis drei Tage."}
+    ],
+    "secrets":[
+      {"title":"Cagliari nicht verkürzen","text":"Der Markt San Benedetto und die Stadtviertel machen die spätere Strandreise kulinarisch verständlicher."},
+      {"title":"Nicht jeden berühmten Strand sammeln","text":"Wind, Zufahrt und Stimmung entscheiden mehr als eine Rangliste. Zwei lange Strandtage sind stärker als sechs kurze Fotostopps."},
+      {"title":"Carloforte wegen der Küche einplanen","text":"Die ligurisch geprägte Inselküche unterscheidet sich deutlich vom übrigen Sardinien."},
+      {"title":"Carignano vor Ort probieren","text":"Der Wein gehört zum Sulcis und wird durch Küste, Sandböden und Wind verständlich."},
+      {"title":"Flamingos ohne große Tour erleben","text":"Molentargius bei Cagliari verbindet Naturbeobachtung mit einem unkomplizierten Stadt- und Strandtag."}
+    ],
+    "food":[
+      {"name":"Fregola con arselle","text":"Kleine geröstete Hartweizenkügelchen mit Venusmuscheln und Brühe. Ein typisches Gericht für Cagliari und die Küstenküche."},
+      {"name":"Bottarga","text":"Gesalzener und getrockneter Fischrogen, meist von Meeräsche. Fein gerieben über Pasta oder in dünnen Scheiben mit Öl serviert."},
+      {"name":"Culurgiones","text":"Gefüllte Teigtaschen, häufig mit Kartoffel, Käse und Minze. Die kunstvoll verschlossene Form gehört ebenso zum Erlebnis wie die Füllung."},
+      {"name":"Malloreddus","text":"Kleine gerillte Pasta, oft mit Salsiccia, Tomate und Pecorino. Ein bodenständiges Gegenstück zur Fischküche."},
+      {"name":"Carignano del Sulcis","text":"Kräftiger, warmer Rotwein aus dem Südwesten. Gute Produzenten zeigen auch frischere und elegantere Varianten statt nur schwerer Weine."},
+      {"name":"Carloforte-Thunfisch","text":"Auf San Pietro wird Thunfisch in vielen Teilen und Zubereitungen verwendet. Die Küche trägt deutliche ligurische und mediterrane Einflüsse."}
+    ],
+    "beaches":[
+      {"name":"Poetto","type":"Langer Stadtstrand","best":"Für Cagliari plus Meer ohne Basiswechsel."},
+      {"name":"Porto Giunco","type":"Heller Sand und Lagune","best":"Für Villasimius, Aussicht und Flamingos."},
+      {"name":"Costa Rei","type":"Kilometerlanger Sandstrand","best":"Für mehrere entspannte Badetage."},
+      {"name":"Cala Sinzias","type":"Breiter heller Sandstrand","best":"Für Komfort, klares Wasser und gute Erreichbarkeit."},
+      {"name":"Su Giudeu","type":"Dünenstrand bei Chia","best":"Für den landschaftlich stärksten Südwest-Strandtag."},
+      {"name":"Porto Pino","type":"Weiße Dünen und Lagune","best":"Für den außergewöhnlichsten Sandlandschaftstag."}
+    ],
+    "camper":{"strategy":"Drei lange Basen statt Küstenhopping: Cagliari/Poetto, Costa Rei/Villasimius und Chia/Sant’Antioco. Fähren und Inseln werden ohne Wohnmobil als Tagesausflug organisiert.","north":"Cagliari außen oder Poetto für Stadt, Markt und Nora.","south":"Zwei Küstenbasen: Costa Rei/Villasimius und Chia beziehungsweise Sant’Antioco.","cityAccess":"Cagliari mit Bus oder Bahn von außen; Carloforte als Personenfährtag; bekannte Strände früh oder per Shuttle anfahren.","comfort":"Schatten, Strom, gute Sanitäranlagen, Strandzugang und Reservierung in den NRW-Sommerferien sind entscheidend."},
+    "bookable":["Fähre nach Sardinien und Campingplätze in der Hauptsaison.","Bootstour ab Villasimius.","Carignano-Weingut mit Verkostung.","Fähre nach Carloforte.","Geführter Besuch der Ausgrabungen von Nora."],
+    "connections":[{"name":"Sardinien Nordküste","text":"Für eine große Inselreise mit Gallura, La Maddalena und Alghero."},{"name":"Westsardinien","text":"Über Oristano und die Sinis-Halbinsel als spätere eigene Route denkbar."},{"name":"Rom und Latium","text":"Je nach Fähre lässt sich die Rückreise mit Mittelitalien verbinden."}],
+    "sources":[{"name":"SardegnaTurismo – Costa Rei","url":"https://sardegnaturismo.it/en/places/sud/costa-rei"},{"name":"Visit South Sardinia – Costa Rei","url":"https://www.visitsouthsardinia.com/en/costa-rei/"},{"name":"SardegnaTurismo – Official tourism","url":"https://sardegnaturismo.it/en"}]
+  },
+  "lago-maggiore-orta-mailand": {
+    "intro":"Diese Seenroute ist die elegante Alternative zum Comer See. Mailand setzt mit Design, Mode, Märkten und Aperitivo einen urbanen Auftakt. Orta San Giulio bringt Ruhe und einen kleinen, fast intimen See. Stresa, die Borromäischen Inseln, Verbania und Cannobio bilden danach ein Kapitel aus Palästen, botanischen Gärten, Schiffstagen und langen Uferabenden.",
+    "idealFor":"Ideal für Stil, Wasser, Gärten und Kultur, wenn ihr keine große Fahrdistanz wollt. Die Route ist weniger dramatisch als der Comer See, aber abwechslungsreicher zwischen Großstadt, kleinem See, Inseln und botanischen Anlagen.",
+    "routeLogic":["Basis 1 außerhalb Mailands für zwei Stadttage mit Bahn oder Metro.","Basis 2 am Lago d’Orta für Orta San Giulio und einen langsamen Seeabend.","Basis 3 bei Stresa oder Verbania für Inseln, Gärten und Cannobio.","Acht bis elf Tage erlauben einen freien Seetag und optional einen Ausflug mit Bahn und Schiff."],
+    "days":[
+      {"day":"Tag 1","title":"Mailand ankommen","text":"Der erste Abend gehört Brera, Navigli oder einem klassischen Aperitivo. Mailand beginnt nicht mit einer Sehenswürdigkeitenliste, sondern mit Stadtgefühl."},
+      {"day":"Tag 2","title":"Dom, Galleria und Design","text":"Dom und Dach, Galleria Vittorio Emanuele II und je nach Interesse Brera, Triennale oder Fondazione Prada. Ein Markt oder eine Designbuchhandlung ergänzt die großen Namen."},
+      {"day":"Tag 3","title":"Mailand: Markt und freier Schwerpunkt","text":"Je nach Interesse folgt Mode, Kunst, Architektur oder Kulinarik. Der Nachmittag bleibt bewusst offen, bevor die Route an den Lago d’Orta wechselt."},
+      {"day":"Tag 4","title":"Orta San Giulio und die Insel","text":"Orta San Giulio wird zu Fuß erlebt: Piazza Motta, Ufer, Gassen und die kurze Bootsfahrt zur Isola San Giulio. Der Abend am kleinen See ist der bewusste Gegenpol zu Mailand."},
+      {"day":"Tag 5","title":"Stresa und erster Lago-Maggiore-Abend","text":"Nach dem Basiswechsel gehören Promenade, historische Hotelkulisse und ein ruhiger Abend am Wasser zusammen. Noch kein Insel-Marathon."},
+      {"day":"Tag 6","title":"Borromäische Inseln","text":"Ein Schiffstag verbindet Isola Bella, Isola Madre und Isola dei Pescatori. Palast, Gärten und Mittagessen auf der Fischerinsel werden mit genug Zeit geplant."},
+      {"day":"Tag 7","title":"Verbania und Villa Taranto","text":"Villa Taranto ist einer der großen botanischen Höhepunkte. Danach folgt Verbania mit Ufer, Altstadtbereichen und weniger Grandhotel-Inszenierung als Stresa."},
+      {"day":"Tag 8","title":"Cannobio und nördlicher See","text":"Cannobio verbindet Markt, Promenade, farbige Fassaden und einen stärkeren Übergang Richtung Alpen. Der Ort eignet sich besonders für einen langen Abend."},
+      {"day":"Tag 9","title":"Freier Seetag","text":"Ein zweiter Inselbesuch, Schwimmen, eine Schifffahrt, der Lago-Maggiore-Express oder ein ruhiger Tag auf dem Campingplatz. Kein weiterer Pflichtort."}
+    ],
+    "places":[
+      {"name":"Mailand","why":"Design, Mode, Kunst und Aperitivo geben der Seenreise einen urbanen Rahmen.","must":"Dom, Brera oder Designmuseum, Markt und Aperitivo.","time":"Zwei bis drei Tage."},
+      {"name":"Orta San Giulio","why":"Kleiner, ruhiger und intimer als die großen Seenorte.","must":"Piazza Motta, Isola San Giulio und Abend am Wasser.","time":"Ein voller Tag plus Abend."},
+      {"name":"Stresa","why":"Elegante Basis für die Borromäischen Inseln und klassische Seepromenade.","must":"Promenade, Schiffstag und historisches Ortsbild.","time":"Zwei bis drei Nächte."},
+      {"name":"Isola Bella","why":"Palast, Terrassengärten und Seeblick bilden den repräsentativsten Inselstopp.","must":"Palast und Garten.","time":"Zwei bis drei Stunden."},
+      {"name":"Isola Madre","why":"Botanischer, ruhiger und stärker auf Gartenatmosphäre ausgerichtet.","must":"Garten und historische Räume.","time":"Zwei Stunden."},
+      {"name":"Verbania","why":"Gärten und eine alltagstauglichere Seestadt ergänzen Stresas Eleganz.","must":"Villa Taranto und Ufer.","time":"Ein voller Tag."},
+      {"name":"Cannobio","why":"Farbiges Ufer, Markt und nördliche Seelandschaft.","must":"Promenade, Altstadt und Abendessen.","time":"Halber bis ganzer Tag."}
+    ],
+    "secrets":[
+      {"title":"Orta vor Stresa legen","text":"Der kleine See schafft Ruhe und verhindert, dass die Reise sofort mit den größten Palästen beginnt."},
+      {"title":"Inseln mit Rover-Ticket organisieren","text":"Ein gut geplanter Schiffstag vermeidet einzelne teure Transfers und gibt Flexibilität zwischen den Inseln."},
+      {"title":"Isola dei Pescatori zum Mittag","text":"Die bewohnte Insel ist weniger Gartenmuseum und eignet sich deshalb ideal als kulinarische Pause."},
+      {"title":"Cannobio bis zum Abend behalten","text":"Der Ort wird nach dem Tagesbetrieb besonders stimmig."},
+      {"title":"Mailand mit einem persönlichen Schwerpunkt","text":"Design, Mode, Kunst oder Essen auswählen statt die Stadt als vollständige Pflichtliste zu behandeln."}
+    ],
+    "food":[
+      {"name":"Risotto alla milanese","text":"Safranrisotto, häufig mit Ossobuco kombiniert. Eine gute Version ist cremig, aber nicht schwer und erklärt Mailands klassische Küche."},
+      {"name":"Cotoletta alla milanese","text":"Kalbskotelett mit Knochen oder dünnere Variante, in Butter gebraten. Nicht mit einem beliebigen Schnitzel gleichzusetzen."},
+      {"name":"Seefisch","text":"Barsch, Felchen und andere Süßwasserfische erscheinen gebraten, mariniert oder im Risotto. Die Zubereitung variiert von Ort zu Ort."},
+      {"name":"Gorgonzola","text":"Der berühmte Blauschimmelkäse stammt aus der weiteren Region. Jung cremig, gereift deutlich kräftiger."},
+      {"name":"Nebbiolo aus dem nördlichen Piemont","text":"In Gebieten wie Ghemme oder Boca zeigt Nebbiolo eine frischere, mineralischere Seite als in Barolo und Barbaresco."},
+      {"name":"Aperitivo milanese","text":"Getränk und kleine Speisen als Übergang in den Abend. Qualität und Atmosphäre zählen mehr als ein maximal großes Buffet."}
+    ],
+    "beaches":[
+      {"name":"Lago d’Orta","type":"Kleine Seezugänge und Lidos","best":"Für einen ruhigen Badestopp vor dem Lago Maggiore."},
+      {"name":"Stresa und Umgebung","type":"Lidos am See","best":"Für einen komfortablen halben Badetag mit Schiffsanschluss."},
+      {"name":"Cannobio","type":"Kiesige Seeufer und Lidos","best":"Für klares Wasser und nördliche Seekulisse."}
+    ],
+    "camper":{"strategy":"Drei Basen: Mailand außen, Lago d’Orta und Stresa/Verbania. Schiffe übernehmen die Insel- und Uferverbindungen; das Wohnmobil bleibt an den Seetagen stehen.","north":"Stresa oder Verbania für Inseln, Villa Taranto und Cannobio.","south":"Mailand außen mit Bahn/Metro sowie eine kurze Basis am Lago d’Orta.","cityAccess":"Mailand ausschließlich per ÖPNV; Orta, Stresa und Cannobio mit ausgewiesenen Außenparkplätzen oder vom Campingplatz.","comfort":"ÖPNV-, Schiffs- und Uferanbindung sind wichtiger als maximale Ortsnähe. Schatten und Reservierung sind im Sommer wertvoll."},
+    "bookable":["Domdach oder gewünschtes Museum in Mailand.","Borromäische Inseln und Paläste.","Campingplätze am Lago d’Orta und Lago Maggiore.","Optional Lago-Maggiore-Express.","Geführte Garten- oder Palasttour."],
+    "connections":[{"name":"Comer See","text":"Als zweite Seenroute mit Villen und dramatischerem Relief."},{"name":"Veltlin","text":"Für Wein, Berge und Berninabahn."},{"name":"Piemont-Weinlandschaften","text":"Über Novara und Turin weiter nach Langhe, Roero und Monferrato."}],
+    "sources":[{"name":"Official Lake Maggiore Tourism – Itineraries","url":"https://www.illagomaggiore.it/itinerari/"},{"name":"Visit Stresa – Plan your trip","url":"https://www.visitstresa.com/Plan_Your_Trip.htm"},{"name":"Lake Maggiore official tourism","url":"https://www.illagomaggiore.it/"}]
+  },
+  "latium-tuscia-seen": {
+    "intro":"Tuscia ist eine Alternative zur Toskana, aber keine Kopie. Vulkanseen, etruskische Nekropolen, Papstgeschichte, Renaissancegärten, Tuffsteindörfer und eine bodenständige Küche geben der Route einen eigenen Charakter. Bolsena und Viterbo bilden ruhige Basen; Bracciano, Tarquinia und die Castelli Romani führen optional bis zum Meer und an den Rand Roms.",
+    "idealFor":"Ideal für Kultur, Seen, Gärten, Wein und kleine Orte, wenn ihr Mittelitalien ohne die bekannteste Toskana-Schleife erleben möchtet. Die Route ist wohnmobilfreundlich, weil viele Ziele kurze Tagesausflüge von zwei oder drei Basen erlauben.",
+    "routeLogic":["Basis 1 am Bolsenasee für Bolsena, Montefiascone, Civita und Orvieto als optionalen Anschluss.","Basis 2 bei Viterbo für Papststadt, Villa Lante, Bomarzo und Caprarola.","Basis 3 bei Bracciano oder an der Küste für Tarquinia, Santa Severa und Castelli Romani.","Neun bis zwölf Tage erlauben See-, Garten- und Kulturtage ohne tägliches Umsetzen."],
+    "days":[
+      {"day":"Tag 1","title":"Bolsena ankommen","text":"Der erste Abend gehört Altstadt, Rocca-Blick und Seeufer. Bolsena ist nicht nur Basis, sondern ein eigener Ort mit ruhigem Rhythmus."},
+      {"day":"Tag 2","title":"Bolsenasee und freier Badetag","text":"Ein Tag am See mit Lido, Boot oder kurzer Uferfahrt. Am Abend folgen Fisch, Est! Est!! Est!!! oder ein Marktbesuch, falls der Termin passt."},
+      {"day":"Tag 3","title":"Montefiascone und Civita di Bagnoregio","text":"Montefiascone bringt Kuppel, Aussicht und Wein. Civita wird später am Tag besucht; der lange Fußsteg und die Tufflage sind Teil des Erlebnisses. Der Ort wird nicht als schneller Fotostopp behandelt."},
+      {"day":"Tag 4","title":"Viterbo und San Pellegrino","text":"Viterbo erzählt Papstgeschichte und Mittelalter. Palazzo dei Papi, San Pellegrino und die Plätze des Zentrums brauchen einen vollen Tag und einen langen Abend."},
+      {"day":"Tag 5","title":"Villa Lante und Bagnaia","text":"Die Renaissancegärten von Villa Lante werden wegen Wasserachsen, Terrassen und Gartenarchitektur ausführlich besucht. Danach bleibt Zeit für Bagnaia oder Thermalbaden."},
+      {"day":"Tag 6","title":"Bomarzo oder Caprarola","text":"Entweder der fantastische Park der Monster in Bomarzo oder Palazzo Farnese in Caprarola. Wer beide sehen möchte, verteilt sie auf zwei Tage statt sie zusammenzudrängen."},
+      {"day":"Tag 7","title":"Tarquinia und etruskische Welt","text":"Tarquinia verbindet mittelalterliche Stadt und bemalte etruskische Gräber. Das Museum ergänzt die Nekropole und macht die Kultur verständlich."},
+      {"day":"Tag 8","title":"Meer bei Santa Severa oder Tarquinia Lido","text":"Ein bewusster Küstentag bringt Sand, Meer und mit Santa Severa eine Burg direkt am Wasser. Damit bekommt die Route einen klaren Landschaftswechsel."},
+      {"day":"Tag 9","title":"Bracciano und Seeabend","text":"Bracciano verbindet Burg, Altstadt und See. Der Ort eignet sich als ruhiger Abschluss oder als Basis für den Übergang zu Rom."},
+      {"day":"Tag 10","title":"Castelli Romani und Wein","text":"Frascati, Castel Gandolfo oder Ariccia verbinden Vulkanlandschaft, Wein, Porchetta und römische Sommerfrische. Der Tag wird von außen organisiert und endet ohne Weiterfahrt."},
+      {"day":"Tag 11","title":"Freier Tuscia-Tag","text":"Ein zweites Gartenprojekt, Thermalbad, Lieblingssee, Weingut oder Markt. Der Puffer schützt die Route vor Überladung."}
+    ],
+    "places":[
+      {"name":"Bolsena","why":"See, Altstadt und kurze Wege zu mehreren Höhepunkten machen den Ort zur besten nördlichen Basis.","must":"Rocca, Altstadt, Seeufer und ein Badetag.","time":"Zwei bis drei Nächte."},
+      {"name":"Civita di Bagnoregio","why":"Tufflage, Fußsteg und Calanchi-Landschaft ergeben ein einzigartiges Ortsbild.","must":"Fußweg, Altstadt und Aussicht.","time":"Drei bis vier Stunden."},
+      {"name":"Viterbo","why":"Papstgeschichte und eines der stärksten mittelalterlichen Stadtviertel der Region.","must":"Palazzo dei Papi, San Pellegrino und Altstadt.","time":"Ein voller Tag."},
+      {"name":"Villa Lante","why":"Wasser, Terrassen und geometrische Gartenkunst zeigen die Renaissance als Landschaftsgestaltung.","must":"Gartenachsen, Brunnen und Casino-Gebäude.","time":"Drei Stunden."},
+      {"name":"Caprarola","why":"Palazzo Farnese verbindet Machtarchitektur, Fresken und spiralförmige Treppe.","must":"Palast, Scala Regia und Gärten.","time":"Halber Tag."},
+      {"name":"Tarquinia","why":"Etruskische Gräber und Museum geben der Route historische Tiefe.","must":"Nekropole, Museum und Altstadt.","time":"Ein voller Tag."},
+      {"name":"Bracciano","why":"Burg, See und Nähe zu Rom machen den Ort zum starken Abschluss.","must":"Castello Odescalchi, Altstadt und Seeufer.","time":"Halber bis ganzer Tag."}
+    ],
+    "secrets":[
+      {"title":"Bolsena nicht nur als Stellplatz nutzen","text":"Der Seeort braucht mindestens einen Abend und einen freien halben Tag."},
+      {"title":"Villa Lante und Caprarola trennen","text":"Gartenkunst und Palastarchitektur wirken stärker, wenn jede Anlage ein eigenes Zeitfenster bekommt."},
+      {"title":"Civita später am Tag besuchen","text":"Licht und abnehmender Tagesbetrieb geben dem Ort mehr Atmosphäre."},
+      {"title":"Tarquinia mit Museum kombinieren","text":"Die bemalten Gräber werden durch die Funde und Erklärungen im Museum wesentlich verständlicher."},
+      {"title":"Am Meer enden","text":"Santa Severa oder Tarquinia Lido geben der Binnenroute einen klaren Abschluss am Wasser."}
+    ],
+    "food":[
+      {"name":"Acquacotta","text":"Bäuerliche Suppe mit Gemüse, Brot und häufig Ei oder Käse. Sie zeigt die schlichte, kräftige Küche der Tuscia."},
+      {"name":"Lombrichelli","text":"Dicke handgerollte Pasta, oft mit Tomate, Knoblauch oder Fleischsauce. Regionaler und rustikaler als bekannte römische Pastaklassiker."},
+      {"name":"Coregone vom Bolsenasee","text":"Felchen aus dem See, gegrillt, mariniert oder in Pasta. Ein wichtiges Gericht für den Seeabschnitt."},
+      {"name":"Est! Est!! Est!!! di Montefiascone","text":"Historischer Weißweinname aus Montefiascone. Die Geschichte ist berühmter als der Wein selbst, weshalb eine gute Probe verschiedene Qualitätsstufen zeigen sollte."},
+      {"name":"Porchetta di Ariccia","text":"Gewürztes Schweinefleisch mit knuspriger Kruste, warm oder als Panino. In Ariccia gehört es zur Fraschetta-Kultur."},
+      {"name":"Frascati Superiore","text":"Weißwein der Castelli Romani, heute bei guten Produzenten deutlich präziser und interessanter als sein früheres Massenwein-Image."}
+    ],
+    "beaches":[
+      {"name":"Bolsenasee","type":"Vulkansee mit Lidos und Uferorten","best":"Für einen entspannten Binnen-Badetag."},
+      {"name":"Braccianosee","type":"Großer Vulkansee","best":"Für Seeabend und Abschluss nahe Rom."},
+      {"name":"Santa Severa","type":"Sandstrand mit Burg","best":"Für Kultur und Meer an einem Tag."},
+      {"name":"Tarquinia Lido","type":"Breiter Küstenstrand","best":"Für einen unkomplizierten freien Meerestag."}
+    ],
+    "camper":{"strategy":"Drei Basen reichen: Bolsenasee, Viterbo und Bracciano/Küste. Civita, Gärten und etruskische Orte werden als Tagesausflüge organisiert.","north":"Camping oder Agricamping am Bolsenasee für See, Montefiascone und Civita.","south":"Viterbo als Kultur- und Gartenbasis, danach Bracciano oder Küste für Tarquinia und Castelli Romani.","cityAccess":"Civita nur über Außenparkplatz und Fußweg; Viterbo, Tarquinia und Bracciano von ausgewiesenen Flächen aus.","comfort":"Schatten, Strom, Seezugang und gute Zufahrt sind wichtiger als Altstadtnähe. Für Castelli Romani nach Weinprobe nicht weiterfahren."},
+    "bookable":["Civita-Parkplatz oder Shuttle in stark besuchten Zeiten.","Palazzo Farnese und Villa Lante nach aktuellen Öffnungszeiten.","Etruskische Nekropole und Museum in Tarquinia.","Weinprobe in Montefiascone oder Frascati.","Campingplätze am Bolsenasee in den Sommerferien."],
+    "connections":[{"name":"Toskana","text":"Über Pitigliano, Sovana oder die Maremma nach Norden."},{"name":"Umbrien und Marken","text":"Bolsena liegt nahe Orvieto und bildet einen natürlichen Anschluss."},{"name":"Rom nach Sizilien","text":"Bracciano und Castelli Romani können als ruhiger Auftakt vor der großen Südroute dienen."}],
+    "sources":[{"name":"Visit Lazio – Official tourism","url":"https://www.visitlazio.com/"},{"name":"Visit Bolsena – Itineraries","url":"https://visitbolsena.it/en/itineraries/"},{"name":"La Cucina Italiana – Lazio and Tuscia","url":"https://www.lacucinaitaliana.com/trip-to-italy/central-italy/lazio-travel-eternal-allure"}]
+  }
+}
