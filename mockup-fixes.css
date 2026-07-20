@@ -175,6 +175,20 @@ body {
 .search-results p { color:var(--incanto-muted); }
 .route-card img,
 .dialog-hero { filter:saturate(.9) contrast(1.04) brightness(.98) sepia(.04); }
+.route-hearts {
+  display:inline-block;
+  margin-top:10px;
+  color:var(--incanto-gold);
+  font-size:12px;
+  line-height:1;
+  letter-spacing:2px;
+  white-space:nowrap;
+}
+.dialog-hero .route-hearts {
+  margin-top:12px;
+  color:#d7b16a;
+  text-shadow:0 1px 8px rgba(0,0,0,.28);
+}
 
 footer { background:#2d2923; color:#f4ead9; border-top:1px solid rgba(181,138,71,.18); }
 footer blockquote { position:relative; padding:0 54px; }
