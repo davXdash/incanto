@@ -1,0 +1,82 @@
+[
+  {
+    "id":"piemont-weinlandschaften",
+    "title":"Langhe, Roero und Monferrato",
+    "eyebrow":"Barolo · Dörfer · Genuss",
+    "region":"Piemont",
+    "days":"6–9 Tage",
+    "distance":"ca. 430 km vor Ort",
+    "image":"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=85",
+    "summary":"Eine bestehende piemontesische Weinroute wird zu einer entspannten Rundreise durch Langhe, Roero und Monferrato erweitert. Im Mittelpunkt stehen Weinorte, Aussichtspunkte, kleine Städte und Genuss ohne sportliche Pflichtprogramme.",
+    "stops":["Turin","Asti","Monferrato","Alba","Barbaresco","Neive","La Morra","Barolo","Roero"],
+    "detours":[
+      {"title":"Neive bei Abendlicht","text":"Der kompakte historische Ort ist eine ruhige Ergänzung zwischen Alba und Barbaresco und funktioniert ohne langen Tagesplan."},
+      {"title":"Die Strada Romantica abschnittsweise","text":"Nicht die gesamten 130 Kilometer abarbeiten, sondern ausgewählte Aussichtspunkte und Dörfer zwischen Vezza d'Alba, Treiso und Benevello verbinden."},
+      {"title":"Ein freier Genusstag in Alba","text":"Markt, Cafés, Haselnuss, Weinbar und ein gutes Abendessen statt einer weiteren langen Etappe."}
+    ],
+    "why":"Sehr hohe Passung durch Wein, elegante Orte, gutes Essen und kurze Fahrstrecken. Im Hochsommer sollte die Route mit schattigen Pausen und möglichst klimatisierter Unterkunft geplant werden.",
+    "source":{"name":"Italia.it – Weintour im Piemont","url":"https://www.italia.it/de/piemont/erlebnisse-und-sehenswertes/weintour-im-piemont"},
+    "source2":{"name":"Italia.it – Strada Romantica der Langhe und des Roero","url":"https://www.italia.it/it/piemonte/cuneo/strada-romantica-delle-langhe-e-del-roero"},
+    "meta":{"themes":["wine","culinary","villages","culture","panorama"],"landscape":["hills","vineyards"],"water":[],"activities":["easy-walks","markets","wine-tasting","cafes"],"summer_nrw":true,"summer_notes":"Heiß möglich; Besichtigungen früh und abends planen.","mobility":"easy","demanding_hikes":false,"camper_fit":"good","car_fit":"very-good","hearts":5}
+  },
+  {
+    "id":"sardinien-nordkueste",
+    "title":"Sardiniens Nordküste",
+    "eyebrow":"Buchten · Granit · Insellicht",
+    "region":"Sardinien",
+    "days":"8–12 Tage",
+    "distance":"ca. 520 km vor Ort",
+    "image":"https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1800&q=85",
+    "summary":"Die etablierte Küstenroute vom Golf von Asinara bis zur Costa Smeralda wird um Alghero und die Panoramastraße nach Bosa ergänzt. So entsteht eine klare Nordrunde mit Sandstränden, Altstädten und kurzen Aussichtsetappen.",
+    "stops":["Alghero","Bosa","Porto Torres","Castelsardo","Costa Paradiso","Santa Teresa Gallura","Palau","Arzachena","Costa Smeralda","Olbia"],
+    "detours":[
+      {"title":"Alghero nach Bosa","text":"Die bekannte Küstenstraße liefert Meerblicke und Buchten, ohne dass dafür gewandert werden muss."},
+      {"title":"Castelsardo am späten Nachmittag","text":"Altstadt, Aussicht und Abendessen lassen sich kompakt verbinden, wenn die größte Tageshitze vorbei ist."},
+      {"title":"Costa Smeralda ansehen, nicht dort festfahren","text":"Ein ausgewählter Strand- und Aperitivo-Tag reicht; mehr Zeit bleibt für ruhigere Küstenorte."}
+    ],
+    "why":"Eine der stärksten Sommerrouten für euch: viel Sand und Meer, schöne Orte, stilvolle Abende und keine notwendige Trekkingausrüstung. Fähre und Hochsaisonpreise müssen früh geplant werden.",
+    "source":{"name":"Italia.it – Vom Golf von Asinara zur Costa Smeralda","url":"https://www.italia.it/it/sardegna/cosa-fare/costa-paradiso-cosa-vedere"},
+    "source2":{"name":"Italia.it – Küstenroute Alghero–Bosa","url":"https://www.italia.it/it/sardegna/cosa-fare/ciclovia-litoranea-alghero-bosa-sardegna"},
+    "meta":{"themes":["sea","beach","villages","luxury","panorama","culinary"],"landscape":["coast","granite","bays"],"water":["sea","sand-beach"],"activities":["swimming","boat","easy-walks","cafes","sunset"],"summer_nrw":true,"summer_notes":"Hauptsaison; Fähre und Unterkünfte früh buchen.","mobility":"easy","demanding_hikes":false,"camper_fit":"good-with-planning","car_fit":"very-good","hearts":5}
+  },
+  {
+    "id":"kalabrien-kuestendoerfer",
+    "title":"Kalabriens Küstendörfer",
+    "eyebrow":"Türkis · Tartufo · Fischerorte",
+    "region":"Kalabrien",
+    "days":"7–10 Tage",
+    "distance":"ca. 610 km vor Ort",
+    "image":"https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1800&q=85",
+    "summary":"Eine offizielle Autoroute verbindet die bekanntesten Küstendörfer Kalabriens. Für Incanto wird sie auf die stärksten Etappen konzentriert und mit ausreichend Strandzeit zwischen Pizzo, Tropea und Scilla geplant.",
+    "stops":["Diamante","San Lucido","Pizzo","Tropea","Zambrone","Scilla","Chianalea","Isola di Capo Rizzuto","Roseto Capo Spulico"],
+    "detours":[
+      {"title":"Pizzo nicht nur als Zwischenstopp","text":"Altstadt, Aussicht und das originale Tartufo-Eis rechtfertigen einen eigenen langsamen Nachmittag."},
+      {"title":"Zambrone als Strandtag","text":"Zwischen Tropea und Pizzo bewusst einen Badetag einbauen, statt jeden Tag den Ort zu wechseln."},
+      {"title":"Eine Nacht in Chianalea","text":"Das alte Fischerviertel von Scilla wirkt am Abend und frühen Morgen stärker als bei einem schnellen Tagesbesuch."}
+    ],
+    "why":"Sehr gut für Meer, Sand, Essen und charaktervolle Orte. Die Route ist im Sommer passend, verlangt aber wegen Hitze, Verkehr und längerer Nord-Süd-Ausdehnung eine ruhige Taktung.",
+    "source":{"name":"Italia.it – Küstendörfer Kalabriens","url":"https://www.italia.it/en/calabria/things-to-do/itinerary-among-the-seaside-villages-of-calabria"},
+    "source2":{"name":"Italia.it – Tropea, Pizzo und Serra San Bruno","url":"https://www.italia.it/en/calabria/things-to-do/calabria-what-see-tropea-pizzo-serra-san-bruno"},
+    "meta":{"themes":["sea","beach","villages","culinary","panorama"],"landscape":["coast","cliffs"],"water":["sea","sand-beach"],"activities":["swimming","boat","easy-walks","cafes","sunset"],"summer_nrw":true,"summer_notes":"Sehr heiß; längere Fahrten nicht in die Mittagszeit legen.","mobility":"mostly-easy","demanding_hikes":false,"camper_fit":"good-with-planning","car_fit":"very-good","hearts":4}
+  },
+  {
+    "id":"friaul-triest-collio",
+    "title":"Triest, Collio und Grado",
+    "eyebrow":"Kaffeehäuser · Wein · Lagune",
+    "region":"Friaul-Julisch Venetien",
+    "days":"6–9 Tage",
+    "distance":"ca. 360 km vor Ort",
+    "image":"https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1800&q=85",
+    "summary":"Zwei bestehende Routen werden sinnvoll verbunden: die Küsten- und Kulturstrecke von Triest nach Grado sowie die Weinlandschaft des Collio. Daraus entsteht eine kompakte Reise zwischen Kaffeehaus, Adria, Wein und Grenzkultur.",
+    "stops":["Triest","Miramare","Duino","Gorizia","Collio","Cormòns","Udine","Aquileia","Grado"],
+    "detours":[
+      {"title":"Historische Kaffeehäuser in Triest","text":"Ein halber Tag ohne Sehenswürdigkeitenliste: Piazza, Kaffeehaus und Meerpromenade reichen als eigener Programmpunkt."},
+      {"title":"Cormòns als Basis im Collio","text":"Von hier lassen sich Weingüter und Dörfer in kurzen Etappen erreichen, ohne täglich umzuziehen."},
+      {"title":"Grado als leichter Abschluss","text":"Lagune, Altstadt und Strand bringen nach Wein und Kultur einen unkomplizierten Sommertag ans Wasser."}
+    ],
+    "why":"Kompakt, kulinarisch stark und im Sommer gut machbar. Weniger spektakulär als Sardinien, aber sehr ausgewogen und deutlich entspannter als viele klassische Hochsaisonrouten.",
+    "source":{"name":"Italia.it – Von Triest nach Grado","url":"https://www.italia.it/it/friuli-venezia-giulia/cosa-fare/cosa-vedere-5-giorni-friuli-trieste-grado"},
+    "source2":{"name":"Italia.it – Collio Goriziano","url":"https://www.italia.it/en/friuli-venezia-giulia/things-to-do/collio-goriziano-itinerary-between-vineyards-and-culture"},
+    "meta":{"themes":["wine","culinary","culture","sea","cities","cafes"],"landscape":["vineyards","lagoon","coast"],"water":["sea","lagoon","beach"],"activities":["easy-walks","wine-tasting","cafes","swimming","markets"],"summer_nrw":true,"summer_notes":"Gut geeignet; Triest und Grado können in der Hochsaison voll sein.","mobility":"easy","demanding_hikes":false,"camper_fit":"good","car_fit":"very-good","hearts":4}
+  }
+]
