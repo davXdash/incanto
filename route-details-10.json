@@ -1,0 +1,146 @@
+{
+  "italien-meer-zu-meer": {
+    "intro":"Diese Route ist keine zufällige Verbindung zwischen zwei Küsten, sondern eine bewusst komponierte Reise durch drei völlig verschiedene Italienbilder. Sie beginnt mit Fisch, Trabocchi und Abendlicht an der Adria, führt über Sulmona, Bergorte und Seen durch den Apennin und endet mit Villen, Vulkansee und einem letzten Badetag am Tyrrhenischen Meer. Der Reiz liegt im sichtbaren Wechsel der Landschaften und Küchen.",
+    "idealFor":"Ideal für zehn bis dreizehn Tage, wenn ihr Meer möchtet, aber nicht nur Küstenorte sammeln wollt. Die Route passt besonders gut zu euch, wenn Essen, kleine Städte, Landschaft und ein klarer Spannungsbogen wichtiger sind als eine klassische Rundreise.",
+    "routeLogic":["Zwei bis drei Nächte an der Costa dei Trabocchi als Adriabasis.","Drei Nächte im Raum Sulmona oder Scanno für Apennin, Bergorte und regionale Küche.","Zwei Nächte bei Tivoli für Villen und Gartenkunst.","Zwei bis drei Nächte am Braccianosee oder bei Santa Severa für den Abschluss am Tyrrhenischen Meer."],
+    "days":[
+      {"day":"Tag 1","title":"Ankommen in Ortona","text":"Der Auftakt bleibt am Meer: Castello Aragonese, Passeggiata Orientale und ein Fischabend mit Blick auf die Adria. Ihr sollt die Route nicht mit einer langen Binnenfahrt beginnen, sondern wirklich an der ersten Küste ankommen."},
+      {"day":"Tag 2","title":"Costa dei Trabocchi","text":"Ein Tag für Via Verde, einen ausgewählten Trabocco und einen langen Küstenabschnitt. Das Mittag- oder Abendessen auf einem Trabocco wird reserviert; dazwischen bleibt Zeit für Baden und einen langsamen Küstentag."},
+      {"day":"Tag 3","title":"Chieti und Wechsel nach Sulmona","text":"Chieti eignet sich als kultureller Übergang mit Altstadt und Archäologie. Danach geht es in die Conca Peligna nach Sulmona, wo die Landschaft bereits deutlich alpiner wirkt."},
+      {"day":"Tag 4","title":"Sulmona verstehen","text":"Corso Ovidio, Piazza Garibaldi, mittelalterliches Aquädukt und Confetti-Manufaktur bilden einen vollständigen Stadt- und Genusstag. Sulmona ist nicht nur Etappenort, sondern das urbane Zentrum des Apenninblocks."},
+      {"day":"Tag 5","title":"Pescocostanzo und Bergküche","text":"Pescocostanzo verbindet helle Steinarchitektur, Handwerk und Bergatmosphäre. Der Tag bleibt bewusst ohne Wanderpflicht und endet mit kräftiger Abruzzenküche, Käse und Montepulciano d’Abruzzo."},
+      {"day":"Tag 6","title":"Scanno und Lago di Scanno","text":"Scanno liefert enge Gassen, Goldschmiedetradition und einen See, der auch als ruhiger Badestopp funktioniert. Es ist der landschaftlich stärkste Tag zwischen den beiden Küsten."},
+      {"day":"Tag 7","title":"Tivoli und Villa d’Este","text":"Nach dem Wechsel nach Latium wird Villa d’Este zum bewussten Kontrast: Wasserachsen, Brunnen und Renaissancegarten statt Berglandschaft. Am Abend bleibt Zeit für Tivolis Altstadt."},
+      {"day":"Tag 8","title":"Villa Adriana","text":"Die weitläufige Anlage erklärt kaiserliche Architektur und römische Wohnkultur. Der Nachmittag bleibt frei für ein langes Essen oder einen zweiten ruhigen Tivoli-Abend."},
+      {"day":"Tag 9","title":"Braccianosee","text":"Bracciano und Anguillara Sabazia bilden den weichen Übergang zum Westen. See, Burg und Promenaden geben der Reise noch einmal ein anderes Wassergefühl als Adria und Tyrrhenisches Meer."},
+      {"day":"Tag 10","title":"Santa Severa und das zweite Meer","text":"Das Castello di Santa Severa direkt am Strand ist das klare Finale. Nach der Burg bleibt der restliche Tag frei für Baden, Aperitivo und den Moment, dass ihr Italien tatsächlich von Küste zu Küste durchquert habt."},
+      {"day":"Tag 11","title":"Freier Tyrrhenischer Tag","text":"Dieser Tag bleibt für Strand, Braccianosee, einen zweiten Küstenabend oder einen Abstecher nach Castelli Romani offen. Er verhindert, dass das Finale nur aus einem Fotostopp besteht."}
+    ],
+    "places":[
+      {"name":"Ortona","why":"Adriatischer Auftakt mit Burg, Promenade und direkter Verbindung zur Trabocchi-Küste.","must":"Castello Aragonese, Passeggiata Orientale und Fischabend.","time":"Halber bis ganzer Tag."},
+      {"name":"Sulmona","why":"Elegante Apenninstadt, Heimat Ovids und Zentrum der Confetti-Tradition.","must":"Corso Ovidio, Piazza Garibaldi, Aquädukt und Confetti-Manufaktur.","time":"Ein voller Tag."},
+      {"name":"Pescocostanzo","why":"Einer der schönsten Bergorte der Abruzzen mit Steinarchitektur und Handwerk.","must":"Altstadt, Basilika und Werkstätten.","time":"Halber Tag plus Mittagessen."},
+      {"name":"Scanno","why":"Bergort und See verbinden sich hier ohne sportliche Pflicht.","must":"Altstadt, Goldschmiede, Lago di Scanno.","time":"Ein voller Tag."},
+      {"name":"Tivoli","why":"Villa d’Este und Villa Adriana bringen Weltkultur und Gartenkunst in die Route.","must":"Beide Villen an getrennten Tagen.","time":"Zwei Tage."},
+      {"name":"Santa Severa","why":"Eine Burg direkt am Tyrrhenischen Meer macht den Schluss der Querroute sichtbar.","must":"Burg und freier Strandtag.","time":"Ein voller Tag."}
+    ],
+    "secrets":[
+      {"title":"Die beiden Küsten nicht nur markieren","text":"Plant an beiden Meeren mindestens zwei Nächte. Nur dann fühlt sich der Anfang und das Ende wie echter Urlaub an."},
+      {"title":"Sulmona als Basis wählen","text":"Von hier erreicht ihr Bergorte und Seen, ohne täglich den Platz zu wechseln."},
+      {"title":"Villa d’Este und Villa Adriana trennen","text":"Beide Anlagen an einem Tag werden schnell zu viel. Getrennt bekommen Garten und Architektur jeweils ihren eigenen Rhythmus."},
+      {"title":"Scanno nicht mit Bergsport verwechseln","text":"Der Ort und der See funktionieren auch als komfortabler Kultur- und Badetag."},
+      {"title":"Das Finale bei Santa Severa lassen","text":"Die Burg am Strand ist emotional stärker als ein beliebiger Küstenort und schließt die Route sichtbar ab."}
+    ],
+    "food":[
+      {"name":"Brodetto und Trabocco-Fisch","text":"An der Adria beginnt die Route mit Fischsuppe und mehrgängigen Menüs auf den historischen Fischplattformen."},
+      {"name":"Confetti di Sulmona","text":"Dragierte Mandeln in vielen Varianten. Eine Manufaktur erklärt Herstellung und regionale Bedeutung besser als ein Souvenirladen."},
+      {"name":"Arrosticini","text":"Kleine Schaffleischspieße aus den Abruzzen, über schmalen Holzkohlegrills gegart und meist sehr schlicht serviert."},
+      {"name":"Maccheroni alla chitarra","text":"Quadratische Eierpasta, die über ein drahtbespanntes Holzgerät geschnitten wird und gut zu kräftigen Saucen passt."},
+      {"name":"Montepulciano d’Abruzzo","text":"Kräftiger Rotwein, der besonders zu Arrosticini und Bergküche passt. Nicht mit dem toskanischen Ort Montepulciano verwechseln."},
+      {"name":"Porchetta und Frascati","text":"Im westlichen Routenteil markieren gewürztes Spanferkel und der Weißwein aus den Castelli Romani den kulinarischen Wechsel nach Latium."}
+    ],
+    "beaches":[
+      {"name":"Costa dei Trabocchi","type":"Kies-, Fels- und kleine Strandabschnitte","best":"Für den ersten Meerblock mit Fisch und Küstenradweg."},
+      {"name":"Lago di Scanno","type":"Bergsee mit Badebereichen","best":"Für einen ruhigen Badetag mitten in der Querroute."},
+      {"name":"Santa Severa","type":"Tyrrhenischer Strand an der Burg","best":"Für das klare Finale am zweiten Meer."}
+    ],
+    "camper":{"strategy":"Vier Basen sind ideal: Costa dei Trabocchi, Sulmona/Scanno, Tivoli und Braccianosee/Santa Severa. So bleibt die Querroute trotz Landschaftswechsel ruhig.","north":"Ortona oder Fossacesia als Adriabasis mit Zugang zur Via Verde und zu Trabocchi.","south":"Braccianosee oder Santa Severa als westliche Schlussbasis.","cityAccess":"Tivoli und Sulmona von äußeren Stellplätzen besuchen; Bergorte nicht mit großen Fahrzeugen in enge Kerne anfahren.","comfort":"Schatten und Strom sind an den Küsten wichtig; im Apennin zählen ebene Plätze und gute Zufahrt mehr als Pool oder Strandnähe."},
+    "bookable":["Trabocco-Restaurant mit festem Menü.","Villa d’Este und Villa Adriana bei starkem Sommerandrang.","Confetti-Manufaktur oder Verkostung in Sulmona.","Campingplätze an beiden Küsten.","Optional historische Transiberiana d’Italia ab Sulmona, sofern ein passender Betriebstag verfügbar ist."],
+    "connections":[{"name":"Costa dei Trabocchi","text":"Die bestehende Küstenroute kann den Adriablock verlängern."},{"name":"Latium und Tuscia","text":"Vom Braccianosee lässt sich die Seen- und Etruskerroute anschließen."},{"name":"Cilento","text":"Für eine längere Süditalienreise führt die tyrrhenische Seite weiter nach Kampanien."}],
+    "sources":[{"name":"Italia.it – St Thomas Way coast to coast","url":"https://www.italia.it/en/italy/things-to-do/the-saint-thomas-way-along-the-adriatic-coast"},{"name":"Italia.it – Lazio and Abruzzo by car","url":"https://www.italia.it/en/italy/things-to-do/car-trips-in-italy-between-lazio-and-abruzzo"},{"name":"Abruzzo Tourism – Sulmona","url":"https://turismo.abruzzo.it/en/laquila/sulmona/"}]
+  },
+  "aostatal-genuss-panorama": {
+    "intro":"Das Aostatal ist für euch nicht als Wander- oder Kletterreise geplant. Die Route übersetzt die Hochalpen in komfortable Erlebnisse: römische Stadtgeschichte, Burgen, Weinberge, Seilbahn, Thermalbad und lange Abende in kleinen Orten. Dadurch wird aus einer Bergregion eine Kultur-, Genuss- und Wellnessreise mit spektakulären Panoramen.",
+    "idealFor":"Ideal für acht bis elf Tage, wenn ihr Berge sehen möchtet, ohne jeden Tag wandern zu müssen. Sie passt zu einer stilvollen Reise mit Burgen, Fontina, regionalem Wein, Spa und einem großen Mont-Blanc-Moment.",
+    "routeLogic":["Erste Basis bei Bard oder Saint-Vincent für Forte di Bard, Issogne und Verrès.","Zweite Basis bei Aosta für römische Stadt, Fénis, Sarre und Wein.","Dritte Basis bei Morgex, Pré-Saint-Didier oder Courmayeur für Spa, Skyway und Mont Blanc.","Ein freier Alpental-Tag bleibt für Markt, Seilbahn oder Wellness."],
+    "days":[
+      {"day":"Tag 1","title":"Forte di Bard als Eingangstor","text":"Die Festung macht sofort klar, dass das Aostatal nicht nur aus Bergen besteht. Aufzüge, Ausstellungen und die Lage über dem Tal ergeben einen komfortablen Auftakt."},
+      {"day":"Tag 2","title":"Issogne und Verrès","text":"Issogne ist wegen seiner Innenhöfe und Fresken besonders wohnlich, Verrès dagegen wehrhaft und kompakt. Zusammen erklären beide Burgen unterschiedliche Seiten der Talgeschichte."},
+      {"day":"Tag 3","title":"Aosta römisch und genussvoll","text":"Porta Praetoria, Augustusbogen, römisches Theater und Altstadtmarkt bilden einen vollen Tag. Am Abend folgt Fontina, Polenta oder Carbonada in einer klassischen Osteria."},
+      {"day":"Tag 4","title":"Fénis, Sarre und Wein","text":"Fénis liefert das ikonische Burgbild, Sarre die Geschichte der Savoyer. Dazwischen oder anschließend passt ein Weingut an den steilen Talhängen."},
+      {"day":"Tag 5","title":"Cogne oder Aymavilles ohne Wanderpflicht","text":"Aymavilles verbindet Schloss und Wein; Cogne bietet Dorfatmosphäre und Gran-Paradiso-Panorama auch ohne große Tour. Ihr wählt Kultur oder Landschaft, nicht beides unter Zeitdruck."},
+      {"day":"Tag 6","title":"Morgex und höchster Weinbau","text":"Morgex steht für Blanc de Morgex et de La Salle aus Prié Blanc. Ein Produzentenbesuch erklärt, wie Weinbau auf großer Höhe funktioniert."},
+      {"day":"Tag 7","title":"Pré-Saint-Didier","text":"Dieser Tag gehört vollständig der Therme. Außenbecken, Bergblick und lange Ruhephasen sind hier kein Zusatz, sondern der Hauptprogrammpunkt."},
+      {"day":"Tag 8","title":"Courmayeur und Skyway Monte Bianco","text":"Courmayeur wird am Vormittag erlebt, danach geht es per Skyway in die Hochalpen. Das Panorama ist der große Höhepunkt, ohne dass daraus eine anspruchsvolle Bergtour wird."},
+      {"day":"Tag 9","title":"Freier Alpental-Tag","text":"Möglich sind ein zweiter Wellnesstag, ein Markt in Aosta, ein ruhiger Courmayeur-Abend oder eine leichte Seilbahnfahrt. Der Tag bleibt bewusst ohne Pflichtprogramm."}
+    ],
+    "places":[
+      {"name":"Forte di Bard","why":"Spektakuläre Festung und klares Eingangstor in die Region.","must":"Festungsanlage, Aufzüge und Ausstellungen.","time":"Halber bis ganzer Tag."},
+      {"name":"Aosta","why":"Römische Stadt, Markt und kulinarisches Zentrum des Tales.","must":"Porta Praetoria, Theater, Augustusbogen und Altstadt.","time":"Ein voller Tag plus Abend."},
+      {"name":"Fénis","why":"Das bekannteste mittelalterliche Burgbild der Region.","must":"Geführter Innenbesuch.","time":"Zwei bis drei Stunden."},
+      {"name":"Morgex","why":"Ort des hochalpinen Weinbaus und gute Basis vor Courmayeur.","must":"Produzent, Dorf und Blanc de Morgex.","time":"Halber Tag."},
+      {"name":"Pré-Saint-Didier","why":"Wellnesszentrum mit direktem Mont-Blanc-Panorama.","must":"Thermalbad mit Zeitfenster.","time":"Ein voller Tag."},
+      {"name":"Courmayeur","why":"Eleganter Bergort und Ausgangspunkt für Skyway Monte Bianco.","must":"Ortskern und Skyway.","time":"Ein voller Tag."}
+    ],
+    "secrets":[
+      {"title":"Nicht jede Burg besuchen","text":"Vier gut gewählte Burgen erzählen mehr als acht schnelle Stopps."},
+      {"title":"Aosta bekommt einen Abend","text":"Nach den Tagesgästen wirkt die römische Stadt deutlich ruhiger und genussvoller."},
+      {"title":"Spa nicht nebenbei planen","text":"Pré-Saint-Didier verdient einen ganzen Tag ohne anschließende Fahrstrecke."},
+      {"title":"Skyway früh reservieren","text":"Wetter und Besuchsaufkommen entscheiden über den besten Zeitpunkt; ein flexibler Puffertag ist sinnvoll."},
+      {"title":"Wein als Teil der Bergkultur sehen","text":"Die extremen Hanglagen und autochthonen Sorten machen eine Verkostung besonders erklärungsstark."}
+    ],
+    "food":[
+      {"name":"Fontina DOP","text":"Der zentrale Alpkäse der Region, mild bis würzig und Grundlage vieler warmer Gerichte."},
+      {"name":"Fonduta valdostana","text":"Cremige Fontina-Zubereitung, oft mit Eigelb, die anders funktioniert als ein schweizerisches Käsefondue."},
+      {"name":"Carbonada","text":"Langsam geschmortes Rindfleisch mit Wein und Gewürzen, klassisch zu Polenta."},
+      {"name":"Lardo di Arnad","text":"Gewürzter, gereifter Speck aus Arnad, dünn geschnitten als Antipasto."},
+      {"name":"Blanc de Morgex et de La Salle","text":"Frischer Weißwein aus Prié Blanc, einer Rebsorte, die in außergewöhnlicher Höhe wächst."},
+      {"name":"Torrette und Fumin","text":"Rote Talweine mit alpiner Frische und würzigem Charakter, gut zu Fleisch und Käse."}
+    ],
+    "beaches":[],
+    "camper":{"strategy":"Drei Basen entlang des Haupttals reichen aus. Die großen Erlebnisse werden als Tagesausflüge organisiert; enge Seitentäler nur mit klarer Zufahrtsprüfung anfahren.","north":"Bard oder Saint-Vincent als östliche Basis für Burgen und Festung.","south":"Morgex, Pré-Saint-Didier oder Courmayeur als westliche Basis.","cityAccess":"Aosta von außen zu Fuß oder mit Bus besuchen. Für Skyway und Thermen offizielle Park- und Reservierungslösungen nutzen.","comfort":"Im Sommer sind Schatten und Strom wichtig; in höheren Lagen zusätzlich nächtliche Temperaturunterschiede und Wetterumschwünge einplanen."},
+    "bookable":["Skyway Monte Bianco mit passendem Wetterfenster.","Therme Pré-Saint-Didier.","Geführte Burgbesuche, besonders Fénis und Issogne.","Weinverkostung bei Morgex oder Aosta.","Campingplatz im Raum Courmayeur für die Hochsaison."],
+    "connections":[{"name":"Piemont","text":"Turin und die Langhe sind die logische Genussverlängerung nach Süden."},{"name":"Lago Maggiore","text":"Für Seen, Inseln und Mailand als urbanen Gegenpol."},{"name":"Südtirol","text":"Als alternative Alpenroute mit stärkerem Dolomiten- und Weinprofil."}],
+    "sources":[{"name":"LoveVDA – Aosta to Courmayeur","url":"https://www.lovevda.it/en/search/sport-itineraries-431/courmayeur/381"},{"name":"Italia.it – Castles of Aosta Valley","url":"https://www.italia.it/en/aosta-valley/things-to-do/aosta-valley-castles"},{"name":"Valle d’Aosta tourism – Aosta","url":"https://turismo.vda.it/luoghi/aosta/"}]
+  },
+  "marken-conero-verdicchio": {
+    "intro":"Diese Route löst die Marken aus ihrer bisherigen Nebenrolle zwischen Umbrien und Adria. Sie beginnt mit Urbinos Renaissance, führt über kleinere Städte und Verdicchio-Weinland und endet mit mehreren Tagen an der Riviera del Conero. Dadurch entsteht eine eigenständige Mischung aus Kunst, Wein, Märkten, Fischküche und Strand.",
+    "idealFor":"Ideal für neun bis zwölf Tage, wenn ihr Kultur und Wein möchtet, aber auf echte Strandtage nicht verzichten wollt. Sie ist ruhiger als Toskana oder Apulien und hat trotzdem einen klaren Spannungsbogen.",
+    "routeLogic":["Zwei Nächte bei Urbino für Renaissance und nördliche Marken.","Zwei bis drei Nächte bei Jesi oder Cupramontana für Verdicchio und kleine Städte.","Vier bis fünf Nächte bei Numana oder Sirolo für Conero, Ancona, Loreto und freie Strandtage.","Das Wohnmobil bleibt an der Küste möglichst stehen; Strände werden per Shuttle oder Bus erreicht."],
+    "days":[
+      {"day":"Tag 1","title":"Ankommen in Urbino","text":"Der erste Abend gehört den steilen Gassen und dem Blick über die Hügel. Urbino soll nicht als Museumsstopp beginnen, sondern als vollständige Renaissance-Stadt."},
+      {"day":"Tag 2","title":"Palazzo Ducale und Raffael","text":"Palazzo Ducale und Galleria Nazionale delle Marche bilden den Kern. Danach folgen Raffaels Geburtshaus, Piazza della Repubblica und ein langer Abend in der Oberstadt."},
+      {"day":"Tag 3","title":"Fossombrone und Furlo","text":"Fossombrone ergänzt römische Geschichte und eine weniger touristische Altstadt. Die Furlo-Schlucht wird als Panoramafahrt und kurzer Aussichtsstopp erlebt, nicht als Wandertag."},
+      {"day":"Tag 4","title":"Jesi und Verdicchio","text":"Jesi verbindet Stadtmauer, Palazzo Pianetti und Markt. Am Nachmittag folgt ein Weingut, das Verdicchio dei Castelli di Jesi von Riserva und Schaumwein unterscheidet."},
+      {"day":"Tag 5","title":"Cupramontana und Weinland","text":"Der Tag bleibt im Hügelland. Cupramontana, ein zweiter Produzent und ein langsames Mittagessen ergeben mehr Tiefe als eine lange Liste kleiner Orte."},
+      {"day":"Tag 6","title":"Loreto und Ancona","text":"Loreto steht für Wallfahrtsarchitektur, Ancona für Hafen, Passetto und städtische Adriakultur. Beide werden als bewusster Übergang zur Küstenbasis kombiniert."},
+      {"day":"Tag 7","title":"Sirolo und erster Conero-Strand","text":"Sirolo wird am Vormittag mit Piazza und Aussicht erlebt. Danach bleibt ein langer Strandblock, organisiert über Shuttle oder offiziellen Zugang."},
+      {"day":"Tag 8","title":"Numana und Fischküche","text":"Numana verbindet Strand, kleineres Zentrum und archäologische Geschichte. Der Abend gehört Brodetto, Moscioli oder gegrilltem Fisch."},
+      {"day":"Tag 9","title":"Portonovo und Rosso Conero","text":"Portonovo liefert Bucht, Kirche und Muschelküche. Später folgt eine Verkostung von Rosso Conero, dem kräftigeren roten Gegenpol zum Verdicchio."},
+      {"day":"Tag 10","title":"Freier Adriatag","text":"Dieser Tag bleibt für den Lieblingsstrand, eine Bootstour, einen zweiten Sirolo-Abend oder einfach den Campingplatz frei."}
+    ],
+    "places":[
+      {"name":"Urbino","why":"Eine der geschlossensten Renaissance-Städte Italiens und kultureller Auftakt der Route.","must":"Palazzo Ducale, Raffaels Geburtshaus und Abend in der Oberstadt.","time":"Mindestens ein voller Tag."},
+      {"name":"Jesi","why":"Stadtmauer, Kunst und praktisches Zentrum des Verdicchio-Gebiets.","must":"Altstadt, Palazzo Pianetti und Markt.","time":"Halber bis ganzer Tag."},
+      {"name":"Cupramontana","why":"Ruhiger Weinort, an dem Verdicchio als Landschaft und nicht nur als Flasche verständlich wird.","must":"Produzent und Enoteca.","time":"Halber Tag plus Verkostung."},
+      {"name":"Ancona","why":"Hafenstadt mit Passetto, Markt und einem anderen Adriabild als die Badeorte.","must":"Dom, Hafenblick, Passetto und Fischmarkt.","time":"Ein voller Tag oder langer Nachmittag."},
+      {"name":"Sirolo","why":"Aussichtsort und Zugang zu einigen der schönsten Conero-Strände.","must":"Piazza, Belvedere und organisierter Strandzugang.","time":"Ein voller Tag."},
+      {"name":"Numana","why":"Praktische Küstenbasis mit Strand, Shuttle und eigenem historischen Profil.","must":"Altstadtbereich, Strand und Abendessen.","time":"Mehrere Tage als Basis."}
+    ],
+    "secrets":[
+      {"title":"Urbino mit Übernachtung erleben","text":"Am Abend verschwindet der Tagesbetrieb und die Stadt wirkt wesentlich geschlossener."},
+      {"title":"Verdicchio nicht nur frisch probieren","text":"Eine Vergleichsprobe mit Classico, Riserva und Schaumwein zeigt die Bandbreite der Rebsorte."},
+      {"title":"Conero-Strände logistisch planen","text":"Viele Zugänge sind im Sommer begrenzt. Shuttle und frühe Reservierung sind eleganter als spontane Parkplatzsuche."},
+      {"title":"Ancona nicht überspringen","text":"Die Hafenstadt gibt der Route Alltag, Markt und Stadtkultur zwischen Weinland und Badeorten."},
+      {"title":"Rosso Conero als Gegenpol einbauen","text":"Der kräftige Montepulciano-basierte Rotwein ergänzt die Weißweinlinie der Route."}
+    ],
+    "food":[
+      {"name":"Verdicchio dei Castelli di Jesi","text":"Strukturierter Weißwein mit Kräuter-, Mandel- und Zitrusnoten. Gute Riserven können deutlich komplexer sein als einfache Sommerweine."},
+      {"name":"Rosso Conero","text":"Kräftiger Rotwein auf Montepulciano-Basis von den Hängen am Meer."},
+      {"name":"Moscioli di Portonovo","text":"Wild wachsende Miesmuscheln vom Conero, häufig sehr schlicht mit Zitrone, Pasta oder Brot serviert."},
+      {"name":"Brodetto all’anconetana","text":"Reichhaltige Fischsuppe mit unterschiedlichen Fischarten; eher ein komplettes Essen als eine Vorspeise."},
+      {"name":"Olive all’ascolana","text":"Gefüllte und frittierte Oliven, die als Aperitivo oder Antipasto funktionieren."},
+      {"name":"Crescia sfogliata","text":"Geschichtetes Fladenbrot aus dem Raum Urbino, oft mit Käse, Kräutern oder Wurst gefüllt."}
+    ],
+    "beaches":[
+      {"name":"Spiaggia Urbani","type":"Kleine Bucht bei Sirolo","best":"Für eine gut erschlossene erste Conero-Erfahrung."},
+      {"name":"San Michele und Sassi Neri","type":"Kies- und Naturstrand","best":"Für klares Wasser und dramatischere Küstenkulisse."},
+      {"name":"Numana Bassa","type":"Längerer, komfortabler Strand","best":"Für unkomplizierte freie Badetage."},
+      {"name":"Portonovo","type":"Buchten unter dem Monte Conero","best":"Für Meer, Moscioli und Landschaft an einem Tag."}
+    ],
+    "camper":{"strategy":"Drei Basen: Urbino, Verdicchio-Hügelland und Conero-Küste. An der Küste bleibt das Fahrzeug möglichst stehen; Shuttle und Bus übernehmen die Strandlogistik.","north":"Urbino oder Umgebung als Kultur- und Renaissancebasis.","south":"Numana oder Sirolo als längere Küstenbasis.","cityAccess":"Urbino, Jesi und Ancona von offiziellen Außenparkplätzen besuchen. Enge Küstenorte und Strände nicht spontan mit dem Wohnmobil anfahren.","comfort":"An der Küste sind Schatten, Strom, Sanitärqualität und Shuttle entscheidend; im Weinland zählt ein ruhiger Agricamping-Platz."},
+    "bookable":["Palazzo Ducale bei starkem Sommerandrang.","Verdicchio-Verkostung mit festem Termin.","Campingplatz am Conero.","Shuttle oder Strandservice für stark begrenzte Buchten.","Optional Bootstour entlang der Conero-Küste."],
+    "connections":[{"name":"Umbrien und Marken","text":"Die bestehende Kombinationsroute kann Urbino oder Assisi ergänzen."},{"name":"Costa dei Trabocchi","text":"Südlich folgt eine zweite, landschaftlich andere Adriaküste."},{"name":"Emilia-Romagna","text":"Nördlich schließen Ravenna, Comacchio und Food Valley an."}],
+    "sources":[{"name":"Regione Marche – official tourism","url":"https://www.regione.marche.it/turismo"},{"name":"Numana official tourism","url":"https://www.turismonumana.it/en/"},{"name":"Movimento Turismo del Vino Marche","url":"https://www.mtvmarche.it/soci/"}]
+  }
+}
