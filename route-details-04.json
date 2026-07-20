@@ -1,0 +1,134 @@
+{
+  "piemont-weinlandschaften": {
+    "intro":"Diese Route ist das Gegenteil einer hektischen Rundfahrt. Sie verbindet Turin mit den Weinlandschaften von Langhe, Roero und Monferrato und lebt von kurzen Etappen, guten Basen und langen Genusstagen. Ihr fahrt nicht von Sehenswürdigkeit zu Sehenswürdigkeit, sondern wechselt zwischen Stadt, Markt, Keller, Aussichtsort und Abendessen. Barolo und Barbaresco sind dabei nicht nur Weinnamen, sondern Landschaften mit Burgen, Dörfern und Produzenten.",
+    "idealFor":"Ideal für eine Reise, bei der Wein, gutes Essen, elegante Dörfer und Landschaft wichtiger sind als Strand. Besonders stark ist sie für sieben bis neun Tage mit zwei festen Basen und einem bewussten Turin-Auftakt.",
+    "routeLogic":["Ein bis zwei Nächte bei Turin für Stadt, Märkte und Automobilgeschichte.","Erste Landbasis bei Alba oder Barbaresco für Langhe und Roero.","Zweite Landbasis bei Asti, Canelli oder im Monferrato für Schaumwein, Burgen und ruhigere Hügellandschaft.","Ein freier Genusstag bleibt ohne Ortswechsel für Markt, Weingut, Trüffelgeschäft und langes Abendessen."],
+    "days":[
+      {"day":"Tag 1","title":"Turin als stilvoller Auftakt","text":"Beginnt mit Piazza Castello, Via Roma, den historischen Cafés und einem Bicerin. Der Tag soll zeigen, dass Piemont nicht nur Weinberge bedeutet. Für den Abend passt ein Aperitivo mit Vermouth, der in Turin seine große Geschichte hat."},
+      {"day":"Tag 2","title":"Turin: Markt, Automobile und Schokolade","text":"Porta Palazzo liefert den großen Marktauftakt. Danach wählt ihr zwischen dem Museo Nazionale dell’Automobile und den königlichen Sammlungen. In einer Confetteria oder Pasticceria probiert ihr Gianduiotti und Cremini, bevor es am Abend Richtung Alba geht."},
+      {"day":"Tag 3","title":"Alba, Haselnuss und erster Wein","text":"Alba ist das praktische Zentrum der Langhe. Altstadt, Dom, Feinkostläden und Weinbars lassen sich gut zu Fuß verbinden. Dazu gehören die Nocciola Piemonte IGP, Tajarin und ein erster Nebbiolo. Am Nachmittag passt ein Weingut im Raum Barbaresco oder Treiso."},
+      {"day":"Tag 4","title":"Barbaresco, Neive und Treiso","text":"Barbaresco erklärt sich über den Turm, den Blick über den Tanaro und die Weine aus Nebbiolo. Neive ergänzt Gassen und einen eleganten Dorfabend. Treiso ist ruhiger und eignet sich für Aussicht, Kellereibesuch und Mittagessen zwischen den Weinbergen."},
+      {"day":"Tag 5","title":"La Morra, Barolo und Monforte","text":"La Morra bietet eines der großen Panoramen der Langhe. Barolo verbindet Schloss, Weinmuseum und Enoteca. Monforte d’Alba ist der stimmigste Ort für den Abend: kompakte Altstadt, Amphitheater und gute Restaurants."},
+      {"day":"Tag 6","title":"Freier Genusstag","text":"Dieser Tag bleibt bewusst ohne Pflichtprogramm. Möglich sind ein weiterer Produzent, ein Kochkurs, ein langer Marktbesuch in Alba oder ein ruhiger Nachmittag auf einem Agricamping. Genau hier bekommt die Route Urlaubstempo."},
+      {"day":"Tag 7","title":"Asti und Canelli","text":"Asti steht für mittelalterliche Türme, Marktleben und Barbera. Canelli erklärt die Schaumweinseite des Piemont mit den unterirdischen historischen Weinkellern, den sogenannten Kathedralen des Weins."},
+      {"day":"Tag 8","title":"Monferrato und Rückweg","text":"Zum Abschluss wählt ihr kleinere Orte wie Nizza Monferrato, Acqui Terme oder Cella Monte. Der Tag gehört Barbera, Ruchè, kleinen Enotheken und einer Hügellandschaft, die weniger berühmt, aber sehr stimmig ist."}
+    ],
+    "places":[
+      {"name":"Turin","why":"Großstadt mit Kaffeehauskultur, Vermouth, Schokolade und Automobilgeschichte.","must":"Piazza Castello, Porta Palazzo, historisches Café und Automobilmuseum.","time":"Ein bis zwei volle Tage."},
+      {"name":"Alba","why":"Zentrum der Langhe und bester Ausgangspunkt für Märkte, Weinbars und Produzenten.","must":"Altstadt, Dom, Via Vittorio Emanuele, Feinkost und Enoteca.","time":"Ein voller Tag oder mehrere Abende."},
+      {"name":"Barbaresco","why":"Kleiner Weinort mit großer Aussicht und klarer Weinidentität.","must":"Torre di Barbaresco, Enoteca und ein Produzentenbesuch.","time":"Drei bis fünf Stunden."},
+      {"name":"La Morra","why":"Einer der besten Aussichtspunkte über die Langhe.","must":"Belvedere, Altstadt und Cappella del Barolo bei La Morra.","time":"Halber Tag."},
+      {"name":"Barolo","why":"Der berühmteste Weinname der Route wird hier als Ort, Landschaft und Museum greifbar.","must":"Castello Falletti, WiMu, Enoteca und Weingut.","time":"Halber bis ganzer Tag."},
+      {"name":"Canelli","why":"Hier wird die Geschichte von Asti Spumante und Alta Langa in den unterirdischen Kellern sichtbar.","must":"Historische Kellereien und Altstadt.","time":"Halber Tag."}
+    ],
+    "secrets":[
+      {"title":"Nicht jeden bekannten Weinort am selben Tag sammeln","text":"Barbaresco, La Morra und Barolo wirken besser, wenn jeweils Zeit für Aussicht, Keller und Essen bleibt."},
+      {"title":"Turin nicht nur als Anreise behandeln","text":"Vermouth, Bicerin, Schokolade und Porta Palazzo erklären die Genusskultur, die später in den Hügeln weitergeht."},
+      {"title":"Canelli unterirdisch erleben","text":"Die historischen Kelleranlagen sind mehr als eine Verkostung; sie zeigen Industriegeschichte, Architektur und Schaumweintradition."},
+      {"title":"Einen Abend in Monforte lassen","text":"Der Ort verbindet Aussicht, Musikgeschichte und Restaurants auf besonders kompakte Weise."},
+      {"title":"Roero nicht auslassen","text":"Roero Arneis, sandigere Böden und andere Landschaftsformen geben der Route einen eigenen Gegenpol zu Barolo und Barbaresco."}
+    ],
+    "food":[
+      {"name":"Tajarin","text":"Sehr feine piemontesische Eiernudeln, häufig mit Butter und Salbei, Ragù oder Trüffel. Sie gehören zu den Gerichten, die ihr mindestens einmal in einer klassischen Trattoria essen solltet."},
+      {"name":"Vitello tonnato","text":"Kalbfleisch mit Thunfisch-Kapern-Sauce. Im Piemont ist es ein präzises, elegantes Antipasto und deutlich feiner als viele internationale Varianten."},
+      {"name":"Agnolotti del plin","text":"Kleine gefüllte Pasta, deren Name vom Zudrücken mit den Fingern kommt. Serviert mit Bratensaft, Butter oder pur auf einer Serviette, damit die Füllung im Mittelpunkt bleibt."},
+      {"name":"Bagna cauda","text":"Warme Sauce aus Sardellen, Knoblauch und Olivenöl, in die Gemüse getaucht wird. Kräftig, gesellig und tief mit der bäuerlichen Küche verbunden."},
+      {"name":"Nocciola Piemonte IGP","text":"Die Tonda Gentile ist Grundlage für Haselnusscreme, Torrone und Patisserie. In Alba und der Alta Langa findet ihr Produzenten und spezialisierte Läden."},
+      {"name":"Barolo und Barbaresco","text":"Beide entstehen aus Nebbiolo, unterscheiden sich aber durch Herkunft und Stil. Eine geführte Vergleichsprobe macht mehr Sinn als zwei beliebige Gläser im Restaurant."},
+      {"name":"Roero Arneis und Alta Langa","text":"Arneis bringt die weiße, frischere Seite der Region. Alta Langa steht für hochwertigen Schaumwein nach klassischer Flaschengärung."}
+    ],
+    "beaches":[],
+    "camper":{"strategy":"Turin von einem Platz außerhalb mit ÖPNV besuchen. Danach zwei Landbasen wählen: eine bei Alba oder Barbaresco und eine bei Asti oder Canelli. Agricamping und Agriturismo-Stellplätze passen hier besser als tägliches Umsetzen.","north":"Im Raum Turin zählt vor allem gute ÖPNV-Anbindung.","south":"In Langhe und Monferrato sind ruhige Plätze bei Weingütern oder Agriturismi ideal.","cityAccess":"Alba, Asti und Turin nicht mit dem Wohnmobilkern anfahren; für Dörfer und Weingüter kurze Tagesfahrten planen.","comfort":"Schatten, Strom und ein Standort mit Restaurant oder Verkostung vor Ort sind besonders wertvoll."},
+    "bookable":["Geführte Barolo-Barbaresco-Vergleichsprobe.","Historische Kellerführung in Canelli.","Weingutsbesuch mit verbindlichem Zeitfenster.","Kochkurs für Tajarin oder Agnolotti.","Automobilmuseum in Turin bei starkem Besuchsaufkommen."],
+    "connections":[{"name":"Ligurien","text":"Von Alba erreicht ihr die Riviera als nächsten großen Landschaftswechsel."},{"name":"Comer See","text":"Für eine nördliche Verlängerung mit Wasser und Villen."},{"name":"Emilia-Romagna","text":"Für eine zweite große Genussregion mit Parma, Modena und Bologna."}],
+    "sources":[{"name":"Italia.it – Langhe, Roero und Monferrato","url":"https://www.italia.it/en/piedmont/things-to-do/langhe-roero-and-monferrato"},{"name":"Italia.it – Weintour im Piemont","url":"https://www.italia.it/de/piemont/erlebnisse-und-sehenswertes/weintour-im-piemont"},{"name":"Italia.it – Barolo-Route","url":"https://www.italia.it/en/piedmont/things-to-do/itinerary-in-the-langhe-to-discover-barolo"}]
+  },
+  "friaul-triest-collio": {
+    "intro":"Diese kompakte Route verbindet drei völlig unterschiedliche Reisegefühle: Triests mitteleuropäische Kaffeehaus- und Hafenwelt, die Weinberge des Collio und den Lagunenabschluss in Aquileia und Grado. Gerade diese Wechsel machen sie stark. Ihr braucht keine riesigen Distanzen, sondern gute Basen und Zeit für Cafés, Weingüter, römische Geschichte und einen entspannten Strandtag.",
+    "idealFor":"Ideal für sechs bis neun Tage, wenn ihr Wein und Meer kombinieren möchtet, aber keine reine Bade- oder Weinreise sucht. Die Route ist besonders ausgewogen und funktioniert mit zwei festen Basen sehr gut.",
+    "routeLogic":["Erste Basis außerhalb Triests für Stadt, Miramare und Duino.","Zweite Basis im Raum Cormòns, Gorizia oder Grado für Collio, Aquileia und Lagune.","Triest erhält mindestens einen vollen Tag, besser anderthalb.","Grado bildet einen ruhigen Schluss mit Strand, Altstadt und Lagune."],
+    "days":[
+      {"day":"Tag 1","title":"Triest ankommen und verstehen","text":"Beginnt auf der Piazza Unità d’Italia, geht zum Canal Grande und nehmt euch Zeit für ein historisches Kaffeehaus. Triest wirkt über Architektur, Hafenlicht und die Mischung aus italienischer, österreichischer und slowenischer Geschichte."},
+      {"day":"Tag 2","title":"Triest: Markt, Kaffee und Karstküche","text":"Morgens folgt der Borgo Teresiano mit Markt- und Geschäftsatmosphäre. Danach passen Museo Revoltella, San Giusto oder ein langer Kaffeehausblock. Am Abend probiert ihr Jota, Prosciutto cotto in crosta oder Fischgerichte."},
+      {"day":"Tag 3","title":"Miramare und Duino","text":"Schloss Miramare liegt direkt über dem Meer und verbindet Park, Geschichte und Aussicht. Danach folgt Duino mit Schloss und Karstküste. Der Tag bleibt bewusst an der Küste und endet mit einem Glas Vitovska oder Malvasia."},
+      {"day":"Tag 4","title":"Gorizia und Cormòns","text":"Gorizia steht für Grenzgeschichte und eine offene Stadtkultur. Cormòns ist anschließend die beste Basis im Collio: Piazza, Enoteca und kurze Wege zu Produzenten."},
+      {"day":"Tag 5","title":"Collio-Weintag","text":"Der Tag gehört zwei sorgfältig ausgewählten Weingütern statt einer langen Liste. Ribolla Gialla, Friulano, Sauvignon und komplexe Cuvées zeigen, warum das Collio zu den stärksten Weißweinregionen Italiens zählt."},
+      {"day":"Tag 6","title":"Udine und San Daniele","text":"Udine bringt venezianische Plätze, Arkaden und Tiepolo. Wer den kulinarischen Schwerpunkt verstärken möchte, fährt weiter nach San Daniele für Prosciutto und eine geführte Produzentenbesichtigung."},
+      {"day":"Tag 7","title":"Aquileia und Grado","text":"Aquileia liefert römische Geschichte und frühchristliche Mosaike. Danach wechselt die Route nach Grado: Lagune, Altstadt, Strand und ein ruhiger Abend am Wasser."},
+      {"day":"Tag 8","title":"Freier Lagunentag","text":"Der letzte volle Tag bleibt für Strand, Bootstour in der Lagune, einen zweiten Grado-Abend oder einen ruhigen Tag auf dem Campingplatz."}
+    ],
+    "places":[
+      {"name":"Triest","why":"Kaffeehaus, Hafen, Literatur und Architektur bilden eine in Italien einzigartige Mischung.","must":"Piazza Unità, Canal Grande, San Giusto, historisches Kaffeehaus.","time":"Mindestens ein voller Tag."},
+      {"name":"Miramare","why":"Schloss und Park liegen spektakulär direkt am Meer.","must":"Schlossräume, Park und Küstenblick.","time":"Drei bis vier Stunden."},
+      {"name":"Cormòns","why":"Beste praktische Basis für das Collio mit Enoteca und kurzen Wegen zu Weingütern.","must":"Piazza, Enoteca und zwei Produzenten im Umland.","time":"Mehrere Abende plus Weintag."},
+      {"name":"Udine","why":"Elegante, kompakte Stadt mit venezianischem Charakter.","must":"Piazza Libertà, Loggia del Lionello und Altstadt.","time":"Halber bis ganzer Tag."},
+      {"name":"Aquileia","why":"Römisches Erbe und außergewöhnliche Mosaike geben der Route historische Tiefe.","must":"Basilika, Mosaikboden, Forum und Flusshafen.","time":"Halber Tag."},
+      {"name":"Grado","why":"Lagunenstadt mit Strand, Altstadt und Fischküche als idealer Abschluss.","must":"Altstadt, Basilika, Hafen und Strand.","time":"Ein bis zwei Tage."}
+    ],
+    "secrets":[
+      {"title":"Triest über Cafés lesen","text":"Nicht nur Sehenswürdigkeiten abhaken. Ein langes Kaffeehausfenster gehört hier zum eigentlichen Stadtverständnis."},
+      {"title":"Im Collio weniger Weingüter, dafür bessere Termine","text":"Zwei ausführliche Verkostungen mit Gespräch sind wertvoller als fünf schnelle Stopps."},
+      {"title":"Aquileia nicht nur als Zwischenhalt behandeln","text":"Die Mosaike und die römische Geschichte verdienen mehrere Stunden."},
+      {"title":"Grado bis zum Abend behalten","text":"Wenn Tagesgäste gehen, werden Hafen und Altstadt deutlich atmosphärischer."},
+      {"title":"Osmize im Karst prüfen","text":"Temporär geöffnete Hofwirtschaften sind ein besonders lokales Erlebnis, ihre Öffnungszeiten müssen aber aktuell geprüft werden."}
+    ],
+    "food":[
+      {"name":"Jota","text":"Kräftige Suppe aus Sauerkraut, Bohnen und Kartoffeln. Sie zeigt die mitteleuropäische Seite Triests."},
+      {"name":"Prosciutto di San Daniele","text":"Süßlich-milder Rohschinken, dessen Herstellung sich bei Produzentenbesuchen nachvollziehen lässt."},
+      {"name":"Frico","text":"Gericht aus geschmolzenem Montasio, häufig mit Kartoffeln. Außen knusprig, innen weich und sehr regional."},
+      {"name":"Boreto alla graisana","text":"Pfeffriger Fischeintopf aus Grado, traditionell ohne Tomaten. Eines der klarsten lokalen Gerichte der Lagune."},
+      {"name":"Ribolla Gialla","text":"Frischer bis komplexer Weißwein des Collio; als Stillwein und Schaumwein interessant."},
+      {"name":"Friulano und Vitovska","text":"Friulano gehört ins Collio, Vitovska in den Karst. Zusammen zeigen sie zwei sehr unterschiedliche Weinlandschaften auf kurzer Distanz."}
+    ],
+    "beaches":[{"name":"Grado","type":"Gut erschlossener Sandstrand","best":"Für einen komfortablen Abschluss mit Altstadt und Restaurants."},{"name":"Duino und Sistiana","type":"Kiesige Karstküste","best":"Für Meerblick und einen Küstentag nahe Triest."}],
+    "camper":{"strategy":"Eine Basis außerhalb Triests mit Bus- oder Bahnanschluss, danach eine zweite bei Cormòns, Aquileia oder Grado. So bleibt das Wohnmobil in den Städten stehen und die Weinregion wird in kurzen Tagesfahrten erschlossen.","north":"Triest von außen anfahren und mit ÖPNV erschließen.","south":"Im Collio Agriturismo oder Agricamping, für den Abschluss Campingplatz bei Grado.","cityAccess":"Triest und Udine nicht mit dem Wohnmobilkern anfahren; Aquileia ist deutlich einfacher.","comfort":"Für Grado zählen Schatten, Strom und Fahrrad- oder Busanbindung zum Zentrum."},
+    "bookable":["Schloss Miramare mit Zeitfenster.","Zwei Weingutsbesuche im Collio.","Prosciutto-Produzentenführung in San Daniele.","Lagunentour ab Grado.","Campingplatz bei Grado in der Hauptsaison."],
+    "connections":[{"name":"Venedig und Prosecco","text":"Naheliegende westliche Verlängerung."},{"name":"Slowenien","text":"Gorizia und der Karst öffnen eine sehr kurze grenzüberschreitende Erweiterung."},{"name":"Dolomiten","text":"Für einen Kontrast aus Wein, Meer und Bergen."}],
+    "sources":[{"name":"Italia.it – Von Triest nach Grado","url":"https://www.italia.it/en/friuli-venezia-giulia/things-to-do/what-see-5-days-friuli-trieste-grado"},{"name":"Italia.it – Collio Goriziano","url":"https://www.italia.it/en/friuli-venezia-giulia/things-to-do/collio-goriziano-itinerary-between-vineyards-and-culture"}]
+  },
+  "kalabrien-kuestendoerfer": {
+    "intro":"Kalabriens Küstenroute ist lang, farbig und deutlich vielfältiger als nur Tropea. Sie verbindet die Riviera dei Cedri, Pizzo und die Costa degli Dei mit Scilla und Chianalea. Entscheidend ist eine langsame Taktung mit mehreren Basen. So werden aus großen Entfernungen einzelne Küstenkapitel mit Strand, Altstadt, Fischküche und besonderen Produkten.",
+    "idealFor":"Ideal für neun bis zwölf Tage, wenn türkisfarbenes Meer, charaktervolle Orte und starke regionale Küche im Mittelpunkt stehen. Die Route ist keine schnelle Nord-Süd-Fahrt, sondern eine Reise mit drei längeren Standorten.",
+    "routeLogic":["Nördliche Basis bei Diamante oder Cirella für Riviera dei Cedri.","Mittlere Basis bei Pizzo, Tropea oder Capo Vaticano für Costa degli Dei.","Südliche Basis bei Scilla oder Reggio Calabria für Chianalea und Straße von Messina.","Mindestens zwei freie Badetage ohne Ortsprogramm einbauen."],
+    "days":[
+      {"day":"Tag 1","title":"Diamante und Riviera dei Cedri","text":"Diamante beginnt mit Murales, Altstadt und Meerpromenade. Dazu gehört die Cedro-Kultur der Region und die scharfe Küche rund um Peperoncino."},
+      {"day":"Tag 2","title":"Cirella und ruhiger Strandtag","text":"Die Küste bei Cirella bietet Inselblick, Strand und die Möglichkeit einer Bootsfahrt. Der Tag bleibt bewusst langsam."},
+      {"day":"Tag 3","title":"Pizzo und das Tartufo","text":"Pizzo verbindet Piazza, Burg, Meerblick und die Chiesetta di Piedigrotta. Das Tartufo di Pizzo gehört hier nicht als Dessertnotiz, sondern als eigenes lokales Erlebnis dazu."},
+      {"day":"Tag 4","title":"Tropea verstehen","text":"Tropea lebt von der Altstadt auf dem Felsen, den Blickachsen, Santa Maria dell’Isola und den Stränden darunter. Der Ort verdient einen ganzen Tag und einen Abend."},
+      {"day":"Tag 5","title":"Capo Vaticano und Grotticelle","text":"Dieser Tag gehört den Buchten der Costa degli Dei. Grotticelle und weitere Küstenabschnitte verbinden klares Wasser und Granitfelsen. Eine Bootstour kann mehrere Buchten entspannt zusammenführen."},
+      {"day":"Tag 6","title":"Freier Badetag","text":"Kein neuer Ort. Strand, Campingplatz, Markt und ein langes Abendessen reichen aus. Dieser Tag schützt die Route vor zu viel Fahrtempo."},
+      {"day":"Tag 7","title":"Weiter nach Scilla","text":"Der Wechsel nach Süden endet in Scilla. Am Nachmittag folgen Aussicht vom Castello Ruffo und der erste Abend in Chianalea direkt am Wasser."},
+      {"day":"Tag 8","title":"Scilla und Chianalea","text":"Chianalea ist das alte Fischerviertel mit Häusern direkt am Meer. Dazu gehören Schwertfischtradition, Hafen, Strand und ein langsamer Abend."},
+      {"day":"Tag 9","title":"Reggio Calabria","text":"Die Uferpromenade, die Bronzen von Riace und der Blick nach Sizilien geben der Route einen urbanen Abschluss."},
+      {"day":"Tag 10","title":"Freier Südküstentag","text":"Je nach Stimmung bleibt ihr in Scilla, fahrt nach Bagnara oder nutzt eine Bootstour. Alternativ beginnt hier die Fährenverlängerung nach Sizilien."}
+    ],
+    "places":[
+      {"name":"Diamante","why":"Murales, Cedro und Peperoncino machen den Ort unverwechselbar.","must":"Altstadt, Wandmalereien und Promenade.","time":"Halber bis ganzer Tag."},
+      {"name":"Pizzo","why":"Burg, Meerblick, Piedigrotta und das originale Tartufo verbinden sich zu einem vollständigen Reisetag.","must":"Piazza, Castello Murat, Piedigrotta und Tartufo.","time":"Halber bis ganzer Tag."},
+      {"name":"Tropea","why":"Die stärkste Kombination aus Altstadt, Aussicht, Strand und Gastronomie an der Costa degli Dei.","must":"Altstadt, Santa Maria dell’Isola, Aussichtspunkte und Strand.","time":"Ein voller Tag plus Abend."},
+      {"name":"Capo Vaticano","why":"Klares Wasser und Buchten bilden den landschaftlichen Höhepunkt der mittleren Route.","must":"Grotticelle, Aussicht und Bootstag.","time":"Ein voller Tag."},
+      {"name":"Scilla","why":"Fischerviertel, Burg und Meerblick machen Scilla zu einem der charaktervollsten Orte Kalabriens.","must":"Chianalea, Castello Ruffo, Marina Grande.","time":"Ein bis zwei Tage."},
+      {"name":"Reggio Calabria","why":"Bronzen von Riace und die Promenade ergänzen die Küstenreise um Kultur und Stadtleben.","must":"Museo Archeologico und Lungomare.","time":"Ein voller Tag."}
+    ],
+    "secrets":[
+      {"title":"Tropea bis zum Abend behalten","text":"Die Altstadt und die Aussicht wirken nach dem stärksten Tagesbetrieb deutlich besser."},
+      {"title":"Pizzo nicht nur für ein Eis anfahren","text":"Piedigrotta, Burg und Piazza machen daraus einen halben bis ganzen Tag."},
+      {"title":"Chianalea früh und spät erleben","text":"Morgens zeigt sich das Fischerviertel ruhig, abends wird es zur atmosphärischen Restaurantkulisse."},
+      {"title":"Drei Basen statt langer Tagesfahrten","text":"Die Route gewinnt, wenn Riviera dei Cedri, Costa degli Dei und Scilla jeweils ein eigenes Kapitel werden."},
+      {"title":"Schwertfisch in Scilla erklären lassen","text":"Die lokale Fangtradition mit den typischen Passerelle-Booten gehört zur Identität des Ortes."}
+    ],
+    "food":[
+      {"name":"Tartufo di Pizzo","text":"Gefrorenes Dessert mit Schokoladen- oder Haselnusseis und flüssigem Schokoladenkern. In Pizzo gehört eine klassische Gelateria auf der Piazza zum Pflichtprogramm."},
+      {"name":"Cipolla Rossa di Tropea IGP","text":"Milde rote Zwiebel, roh, karamellisiert, als Marmelade oder in Gerichten. Rund um Tropea ist sie weit mehr als ein Souvenir."},
+      {"name":"’Nduja","text":"Streichfähige, scharfe Wurst aus Schweinefleisch und Chili. Sie wird auf Brot, in Pasta oder Saucen verwendet."},
+      {"name":"Pesce spada alla ghiotta","text":"Schwertfisch mit Tomate, Kapern, Oliven und Kräutern. In Scilla und an der Straße von Messina besonders passend."},
+      {"name":"Fileja","text":"Gedrehte kalabrische Pasta, häufig mit ’Nduja, Tomate oder Zwiebeln serviert."},
+      {"name":"Greco Bianco und Cirò","text":"Greco Bianco bringt aromatische Weißweine, Cirò steht für kräftige Rotweine aus Gaglioppo. Beide geben der Küstenküche eine regionale Weinbegleitung."}
+    ],
+    "beaches":[{"name":"Cirella","type":"Sand- und Kiesküste mit Inselblick","best":"Für einen ruhigen nördlichen Badetag."},{"name":"Tropea","type":"Sandstrand unter der Altstadt","best":"Für die Kombination aus Ort und Meer."},{"name":"Grotticelle","type":"Buchten bei Capo Vaticano","best":"Für klares Wasser und Bootsausflug."},{"name":"Marina Grande Scilla","type":"Stadtstrand mit Burgblick","best":"Für Baden und Chianalea am selben Tag."}],
+    "camper":{"strategy":"Drei Basen wählen: Diamante/Cirella, Tropea/Capo Vaticano und Scilla/Reggio. Das Wohnmobil bleibt jeweils mehrere Nächte stehen; kleine Ortskerne werden per Shuttle, Taxi, Bus oder kurzer Fahrt besucht.","north":"Riviera dei Cedri mit strandnaher Basis.","south":"Costa degli Dei mit Campingplatz bei Tropea oder Capo Vaticano; anschließend Scilla oder Reggio als dritte Basis.","cityAccess":"Tropea und Scilla nicht in die engsten Kerne fahren. Reggio von außen oder mit klarer Parkplatzplanung besuchen.","comfort":"Schatten, Strom, gute Sanitäranlagen und Strandnähe sind wichtiger als maximale Zentrumsnähe."},
+    "bookable":["Bootstour an der Costa degli Dei.","Campingplatz bei Tropea oder Capo Vaticano.","Führung oder Eintritt für die Bronzen von Riace bei starkem Andrang.","Fischrestaurant in Chianalea zum Sonnenuntergang.","Fähre nach Sizilien bei geplanter Verlängerung."],
+    "connections":[{"name":"Cilento und Maratea","text":"Nördliche Verlängerung mit Paestum, Palinuro und Maratea."},{"name":"Sizilien","text":"Von Villa San Giovanni oder Reggio geht es direkt über die Meerenge."},{"name":"Ionisches Kalabrien","text":"Für Gerace, Locri und die Jasmin-Küste als zweite Kalabrienreise."}],
+    "sources":[{"name":"Italia.it – Küstendörfer Kalabriens","url":"https://www.italia.it/en/calabria/things-to-do/itinerary-among-the-seaside-villages-of-calabria"},{"name":"Italia.it – Tropea, Pizzo und Serra San Bruno","url":"https://www.italia.it/en/calabria/things-to-do/calabria-what-see-tropea-pizzo-serra-san-bruno"}]
+  }
+}
