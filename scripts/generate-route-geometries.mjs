@@ -15,31 +15,26 @@ const accessFerries={
   'sizilien-westkueste':{from:{name:'Neapel',coord:[40.852,14.268]},to:{name:'Palermo',coord:[38.116,13.361]},label:'Optionale Fähranreise Neapel–Palermo'}
 };
 
-const specialPlans={
-  'comer-see-villen':{
-    roadStops:['Como','Cernobbio','Lenno','Villa del Balbianello','Menaggio'],
-    waterSegments:[
-      {label:'Boot zur Isola Comacina',stops:['Lenno','Isola Comacina','Lenno']},
-      {label:'Fähren im Seemitte-Dreieck',stops:['Lenno','Bellagio','Varenna','Menaggio']}
-    ]
-  },
-  'lago-maggiore-orta-mailand':{
-    roadStops:['Mailand','Orta San Giulio','Stresa','Verbania','Villa Taranto','Cannobio'],
-    waterSegments:[{label:'Schiff zu den Borromäischen Inseln',stops:['Stresa','Isola Bella','Isola dei Pescatori','Isola Madre','Verbania']}]
-  },
-  'sizilien-westkueste':{
-    roadStops:['Palermo','Monreale','Cefalù','Castellammare del Golfo','Erice','Trapani','Marsala','Mazara del Vallo','Selinunte','Agrigent'],
-    waterSegments:[{label:'Fähre Trapani–Favignana',stops:['Trapani','Favignana','Trapani']}]
-  },
-  'sardinien-suedkueste':{
-    roadStops:['Cagliari','Poetto','Villasimius','Cala Sinzias','Costa Rei','Muravera','Nora','Chia','Porto Pino','Sant’Antioco'],
-    waterSegments:[{label:'Fähre Calasetta–Carloforte',coords:[[39.107,8.368],[39.14,8.304]]}]
-  },
-  'venetien-prosecco-lagune':{
-    roadStops:['Treviso','Asolo','Valdobbiadene','Conegliano','Bassano del Grappa','Marostica','Vicenza','Padua'],
-    waterSegments:[{label:'ÖPNV/Boot in die Lagune',coords:[[45.485,12.243],[45.44,12.315]]}]
-  }
+const waterLegNames={
+  'comer-see-villen':[['Isola Comacina','Lenno','Boot'],['Bellagio','Varenna','Fähre'],['Varenna','Menaggio','Fähre']],
+  'lago-maggiore-orta-mailand':[['Stresa','Isola Bella','Schiff'],['Isola Bella','Isola Madre','Schiff'],['Isola Madre','Isola dei Pescatori','Schiff'],['Isola dei Pescatori','Verbania','Schiff']],
+  'sizilien-westkueste':[['Trapani','Favignana','Fähre'],['Favignana','Marsala','Rückfahrt über Trapani']],
+  'sardinien-suedkueste':[["Sant’Antioco",'Carloforte','Fähre'],['Carloforte',"Sant’Antioco",'Fähre']],
+  'venetien-prosecco-lagune':[['Padua','Venedig','Bahn, Bus oder Boot ab äußerer Basis']]
 };
+
+function perpendicularDistance(point,start,end){
+  const [y,x]=point,[y1,x1]=start,[y2,x2]=end;const dx=x2-x1,dy=y2-y1;
+  if(dx===0&&dy===0)return Math.hypot(x-x1,y-y1);
+  const t=Math.max(0,Math.min(1,((x-x1)*dx+(y-y1)*dy)/(dx*dx+dy*dy)));
+  return Math.hypot(x-(x1+t*dx),y-(y1+t*dy));
+}
+function simplify(points,tolerance=0.00018){
+  if(points.length<3)return points;
+  let max=0,index=0;for(let i=1;i<points.length-1;i++){const d=perpendicularDistance(points[i],points[0],points.at(-1));if(d>max){max=d;index=i;}}
+  if(max<=tolerance)return [points[0],points.at(-1)];
+  const left=simplify(points.slice(0,index+1),tolerance),right=simplify(points.slice(index),tolerance);return left.slice(0,-1).concat(right);
+}
 
 async function routeGeometry(points){
   const coords=points.map(([lat,lng])=>`${lng},${lat}`).join(';');
@@ -57,37 +52,34 @@ async function routeGeometry(points){
   throw lastError;
 }
 
-async function buildRoad(points){
-  try{return {mode:'road',road:await routeGeometry(points)};}
-  catch(error){
-    console.warn(`full route failed, falling back to segments (${error.message})`);let road=[];let mode='mixed';
-    for(let i=0;i<points.length-1;i++){
-      const a=points[i],b=points[i+1];
-      try{const segment=await routeGeometry([a,b]);if(road.length&&segment.length)segment.shift();road.push(...segment);}
-      catch(segmentError){road.push(a,b);mode='approximate';}
-      await delay(400);
-    }
-    return {mode,road};
-  }
-}
-
 async function main(){
   const [routes,coordinates]=await Promise.all([readRoutes(),readCoordinates()]);
   const output={generatedAt:new Date().toISOString(),provider:'OSRM/OpenStreetMap',routes:{}};
+  const audit={generatedAt:output.generatedAt,totalRoutes:routes.length,routes:{},summary:{road:0,mixed:0,approximate:0,missing:0,originalPoints:0,simplifiedPoints:0}};
   for(const route of routes){
-    const allMapped=route.stops.map(name=>({name,coord:coordinates[normalize(name)]||null})).filter(item=>item.coord);
-    if(allMapped.length<2){console.warn(`${route.id}: fewer than two mapped stops`);continue;}
-    const plan=specialPlans[route.id];
-    const roadNames=plan?.roadStops||route.stops;
-    const roadPoints=roadNames.map(name=>coordinates[normalize(name)]).filter(Boolean);
-    const built=await buildRoad(roadPoints);
-    const waterSegments=(plan?.waterSegments||[]).map(segment=>({label:segment.label,coords:segment.coords||segment.stops.map(name=>coordinates[normalize(name)]).filter(Boolean)})).filter(segment=>segment.coords.length>1);
-    output.routes[route.id]={mode:built.mode,road:built.road,waterSegments,accessFerry:accessFerries[route.id]||null};
-    console.log(`${route.id}: ${built.road.length} road points, ${waterSegments.length} water segments (${built.mode})`);
-    await delay(650);
+    const mapped=route.stops.map(name=>({name,coord:coordinates[normalize(name)]||null})).filter(item=>item.coord);
+    if(mapped.length<2){audit.summary.missing++;audit.routes[route.id]={mode:'missing',mappedStops:mapped.length,totalStops:route.stops.length};continue;}
+    const waterLegs=(waterLegNames[route.id]||[]).map(([from,to,label])=>({from:{name:from,coord:coordinates[normalize(from)]},to:{name:to,coord:coordinates[normalize(to)]},label})).filter(leg=>leg.from.coord&&leg.to.coord);
+    const waterPairs=new Set(waterLegs.flatMap(leg=>[`${normalize(leg.from.name)}>${normalize(leg.to.name)}`,`${normalize(leg.to.name)}>${normalize(leg.from.name)}`]));
+    let road=[];let mode='road';
+    for(let i=0;i<mapped.length-1;i++){
+      const a=mapped[i],b=mapped[i+1];
+      if(waterPairs.has(`${normalize(a.name)}>${normalize(b.name)}`))continue;
+      try{const segment=await routeGeometry([a.coord,b.coord]);if(road.length&&segment.length)segment.shift();road.push(...segment);}
+      catch(error){road.push(a.coord,b.coord);mode=mode==='road'?'mixed':'approximate';}
+      await delay(350);
+    }
+    const originalPoints=road.length;const compact=simplify(road);
+    output.routes[route.id]={mode,road:compact,waterLegs,accessFerry:accessFerries[route.id]||null};
+    audit.summary[mode]++;audit.summary.originalPoints+=originalPoints;audit.summary.simplifiedPoints+=compact.length;
+    audit.routes[route.id]={mode,mappedStops:mapped.length,totalStops:route.stops.length,originalPoints,simplifiedPoints:compact.length,waterLegs:waterLegs.length,accessFerry:Boolean(accessFerries[route.id])};
+    console.log(`${route.id}: ${originalPoints} -> ${compact.length} points (${mode})`);await delay(450);
   }
   if(Object.keys(output.routes).length<routes.length-2)throw new Error(`Only ${Object.keys(output.routes).length} of ${routes.length} routes generated`);
-  await fs.writeFile('route-geometries.json',JSON.stringify(output));
+  await Promise.all([
+    fs.writeFile('route-geometries.json',JSON.stringify(output)),
+    fs.writeFile('route-geometry-audit.json',JSON.stringify(audit,null,2))
+  ]);
 }
 
 main().catch(error=>{console.error(error);process.exit(1)});
