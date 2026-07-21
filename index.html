@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="Incanto – das private Italienmagazin von David & Kay.">
+  <meta name="description" content="Incanto – das private Italienmagazin von David & Kai.">
   <title>Incanto — Viviamo il sogno.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="route-details.css?v=20260720-1">
   <link rel="stylesheet" href="route-map.css?v=20260721-3">
   <link rel="stylesheet" href="route-map-tools.css?v=20260721-2">
+  <link rel="stylesheet" href="route-compare.css?v=20260721-1">
 </head>
 <body>
 <header class="topbar">
@@ -92,15 +93,24 @@
       <figure><img src="assets/antique-shop.jpg" alt="Kleiner italienischer Laden"><figcaption>Ein Fundstück mit<br>Geschichte.</figcaption></figure>
     </div><a class="outline-button" href="#routes">MEHR MOMENTE ENTDECKEN →</a>
   </section>
+  <section class="route-compare-section" id="route-compare">
+    <header class="section-heading"><span class="eyebrow">CONFRONTO</span><h2>Zwei Routen direkt vergleichen</h2><p>Wählt zwei Reisen aus. Dauer, Strecke, Schwerpunkte, Reisegefühl und Wohnmobil-Tauglichkeit stehen anschließend ohne Umweg nebeneinander.</p></header>
+    <div class="route-compare-controls">
+      <label>Erste Route<select id="compareRouteA" aria-label="Erste Route auswählen"></select></label>
+      <label>Zweite Route<select id="compareRouteB" aria-label="Zweite Route auswählen"></select></label>
+    </div>
+    <div class="route-compare-output" id="routeCompareOutput" aria-live="polite"></div>
+  </section>
   <section class="route-database" id="routes"><header class="section-heading"><span class="eyebrow">PERCORSI</span><h2>Routen, die nach Incanto klingen</h2><p>Ausgewählte Grundrouten, Quellen und unsere eigenen Abzweigungen.</p></header><div class="filters" id="filters" aria-label="Routen filtern"><button class="filter active" data-filter="all">Alle</button><button class="filter" data-filter="sea">Meer</button><button class="filter" data-filter="wine">Wein &amp; Genuss</button><button class="filter" data-filter="mountain">Berge &amp; Seen</button><button class="filter" data-filter="long">Große Reise</button></div><div class="route-grid" id="routeGrid" aria-live="polite"></div></section>
 </main>
-<footer id="diario"><blockquote><em>Incanto sammelt keine Orte.<br>Incanto sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span class="footer-ornament">✣</span><div class="footer-signature"><strong>David &amp; Kay</strong><small>FÜR UNSERE GEMEINSAMEN REISEN.</small></div></footer>
+<footer id="diario"><blockquote><em>Incanto sammelt keine Orte.<br>Incanto sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span class="footer-ornament">✣</span><div class="footer-signature"><strong>David &amp; Kai</strong><small>FÜR UNSERE GEMEINSAMEN REISEN.</small></div></footer>
 <dialog id="routeDialog" class="route-dialog"><button class="dialog-close" id="dialogClose" aria-label="Schließen">×</button><div id="dialogContent"></div></dialog>
 <dialog id="searchDialog" class="search-dialog"><button class="dialog-close" id="searchClose" aria-label="Schließen">×</button><div class="search-panel"><p class="section-label">Incanto durchsuchen</p><input id="searchInput" type="search" placeholder="Toskana, Wein, Meer, Keramik …" autocomplete="off"><div id="searchResults" class="search-results"></div></div></dialog>
-<aside class="menu-drawer" id="menuDrawer" aria-hidden="true"><button class="drawer-close" id="drawerClose">×</button><p class="section-label">Incanto</p><nav><a href="#discover">Luoghi <small>Entdecken</small></a><a href="#discover">Sapori <small>Genießen</small></a><a href="#route-map">Mappa <small>Routenkarte</small></a><a href="#routes">Percorsi <small>Routen</small></a><a href="#moments">Attimi d'Incanto <small>Momente</small></a><a href="#diario">Diario <small>Erinnerungen</small></a></nav></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="menu-drawer" id="menuDrawer" aria-hidden="true"><button class="drawer-close" id="drawerClose">×</button><p class="section-label">Incanto</p><nav><a href="#discover">Luoghi <small>Entdecken</small></a><a href="#discover">Sapori <small>Genießen</small></a><a href="#route-map">Mappa <small>Routenkarte</small></a><a href="#route-compare">Confronto <small>Vergleichen</small></a><a href="#routes">Percorsi <small>Routen</small></a><a href="#moments">Attimi d'Incanto <small>Momente</small></a><a href="#diario">Diario <small>Erinnerungen</small></a></nav></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="app.js?v=20260721-2"></script>
+<script src="app.js?v=20260721-3"></script>
 <script src="route-map.js?v=20260721-6"></script>
 <script src="route-map-tools.js?v=20260721-3"></script>
+<script src="route-compare.js?v=20260721-1"></script>
 </body>
 </html>
