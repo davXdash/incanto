@@ -7,12 +7,12 @@ const placeCoordinates={
 'piacenza':[45.052,9.693],'parma':[44.802,10.328],'modena':[44.647,10.925],'bologna':[44.494,11.342],'dozza':[44.36,11.628],'ravenna':[44.418,12.203],'comacchio':[44.694,12.182],'rimini':[44.067,12.57],
 'orvieto':[42.719,12.11],'todi':[42.782,12.406],'perugia':[43.111,12.389],'assisi':[43.071,12.617],'spello':[42.99,12.672],'norcia':[42.793,13.093],'urbino':[43.725,12.637],'fano':[43.843,13.019],'conero':[43.55,13.61],
 'gargano':[41.85,15.95],'trani':[41.277,16.417],'bari':[41.117,16.871],'polignano a mare':[40.996,17.218],'alberobello':[40.785,17.237],'ostuni':[40.729,17.577],'grottaglie':[40.536,17.437],'lecce':[40.352,18.174],'otranto':[40.148,18.486],'gallipoli':[40.056,17.992],'matera':[40.667,16.604],
-'messina':[38.193,15.554],'taormina':[37.852,15.289],'ätna':[37.751,14.993],'catania':[37.507,15.083],'syrakus':[37.075,15.286],'noto':[36.892,15.07],'marzamemi':[36.742,15.115],'modica':[36.858,14.761],'ragusa':[36.926,14.725],'agrigent':[37.311,13.576],
+'messina':[38.193,15.554],'taormina':[37.852,15.289],'ätna':[37.751,14.993],'atna':[37.751,14.993],'catania':[37.507,15.083],'syrakus':[37.075,15.286],'noto':[36.892,15.07],'marzamemi':[36.742,15.115],'modica':[36.858,14.761],'ragusa':[36.926,14.725],'agrigent':[37.311,13.576],
 'rom':[41.902,12.496],'neapel':[40.852,14.268],'pompeji':[40.746,14.498],'paestum':[40.423,15.006],'maratea':[39.994,15.718],'tropea':[38.676,15.899],'scilla':[38.252,15.718],'palermo':[38.116,13.361],
 'turin':[45.07,7.687],'asti':[44.9,8.206],'monferrato':[45.05,8.39],'alba':[44.7,8.035],'barbaresco':[44.724,8.081],'neive':[44.727,8.116],'la morra':[44.639,7.93],'barolo':[44.61,7.942],'roero':[44.76,7.96],
 'alghero':[40.558,8.319],'bosa':[40.299,8.498],'porto torres':[40.835,8.397],'castelsardo':[40.915,8.714],'costa paradiso':[41.049,8.95],'santa teresa gallura':[41.242,9.188],'palau':[41.179,9.383],'arzachena':[41.079,9.389],'costa smeralda':[41.08,9.54],'olbia':[40.923,9.496],
 'diamante':[39.68,15.822],'san lucido':[39.309,16.05],'pizzo':[38.735,16.163],'zambrone':[38.699,15.99],'chianalea':[38.253,15.717],'isola di capo rizzuto':[38.96,17.094],'roseto capo spulico':[39.986,16.603],
-'triest':[45.65,13.776],'miramare':[45.702,13.712],'duino':[45.773,13.604],'gorizia':[45.94,13.621],'collio':[45.97,13.54],'cormòns':[45.956,13.466],'udine':[46.063,13.235],'aquileia':[45.769,13.368],'grado':[45.678,13.394],
+'triest':[45.65,13.776],'miramare':[45.702,13.712],'duino':[45.773,13.604],'gorizia':[45.94,13.621],'collio':[45.97,13.54],'cormòns':[45.956,13.466],'cormons':[45.956,13.466],'udine':[46.063,13.235],'aquileia':[45.769,13.368],'grado':[45.678,13.394],
 'como':[45.808,9.085],'cernobbio':[45.84,9.076],'isola comacina':[45.965,9.178],'lenno':[45.973,9.192],'villa del balbianello':[45.966,9.203],'bellagio':[45.987,9.261],'varenna':[46.01,9.284],'menaggio':[46.02,9.238],
 'comer see':[46.0,9.25],'chiavenna':[46.32,9.404],'morbegno':[46.137,9.57],'sondrio':[46.17,9.87],'tirano':[46.216,10.168],'teglio':[46.172,10.064],'bormio':[46.468,10.375],
 'vasto':[42.112,14.706],'punta aderci':[42.181,14.693],'torino di sangro':[42.188,14.542],'fossacesia':[42.24,14.483],'rocca san giovanni':[42.247,14.462],'san vito chietino':[42.306,14.447],'ortona':[42.355,14.403],
@@ -24,7 +24,7 @@ const placeCoordinates={
 'mailand':[45.464,9.19],'orta san giulio':[45.798,8.406],'stresa':[45.884,8.54],'isola bella':[45.895,8.526],'isola madre':[45.91,8.536],'isola dei pescatori':[45.9,8.523],'verbania':[45.922,8.551],'villa taranto':[45.929,8.568],'cannobio':[46.063,8.697],
 'bolsena':[42.644,11.986],'montefiascone':[42.539,12.036],'civita di bagnoregio':[42.627,12.113],'viterbo':[42.417,12.108],'villa lante':[42.428,12.154],'bomarzo':[42.491,12.247],'caprarola':[42.328,12.237],'tarquinia':[42.254,11.757],'bracciano':[42.103,12.176],'castelli romani':[41.75,12.7],
 'costa dei trabocchi':[42.25,14.48],'sulmona':[42.05,13.929],'pescocostanzo':[41.889,14.065],'scanno':[41.901,13.883],'tivoli':[41.963,12.798],'santa severa':[42.021,11.957],
-'forte di bard':[45.609,7.744],'aosta':[45.737,7.32],'fénis':[45.737,7.489],'issogne':[45.654,7.685],'saint-pierre':[45.711,7.226],'morgex':[45.756,7.038],'pré-saint-didier':[45.764,6.985],'courmayeur':[45.791,6.972],
+'forte di bard':[45.609,7.744],'aosta':[45.737,7.32],'fénis':[45.737,7.489],'fenis':[45.737,7.489],'issogne':[45.654,7.685],'saint-pierre':[45.711,7.226],'morgex':[45.756,7.038],'pré-saint-didier':[45.764,6.985],'pre-saint-didier':[45.764,6.985],'courmayeur':[45.791,6.972],
 'fossombrone':[43.69,12.811],'jesi':[43.522,13.244],'cupramontana':[43.447,13.115],'loreto':[43.44,13.608],'ancona':[43.616,13.518],'portonovo':[43.565,13.594],'sirolo':[43.523,13.618],'numana':[43.511,13.621]
 };
 function normalizePlace(name){return String(name||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/’/g,"'").trim()}
@@ -32,7 +32,7 @@ function pointFor(name){const key=normalizePlace(name);return placeCoordinates[k
 function markerIcon(index,total){const cls=index===0?'start':index===total-1?'end':'';return L.divIcon({className:`incanto-map-marker ${cls}`,html:`<span>${index+1}</span>`,iconSize:[26,26],iconAnchor:[13,13],popupAnchor:[0,-14]})}
 async function initRouteMap(){
  const el=document.querySelector('#italyRouteMap');if(!el||typeof L==='undefined')return;
- const [responses,geometryResponse]=await Promise.all([Promise.all(routeMapFiles.map(file=>fetch(file))),fetch('route-geometries.json?v=20260721-5')]);
+ const [responses,geometryResponse]=await Promise.all([Promise.all(routeMapFiles.map(file=>fetch(file))),fetch('route-geometries.json?v=20260721-6')]);
  const blocks=await Promise.all(responses.map(r=>r.ok?r.json():[]));const mapRoutes=blocks.flat();
  let geometryData={routes:{}};if(geometryResponse.ok){try{geometryData=await geometryResponse.json()}catch(error){console.warn('Straßengeometrien konnten nicht gelesen werden',error)}}
  if(!mapRoutes.length)return;
@@ -43,7 +43,7 @@ async function initRouteMap(){
  select.innerHTML=mapRoutes.map((r,i)=>`<option value="${i}">${String(i+1).padStart(2,'0')} · ${r.title}</option>`).join('');
  function show(index){
   current=(index+mapRoutes.length)%mapRoutes.length;const route=mapRoutes[current];const mapped=route.stops.map(name=>({name,coord:pointFor(name)})).filter(x=>x.coord);const stored=geometryData.routes?.[route.id];routeLayer.clearLayers();
-  mapped.forEach((p,i)=>L.marker(p.coord,{icon:markerIcon(i,mapped.length)}).bindPopup(`<strong>${p.name}</strong><br>${i===0?'Start der Route':i===mapped.length-1?'Ende der Route':`Stopp ${i+1}`}`).addTo(routeLayer));
+  mapped.forEach((p,i)=>{const marker=L.marker(p.coord,{icon:markerIcon(i,mapped.length)}).bindPopup(`<strong>${p.name}</strong><br>${i===0?'Start der Route':i===mapped.length-1?'Ende der Route':`Stopp ${i+1}`}<br><small>Antippen: passende Routen anzeigen</small>`).addTo(routeLayer);marker.on('click',()=>window.dispatchEvent(new CustomEvent('incanto:place-selected',{detail:{place:p.name}})))});
   const road=Array.isArray(stored?.road)&&stored.road.length>1?stored.road:mapped.map(p=>p.coord);const bounds=[];
   if(road.length>1){L.polyline(road,{color:'#b58a47',weight:4,opacity:.92,lineJoin:'round'}).bindPopup('Straßenverlauf zwischen den Hauptstopps').addTo(routeLayer);bounds.push(...road)}
   (stored?.waterSegments||[]).forEach(segment=>{if(!Array.isArray(segment.coords)||segment.coords.length<2)return;L.polyline(segment.coords,{color:'#806c50',weight:3,opacity:.95,dashArray:'8 9'}).bindPopup(segment.label||'Boots- oder Fährverbindung').addTo(routeLayer);bounds.push(...segment.coords)});
