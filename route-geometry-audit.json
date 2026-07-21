@@ -1,0 +1,248 @@
+{
+  "generatedAt": "2026-07-21T17:49:20.304Z",
+  "totalRoutes": 26,
+  "routes": {
+    "toscana-cuore": {
+      "mode": "road",
+      "mappedStops": 10,
+      "totalStops": 10,
+      "originalPoints": 15551,
+      "simplifiedPoints": 1425,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "ligurien": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 11322,
+      "simplifiedPoints": 1368,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "gardasee-veneto": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 8,
+      "originalPoints": 8191,
+      "simplifiedPoints": 836,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "suedtirol-dolomiten": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 8,
+      "originalPoints": 14569,
+      "simplifiedPoints": 1453,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "emilia-romagna": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 8,
+      "originalPoints": 7023,
+      "simplifiedPoints": 609,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "umbrien-marken": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 12512,
+      "simplifiedPoints": 1431,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "apulien": {
+      "mode": "road",
+      "mappedStops": 11,
+      "totalStops": 11,
+      "originalPoints": 12625,
+      "simplifiedPoints": 1455,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "sizilien-ost-sued": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 10,
+      "originalPoints": 9508,
+      "simplifiedPoints": 1092,
+      "waterLegs": 0,
+      "accessFerry": true
+    },
+    "rom-sizilien": {
+      "mode": "road",
+      "mappedStops": 11,
+      "totalStops": 12,
+      "originalPoints": 23703,
+      "simplifiedPoints": 2831,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "piemont-weinlandschaften": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 5369,
+      "simplifiedPoints": 660,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "sardinien-nordkueste": {
+      "mode": "road",
+      "mappedStops": 10,
+      "totalStops": 10,
+      "originalPoints": 7983,
+      "simplifiedPoints": 1254,
+      "waterLegs": 0,
+      "accessFerry": true
+    },
+    "kalabrien-kuestendoerfer": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 11177,
+      "simplifiedPoints": 1304,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "friaul-triest-collio": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 9,
+      "originalPoints": 3890,
+      "simplifiedPoints": 385,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "comer-see-villen": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 8,
+      "originalPoints": 1448,
+      "simplifiedPoints": 164,
+      "waterLegs": 3,
+      "accessFerry": false
+    },
+    "valtellina-genussroute": {
+      "mode": "road",
+      "mappedStops": 7,
+      "totalStops": 7,
+      "originalPoints": 5684,
+      "simplifiedPoints": 541,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "costa-dei-trabocchi": {
+      "mode": "road",
+      "mappedStops": 7,
+      "totalStops": 7,
+      "originalPoints": 2421,
+      "simplifiedPoints": 303,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "cilento-kueste": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 8,
+      "originalPoints": 5235,
+      "simplifiedPoints": 757,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "sizilien-westkueste": {
+      "mode": "road",
+      "mappedStops": 10,
+      "totalStops": 11,
+      "originalPoints": 6040,
+      "simplifiedPoints": 727,
+      "waterLegs": 2,
+      "accessFerry": true
+    },
+    "basilikata-coast-to-coast": {
+      "mode": "road",
+      "mappedStops": 10,
+      "totalStops": 10,
+      "originalPoints": 9840,
+      "simplifiedPoints": 1356,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "venetien-prosecco-lagune": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 7200,
+      "simplifiedPoints": 679,
+      "waterLegs": 1,
+      "accessFerry": false
+    },
+    "sardinien-suedkueste": {
+      "mode": "road",
+      "mappedStops": 11,
+      "totalStops": 11,
+      "originalPoints": 6466,
+      "simplifiedPoints": 948,
+      "waterLegs": 2,
+      "accessFerry": true
+    },
+    "lago-maggiore-orta-mailand": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 3281,
+      "simplifiedPoints": 386,
+      "waterLegs": 4,
+      "accessFerry": false
+    },
+    "latium-tuscia-seen": {
+      "mode": "road",
+      "mappedStops": 10,
+      "totalStops": 10,
+      "originalPoints": 9036,
+      "simplifiedPoints": 948,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "italien-meer-zu-meer": {
+      "mode": "road",
+      "mappedStops": 8,
+      "totalStops": 8,
+      "originalPoints": 17086,
+      "simplifiedPoints": 1358,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "aostatal-genuss-panorama": {
+      "mode": "road",
+      "mappedStops": 6,
+      "totalStops": 8,
+      "originalPoints": 4251,
+      "simplifiedPoints": 427,
+      "waterLegs": 0,
+      "accessFerry": false
+    },
+    "marken-conero-verdicchio": {
+      "mode": "road",
+      "mappedStops": 9,
+      "totalStops": 9,
+      "originalPoints": 5312,
+      "simplifiedPoints": 676,
+      "waterLegs": 0,
+      "accessFerry": false
+    }
+  },
+  "summary": {
+    "road": 26,
+    "mixed": 0,
+    "approximate": 0,
+    "missing": 0,
+    "originalPoints": 226723,
+    "simplifiedPoints": 25373
+  }
+}
