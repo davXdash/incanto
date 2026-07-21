@@ -1,0 +1,41 @@
+name: Audit route sources
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'routes*.json'
+      - 'route-details-*.json'
+      - 'scripts/audit-route-sources.mjs'
+      - '.github/workflows/audit-route-sources.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: route-source-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Generate source audit
+        run: node scripts/audit-route-sources.mjs
+      - name: Commit audit report
+        run: |
+          if git diff --quiet -- route-source-audit.json; then
+            echo "No source audit changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add route-source-audit.json
+          git commit -m "Generate route source audit"
+          git push
