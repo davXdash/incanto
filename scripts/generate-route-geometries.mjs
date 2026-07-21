@@ -29,57 +29,64 @@ function perpendicularDistance(point,start,end){
   const t=Math.max(0,Math.min(1,((x-x1)*dx+(y-y1)*dy)/(dx*dx+dy*dy)));
   return Math.hypot(x-(x1+t*dx),y-(y1+t*dy));
 }
+
 function simplify(points,tolerance=0.00018){
   if(points.length<3)return points;
-  let max=0,index=0;for(let i=1;i<points.length-1;i++){const d=perpendicularDistance(points[i],points[0],points.at(-1));if(d>max){max=d;index=i;}}
-  if(max<=tolerance)return [points[0],points.at(-1)];
-  const left=simplify(points.slice(0,index+1),tolerance),right=simplify(points.slice(index),tolerance);return left.slice(0,-1).concat(right);
+  const keep=new Uint8Array(points.length);keep[0]=1;keep[points.length-1]=1;
+  const stack=[[0,points.length-1]];
+  while(stack.length){
+    const [start,end]=stack.pop();let max=0,index=-1;
+    for(let i=start+1;i<end;i++){const distance=perpendicularDistance(points[i],points[start],points[end]);if(distance>max){max=distance;index=i;}}
+    if(index!==-1&&max>tolerance){keep[index]=1;stack.push([start,index],[index,end]);}
+  }
+  return points.filter((_,index)=>keep[index]);
 }
 
 async function routeGeometry(points){
   const coords=points.map(([lat,lng])=>`${lng},${lat}`).join(';');
   const url=`https://router.project-osrm.org/route/v1/driving/${coords}?overview=full&geometries=geojson&steps=false`;
   let lastError;
-  for(let attempt=1;attempt<=3;attempt++){
+  for(let attempt=1;attempt<=2;attempt++){
     try{
-      const response=await fetch(url,{headers:{'User-Agent':'IncantoRouteGenerator/1.2'},signal:AbortSignal.timeout(45000)});
+      const response=await fetch(url,{headers:{'User-Agent':'IncantoRouteGenerator/1.3'},signal:AbortSignal.timeout(30000)});
       if(!response.ok)throw new Error(`OSRM ${response.status}`);
       const data=await response.json();
       if(data.code!=='Ok'||!data.routes?.[0]?.geometry?.coordinates)throw new Error(data.code||'No route');
       return data.routes[0].geometry.coordinates.map(([lng,lat])=>[lat,lng]);
-    }catch(error){lastError=error;if(attempt<3)await delay(1200*attempt);}
+    }catch(error){lastError=error;if(attempt<2)await delay(1200);}
   }
   throw lastError;
 }
 
 async function main(){
   const [routes,coordinates]=await Promise.all([readRoutes(),readCoordinates()]);
+  let previous={routes:{}};try{previous=JSON.parse(await fs.readFile('route-geometries.json','utf8'));}catch{}
   const output={generatedAt:new Date().toISOString(),provider:'OSRM/OpenStreetMap',routes:{}};
-  const audit={generatedAt:output.generatedAt,totalRoutes:routes.length,routes:{},summary:{road:0,mixed:0,approximate:0,missing:0,originalPoints:0,simplifiedPoints:0}};
+  const audit={generatedAt:output.generatedAt,totalRoutes:routes.length,routes:{},summary:{road:0,cached:0,mixed:0,missing:0,originalPoints:0,simplifiedPoints:0}};
   for(const route of routes){
-    const mapped=route.stops.map(name=>({name,coord:coordinates[normalize(name)]||null})).filter(item=>item.coord);
-    if(mapped.length<2){audit.summary.missing++;audit.routes[route.id]={mode:'missing',mappedStops:mapped.length,totalStops:route.stops.length};continue;}
-    const waterLegs=(waterLegNames[route.id]||[]).map(([from,to,label])=>({from:{name:from,coord:coordinates[normalize(from)]},to:{name:to,coord:coordinates[normalize(to)]},label})).filter(leg=>leg.from.coord&&leg.to.coord);
-    const waterPairs=new Set(waterLegs.flatMap(leg=>[`${normalize(leg.from.name)}>${normalize(leg.to.name)}`,`${normalize(leg.to.name)}>${normalize(leg.from.name)}`]));
-    let road=[];let mode='road';
+    const allStops=route.stops.map(name=>({name,coord:coordinates[normalize(name)]||null}));
+    const mapped=allStops.filter(item=>item.coord);const missingStops=allStops.filter(item=>!item.coord).map(item=>item.name);
+    if(mapped.length<2){audit.summary.missing++;audit.routes[route.id]={mode:'missing',mappedStops:mapped.length,totalStops:route.stops.length,missingStops};continue;}
+    const waterSegments=(waterLegNames[route.id]||[]).map(([from,to,label])=>({coords:[coordinates[normalize(from)],coordinates[normalize(to)]],label})).filter(segment=>segment.coords.every(Boolean));
+    const waterPairs=new Set((waterLegNames[route.id]||[]).flatMap(([from,to])=>[`${normalize(from)}>${normalize(to)}`,`${normalize(to)}>${normalize(from)}`]));
+    let road=[];let mode='road';let failed=false;
     for(let i=0;i<mapped.length-1;i++){
       const a=mapped[i],b=mapped[i+1];
       if(waterPairs.has(`${normalize(a.name)}>${normalize(b.name)}`))continue;
       try{const segment=await routeGeometry([a.coord,b.coord]);if(road.length&&segment.length)segment.shift();road.push(...segment);}
-      catch(error){road.push(a.coord,b.coord);mode=mode==='road'?'mixed':'approximate';}
-      await delay(350);
+      catch(error){failed=true;console.warn(`${route.id}: ${a.name} -> ${b.name}: ${error.message}`);break;}
+      await delay(450);
     }
-    const originalPoints=road.length;const compact=simplify(road);
-    output.routes[route.id]={mode,road:compact,waterLegs,accessFerry:accessFerries[route.id]||null};
+    if(failed&&Array.isArray(previous.routes?.[route.id]?.road)&&previous.routes[route.id].road.length>1){road=previous.routes[route.id].road;mode='cached';}
+    else if(failed){road=mapped.map(item=>item.coord);mode='mixed';}
+    const originalPoints=road.length;const compact=mode==='road'?simplify(road):road;
+    output.routes[route.id]={mode,road:compact,waterSegments,accessFerry:accessFerries[route.id]||null};
     audit.summary[mode]++;audit.summary.originalPoints+=originalPoints;audit.summary.simplifiedPoints+=compact.length;
-    audit.routes[route.id]={mode,mappedStops:mapped.length,totalStops:route.stops.length,originalPoints,simplifiedPoints:compact.length,waterLegs:waterLegs.length,accessFerry:Boolean(accessFerries[route.id])};
-    console.log(`${route.id}: ${originalPoints} -> ${compact.length} points (${mode})`);await delay(450);
+    audit.routes[route.id]={mode,mappedStops:mapped.length,totalStops:route.stops.length,missingStops,originalPoints,simplifiedPoints:compact.length,waterSegments:waterSegments.length,accessFerry:Boolean(accessFerries[route.id])};
+    console.log(`${route.id}: ${originalPoints} -> ${compact.length} points (${mode})`);
   }
   if(Object.keys(output.routes).length<routes.length-2)throw new Error(`Only ${Object.keys(output.routes).length} of ${routes.length} routes generated`);
-  await Promise.all([
-    fs.writeFile('route-geometries.json',JSON.stringify(output)),
-    fs.writeFile('route-geometry-audit.json',JSON.stringify(audit,null,2))
-  ]);
+  await Promise.all([fs.writeFile('route-geometries.json',JSON.stringify(output)),fs.writeFile('route-geometry-audit.json',JSON.stringify(audit,null,2))]);
 }
 
 main().catch(error=>{console.error(error);process.exit(1)});
