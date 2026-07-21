@@ -26,16 +26,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Generate static road routes
+      - name: Generate and audit static road routes
         run: node scripts/generate-route-geometries.mjs
-      - name: Commit generated geometry
+      - name: Commit generated geometry and audit
         run: |
-          if git diff --quiet -- route-geometries.json; then
+          if git diff --quiet -- route-geometries.json route-geometry-audit.json; then
             echo "No geometry changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add route-geometries.json
-          git commit -m "Generate static road geometries"
+          git add route-geometries.json route-geometry-audit.json
+          git commit -m "Generate audited static road geometries"
           git push
