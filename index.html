@@ -8,9 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Italiana&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynHTF+KjMZV9v9/8R7QZ+Qw9v6bM=" crossorigin="">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="mockup-fixes.css?v=20260720-2">
   <link rel="stylesheet" href="route-details.css?v=20260720-1">
+  <link rel="stylesheet" href="route-map.css?v=20260721-1">
 </head>
 <body>
 <header class="topbar">
@@ -18,6 +20,7 @@
   <nav class="desktop-nav" aria-label="Hauptnavigation">
     <a href="#discover"><b>LUOGHI</b><span>Entdecken</span></a>
     <a href="#discover"><b>SAPORI</b><span>Genießen</span></a>
+    <a href="#route-map"><b>MAPPA</b><span>Routenkarte</span></a>
     <a href="#routes"><b>PERCORSI</b><span>Routen</span></a>
     <a href="#moments"><b>ATTIMI D'INCANTO</b><span>Momente</span></a>
     <a href="#diario"><b>DIARIO</b><span>Erinnerungen</span></a>
@@ -44,9 +47,31 @@
   <section class="journey-section">
     <header class="section-heading"><h2>Drei Wege zu eurer nächsten Reise</h2><span>✣</span></header>
     <div class="journey-grid">
-      <article><img src="assets/journey-plan.jpg" alt="Wohnmobil auf einer italienischen Panoramastraße"><div><i>◉</i><h3>Eigene Routen planen</h3><p>Plant eure individuelle Tour ganz nach euren Wünschen.</p><a href="#routes">ROUTE PLANEN →</a></div></article>
+      <article><img src="assets/journey-plan.jpg" alt="Wohnmobil auf einer italienischen Panoramastraße"><div><i>◉</i><h3>Eigene Routen planen</h3><p>Plant eure individuelle Tour ganz nach euren Wünschen.</p><a href="#route-map">ROUTE PLANEN →</a></div></article>
       <article><img src="assets/journey-inspiration.jpg" alt="Straße durch eine italienische Landschaft"><div><i>▧</i><h3>Inspiration finden</h3><p>Entdeckt fertige Routen aus ausgewählten Quellen.</p><a href="#routes">ROUTEN ENTDECKEN →</a></div></article>
-      <article><img src="assets/journey-favorites.jpg" alt="Italienische Landkarte"><div><i>♡</i><h3>Unsere Lieblingsrouten</h3><p>Unsere persönlichen Routen, Erlebnisse und Empfehlungen.</p><a href="#routes">LIEBLINGSROUTEN ANSEHEN →</a></div></article>
+      <article><img src="assets/journey-favorites.jpg" alt="Italienische Landkarte"><div><i>♡</i><h3>Unsere Lieblingsrouten</h3><p>Unsere persönlichen Routen, Erlebnisse und Empfehlungen.</p><a href="#route-map">AUF DER KARTE ANSEHEN →</a></div></article>
+    </div>
+  </section>
+  <section class="route-map-section" id="route-map">
+    <header class="section-heading"><span class="eyebrow">MAPPA D'ITALIA</span><h2>Italien Route für Route verstehen</h2><p>Eine maßstabsgetreue Karte mit Städten, Küsten, Seen und Landschaften. Blättert durch alle Reisen und seht sofort, wo sie beginnen, welche Orte sie verbinden und wo sie enden.</p></header>
+    <div class="route-map-shell">
+      <aside class="route-map-panel">
+        <p class="route-map-count" id="routeMapCount">Route 1</p>
+        <h3 id="routeMapTitle">Routenkarte wird geladen</h3>
+        <p class="route-map-meta" id="routeMapMeta"></p>
+        <p class="route-map-summary" id="routeMapSummary"></p>
+        <ol class="route-map-stops" id="routeMapStops"></ol>
+        <div class="route-map-controls">
+          <button id="routeMapPrev" type="button" aria-label="Vorherige Route">←</button>
+          <select class="route-map-select" id="routeMapSelect" aria-label="Route auswählen"></select>
+          <button id="routeMapNext" type="button" aria-label="Nächste Route">→</button>
+        </div>
+        <button class="route-map-open" id="routeMapOpen" type="button">ROUTE IM DETAIL ÖFFNEN</button>
+      </aside>
+      <div class="route-map-canvas">
+        <div class="route-map" id="italyRouteMap" aria-label="Interaktive Italienkarte mit Reiserouten"></div>
+        <div class="route-map-legend"><strong>Incanto-Routenverlauf</strong><span></span>verbundene Hauptstopps</div>
+      </div>
     </div>
   </section>
   <section class="moments-section" id="moments">
@@ -65,7 +90,9 @@
 <footer id="diario"><blockquote><em>Incanto sammelt keine Orte.<br>Incanto sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span class="footer-ornament">✣</span><div class="footer-signature"><strong>David &amp; Kay</strong><small>FÜR UNSERE GEMEINSAMEN REISEN.</small></div></footer>
 <dialog id="routeDialog" class="route-dialog"><button class="dialog-close" id="dialogClose" aria-label="Schließen">×</button><div id="dialogContent"></div></dialog>
 <dialog id="searchDialog" class="search-dialog"><button class="dialog-close" id="searchClose" aria-label="Schließen">×</button><div class="search-panel"><p class="section-label">Incanto durchsuchen</p><input id="searchInput" type="search" placeholder="Toskana, Wein, Meer, Keramik …" autocomplete="off"><div id="searchResults" class="search-results"></div></div></dialog>
-<aside class="menu-drawer" id="menuDrawer" aria-hidden="true"><button class="drawer-close" id="drawerClose">×</button><p class="section-label">Incanto</p><nav><a href="#discover">Luoghi <small>Entdecken</small></a><a href="#discover">Sapori <small>Genießen</small></a><a href="#routes">Percorsi <small>Routen</small></a><a href="#moments">Attimi d'Incanto <small>Momente</small></a><a href="#diario">Diario <small>Erinnerungen</small></a></nav></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="menu-drawer" id="menuDrawer" aria-hidden="true"><button class="drawer-close" id="drawerClose">×</button><p class="section-label">Incanto</p><nav><a href="#discover">Luoghi <small>Entdecken</small></a><a href="#discover">Sapori <small>Genießen</small></a><a href="#route-map">Mappa <small>Routenkarte</small></a><a href="#routes">Percorsi <small>Routen</small></a><a href="#moments">Attimi d'Incanto <small>Momente</small></a><a href="#diario">Diario <small>Erinnerungen</small></a></nav></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="app.js"></script>
+<script src="route-map.js?v=20260721-1"></script>
 </body>
 </html>
