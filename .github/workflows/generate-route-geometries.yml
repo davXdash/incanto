@@ -2,25 +2,18 @@ name: Generate route geometries
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/generate-route-geometries.mjs'
-      - 'routes*.json'
-      - 'route-map.js'
-      - '.github/workflows/generate-route-geometries.yml'
 
 permissions:
   contents: write
 
 concurrency:
   group: route-geometries
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   generate:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
