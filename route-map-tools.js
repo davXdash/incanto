@@ -5,9 +5,8 @@ function normalizeMapTool(value){return String(value||'').toLowerCase().normaliz
 async function initRouteMapTools(){
   const input=document.querySelector('#routeCitySearch');
   const results=document.querySelector('#routeCityResults');
-  const sourceBox=document.querySelector('#routeMapSources');
   const select=document.querySelector('#routeMapSelect');
-  if(!input||!results||!sourceBox||!select)return;
+  if(!input||!results||!select)return;
 
   const responses=await Promise.all(mapToolRouteFiles.map(file=>fetch(file)));
   const blocks=await Promise.all(responses.map(response=>response.ok?response.json():[]));
@@ -32,22 +31,6 @@ async function initRouteMapTools(){
     document.querySelector('#route-map')?.scrollIntoView({behavior:'smooth',block:'start'});
   }
 
-  function sourceType(name){
-    const value=normalizeMapTool(name);
-    if(value.includes('roadsurfer')||value.includes('campercontact'))return 'Wohnmobilquelle';
-    if(value.includes('italia.it'))return 'Nationales Tourismusportal';
-    if(value.includes('official')||value.includes('tourism')||value.includes('turismo')||value.includes('visit')||value.includes('lovevda')||value.includes('sardegna'))return 'Regionale Originalquelle';
-    return 'Ergänzende Quelle';
-  }
-
-  function renderSources(){
-    const index=Number(select.value)||0;
-    const route=routes[index];
-    if(!route){sourceBox.innerHTML='';return}
-    const sources=[route.source,route.source2].filter(source=>source?.name&&source?.url);
-    sourceBox.innerHTML=sources.length?`<p>Grundlagen dieser Incanto-Route</p>${sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener"><span>${sourceType(source.name)}</span>${source.name} ↗</a>`).join('')}`:'';
-  }
-
   function renderMatches(matches){
     if(!matches.length){results.innerHTML='<p class="route-city-empty">Kein Ort in den bisherigen Hauptstopps gefunden.</p>';return}
     results.innerHTML=matches.map(city=>`<section><h4>${city.label}</h4><div>${city.routes.map(route=>`<button type="button" data-route-index="${route.index}">${route.title}<small>${route.region} · ${route.days}</small></button>`).join('')}</div></section>`).join('');
@@ -62,15 +45,13 @@ async function initRouteMapTools(){
 
   input.addEventListener('input',search);
   input.addEventListener('change',search);
-  select.addEventListener('change',renderSources);
-  window.addEventListener('incanto:place-selected',event=>{
-    const place=event.detail?.place;if(!place)return;
-    input.value=place;
-    const exact=cityIndex.get(normalizeMapTool(place));
+  window.addEventListener('incanto:map-stop-selected',event=>{
+    const label=event.detail?.name;
+    if(!label)return;
+    input.value=label;
+    const exact=cityIndex.get(normalizeMapTool(label));
     renderMatches(exact?[exact]:[]);
-    input.scrollIntoView({behavior:'smooth',block:'center'});
   });
-  renderSources();
 }
 
 window.addEventListener('DOMContentLoaded',()=>initRouteMapTools().catch(error=>console.error('Kartensuche konnte nicht geladen werden',error)));
