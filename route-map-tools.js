@@ -14,7 +14,6 @@ async function initRouteMapTools(){
   const routes=blocks.flat();
   if(!routes.length)return;
 
-  const routeIndex=new Map(routes.map((route,index)=>[route.id,{route,index}]));
   const cityIndex=new Map();
   routes.forEach((route,index)=>route.stops.forEach(stop=>{
     const key=normalizeMapTool(stop);
@@ -33,26 +32,44 @@ async function initRouteMapTools(){
     document.querySelector('#route-map')?.scrollIntoView({behavior:'smooth',block:'start'});
   }
 
+  function sourceType(name){
+    const value=normalizeMapTool(name);
+    if(value.includes('roadsurfer')||value.includes('campercontact'))return 'Wohnmobilquelle';
+    if(value.includes('italia.it'))return 'Nationales Tourismusportal';
+    if(value.includes('official')||value.includes('tourism')||value.includes('turismo')||value.includes('visit')||value.includes('lovevda')||value.includes('sardegna'))return 'Regionale Originalquelle';
+    return 'Ergänzende Quelle';
+  }
+
   function renderSources(){
     const index=Number(select.value)||0;
     const route=routes[index];
     if(!route){sourceBox.innerHTML='';return}
     const sources=[route.source,route.source2].filter(source=>source?.name&&source?.url);
-    sourceBox.innerHTML=sources.length?`<p>Quellen dieser Grundroute</p>${sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener">${source.name} ↗</a>`).join('')}`:'';
+    sourceBox.innerHTML=sources.length?`<p>Grundlagen dieser Incanto-Route</p>${sources.map(source=>`<a href="${source.url}" target="_blank" rel="noopener"><span>${sourceType(source.name)}</span>${source.name} ↗</a>`).join('')}`:'';
   }
 
-  function search(){
-    const query=normalizeMapTool(input.value);
-    if(!query){results.innerHTML='';return}
-    const matches=cities.filter(city=>normalizeMapTool(city.label).includes(query)).slice(0,8);
+  function renderMatches(matches){
     if(!matches.length){results.innerHTML='<p class="route-city-empty">Kein Ort in den bisherigen Hauptstopps gefunden.</p>';return}
     results.innerHTML=matches.map(city=>`<section><h4>${city.label}</h4><div>${city.routes.map(route=>`<button type="button" data-route-index="${route.index}">${route.title}<small>${route.region} · ${route.days}</small></button>`).join('')}</div></section>`).join('');
     results.querySelectorAll('[data-route-index]').forEach(button=>button.addEventListener('click',()=>activateRoute(Number(button.dataset.routeIndex))));
   }
 
+  function search(){
+    const query=normalizeMapTool(input.value);
+    if(!query){results.innerHTML='';return}
+    renderMatches(cities.filter(city=>normalizeMapTool(city.label).includes(query)).slice(0,8));
+  }
+
   input.addEventListener('input',search);
   input.addEventListener('change',search);
   select.addEventListener('change',renderSources);
+  window.addEventListener('incanto:place-selected',event=>{
+    const place=event.detail?.place;if(!place)return;
+    input.value=place;
+    const exact=cityIndex.get(normalizeMapTool(place));
+    renderMatches(exact?[exact]:[]);
+    input.scrollIntoView({behavior:'smooth',block:'center'});
+  });
   renderSources();
 }
 
