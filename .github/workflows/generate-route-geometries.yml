@@ -1,0 +1,41 @@
+name: Generate route geometries
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-route-geometries.mjs'
+      - 'routes*.json'
+      - 'route-map.js'
+      - '.github/workflows/generate-route-geometries.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: route-geometries
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Generate static road routes
+        run: node scripts/generate-route-geometries.mjs
+      - name: Commit generated geometry
+        run: |
+          if git diff --quiet -- route-geometries.json; then
+            echo "No geometry changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add route-geometries.json
+          git commit -m "Generate static road geometries"
+          git push
