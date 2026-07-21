@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="mockup-fixes.css?v=20260720-2">
   <link rel="stylesheet" href="route-details.css?v=20260720-1">
   <link rel="stylesheet" href="route-map.css?v=20260721-3">
+  <link rel="stylesheet" href="route-map-tools.css?v=20260721-1">
 </head>
 <body>
 <header class="topbar">
@@ -60,7 +61,14 @@
         <h3 id="routeMapTitle">Routenkarte wird geladen</h3>
         <p class="route-map-meta" id="routeMapMeta"></p>
         <p class="route-map-summary" id="routeMapSummary"></p>
+        <div class="route-city-tool">
+          <label for="routeCitySearch">Ort suchen und passende Routen finden</label>
+          <input class="route-city-search" id="routeCitySearch" list="routeCityList" type="search" placeholder="z. B. Siena, Palermo oder Bellagio" autocomplete="off">
+          <datalist id="routeCityList"></datalist>
+          <div class="route-city-results" id="routeCityResults"></div>
+        </div>
         <ol class="route-map-stops" id="routeMapStops"></ol>
+        <div class="route-map-sources" id="routeMapSources"></div>
         <div class="route-map-controls">
           <button id="routeMapPrev" type="button" aria-label="Vorherige Route">←</button>
           <select class="route-map-select" id="routeMapSelect" aria-label="Route auswählen"></select>
@@ -94,5 +102,6 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 <script src="route-map.js?v=20260721-5"></script>
+<script src="route-map-tools.js?v=20260721-1"></script>
 </body>
 </html>
