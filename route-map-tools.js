@@ -45,8 +45,8 @@ async function initRouteMapTools(){
 
   input.addEventListener('input',search);
   input.addEventListener('change',search);
-  window.addEventListener('incanto:map-stop-selected',event=>{
-    const label=event.detail?.name;
+  window.addEventListener('incanto:place-selected',event=>{
+    const label=event.detail?.place;
     if(!label)return;
     input.value=label;
     const exact=cityIndex.get(normalizeMapTool(label));
