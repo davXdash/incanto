@@ -17,5 +17,17 @@ function initIncantoExtras(){
     event.preventDefault();
     document.querySelector(button.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'});
   }));
+  const favoriteCard=[...document.querySelectorAll('.journey-grid article')].find(card=>card.querySelector('h3')?.textContent.trim()==='Unsere Lieblingsrouten');
+  if(favoriteCard){
+    const link=favoriteCard.querySelector('a');
+    const text=favoriteCard.querySelector('p');
+    if(link){link.href='lieblingsrouten.html';link.textContent='LIEBLINGSROUTEN AUSWÄHLEN →'}
+    if(text)text.textContent='Wählt getrennt bis zu vier Routen, tauscht eure Stände aus und findet Schritt für Schritt eure Finalisten.';
+  }
+  const requestedRoute=new URLSearchParams(location.search).get('route');
+  if(requestedRoute){
+    const openRequested=()=>setTimeout(()=>window.openRoute?.(requestedRoute),80);
+    if(window.incantoRoutes?.length)openRequested();else window.addEventListener('incanto:routes-ready',openRequested,{once:true});
+  }
 }
 window.addEventListener('DOMContentLoaded',initIncantoExtras);
