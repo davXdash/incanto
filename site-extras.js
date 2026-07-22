@@ -1,6 +1,6 @@
 function loadSelectionAssets(){
   if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260722-4';document.head.appendChild(css)}
-  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-4';script.onload=resolve;document.head.appendChild(script)})
+  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-5';script.onload=resolve;document.head.appendChild(script)})
 }
 function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
 function decorateSelectionHearts(){
@@ -13,7 +13,7 @@ function decorateSelectionHearts(){
 }
 function injectParticipantChoice(){
   const section=document.querySelector('.choice-section');if(!section||document.querySelector('#participantChoice'))return;
-  const panel=document.createElement('div');panel.id='participantChoice';panel.className='participant-choice';panel.innerHTML='<p class="eyebrow">EURE AUSWAHL</p><h3>Wer entdeckt heute?</h3><p>David und Kay behalten eigene Stände. Gemeinsam ist ein eigener Arbeitsmodus für eure gemeinsame Auswahl.</p><div class="participant-buttons"><button type="button" data-site-person="david">David</button><button type="button" data-site-person="kay">Kay</button><button type="button" class="together-button" data-site-person="together">Gemeinsam <span aria-hidden="true">♥</span></button></div><p class="participant-status" id="participantStatus"></p>';
+  const panel=document.createElement('div');panel.id='participantChoice';panel.className='participant-choice';panel.innerHTML='<p class="eyebrow">EURE AUSWAHL</p><h3>Wer entdeckt heute?</h3><p>David und Kay behalten eigene Stände. Gemeinsam ist euer eigener gemeinsamer Arbeitsmodus.</p><div class="participant-buttons"><button type="button" data-site-person="david">David</button><button type="button" data-site-person="kay">Kay</button><button type="button" class="together-button" data-site-person="together">Gemeinsam <span aria-hidden="true">♥</span></button></div><p class="participant-status" id="participantStatus"></p>';
   section.querySelector('.section-heading')?.insertAdjacentElement('afterend',panel);
 }
 function injectFavoriteHeaderLink(){const actions=document.querySelector('.header-actions');if(!actions||actions.querySelector('[data-favorite-access]'))return;const link=document.createElement('a');link.href='lieblingsrouten.html';link.className='favorite-header-link';link.setAttribute('data-favorite-access','');link.innerHTML='<span>♡</span><small data-favorite-access-count>Lieblingsrouten</small>';actions.insertAdjacentElement('afterbegin',link)}
@@ -23,7 +23,7 @@ function initIncantoExtras(){
   document.querySelectorAll('[data-open-route]').forEach(button=>button.addEventListener('click',()=>window.openRoute?.(button.dataset.openRoute)));
   document.querySelectorAll('[data-route-filter]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();const key=link.dataset.routeFilter;document.querySelector('#routes')?.scrollIntoView({behavior:'smooth',block:'start'});setTimeout(()=>window.applyRouteFilter?.(key),280)}));
   document.querySelectorAll('[data-scroll-target]').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();document.querySelector(button.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'})}));
-  injectParticipantChoice();injectFavoriteHeaderLink();updateFavoriteLinks();loadSelectionAssets().then(()=>{window.dispatchEvent(new Event('DOMContentLoaded'));decorateSelectionHearts();const observer=new MutationObserver(()=>decorateSelectionHearts());observer.observe(document.body,{subtree:true,childList:true,characterData:true});window.addEventListener('incanto:routes-ready',decorateSelectionHearts);window.addEventListener('incanto:selection-changed',decorateSelectionHearts);window.addEventListener('incanto:dialog-route-changed',decorateSelectionHearts)});
+  injectParticipantChoice();injectFavoriteHeaderLink();updateFavoriteLinks();loadSelectionAssets().then(()=>{window.initIncantoParticipant?.();decorateSelectionHearts();const observer=new MutationObserver(()=>decorateSelectionHearts());observer.observe(document.body,{subtree:true,childList:true,characterData:true});window.addEventListener('incanto:routes-ready',decorateSelectionHearts);window.addEventListener('incanto:selection-changed',decorateSelectionHearts);window.addEventListener('incanto:dialog-route-changed',decorateSelectionHearts)});
   const requestedRoute=new URLSearchParams(location.search).get('route');if(requestedRoute){const openRequested=()=>setTimeout(()=>window.openRoute?.(requestedRoute),80);if(window.incantoRoutes?.length)openRequested();else window.addEventListener('incanto:routes-ready',openRequested,{once:true})}
 }
 window.addEventListener('DOMContentLoaded',initIncantoExtras);
