@@ -1,15 +1,22 @@
 function loadSelectionAssets(){
   if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260722-4';document.head.appendChild(css)}
-  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-5';script.onload=resolve;document.head.appendChild(script)})
+  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-6';script.onload=resolve;script.onerror=resolve;document.head.appendChild(script)})
 }
 function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
+let decorationPending=false;
+function scheduleSelectionDecoration(){if(decorationPending)return;decorationPending=true;requestAnimationFrame(()=>{decorationPending=false;decorateSelectionHearts()})}
 function decorateSelectionHearts(){
   if(!window.incantoHeart)return;
   document.querySelectorAll('.route-card[data-id]').forEach(card=>{if(!card.querySelector('[data-selection-route]'))card.insertAdjacentHTML('afterbegin',window.incantoHeart(card.dataset.id))});
   const dialog=document.querySelector('#routeDialog'),dialogTitle=dialog?.querySelector('.dialog-hero h2');if(dialogTitle){const id=routeIdFromTitle(dialogTitle.textContent);let slot=dialog.querySelector('.dialog-selection-heart');if(!slot){slot=document.createElement('div');slot.className='dialog-selection-heart';dialog.insertAdjacentElement('afterbegin',slot)}if(id&&slot.dataset.routeId!==id){slot.dataset.routeId=id;slot.innerHTML=window.incantoHeart(id)}}
   document.querySelectorAll('.compare-head').forEach(head=>{const id=head.querySelector('[data-open-route]')?.dataset.openRoute;if(id&&!head.querySelector('[data-selection-route]'))head.insertAdjacentHTML('beforeend',window.incantoHeart(id))});
   const mapTitle=document.querySelector('#routeMapTitle'),panel=document.querySelector('.route-map-panel');if(mapTitle&&panel){const id=routeIdFromTitle(mapTitle.textContent);let slot=panel.querySelector('.map-selection-slot');if(!slot){slot=document.createElement('div');slot.className='map-selection-slot';mapTitle.insertAdjacentElement('afterend',slot)}if(id&&slot.dataset.routeId!==id){slot.dataset.routeId=id;slot.innerHTML=window.incantoHeart(id)}}
-  window.incantoBindHearts(document);window.incantoRefreshHearts?.();
+  window.incantoBindHearts?.(document);window.incantoRefreshHearts?.();
+}
+function installTargetedDecorators(){
+  const targets=['#routeGrid','#routeCompareOutput','#dialogContent'].map(selector=>document.querySelector(selector)).filter(Boolean);
+  targets.forEach(target=>new MutationObserver(scheduleSelectionDecoration).observe(target,{childList:true,subtree:true}));
+  const mapTitle=document.querySelector('#routeMapTitle');if(mapTitle)new MutationObserver(scheduleSelectionDecoration).observe(mapTitle,{childList:true,characterData:true,subtree:true});
 }
 function injectParticipantChoice(){
   const section=document.querySelector('.choice-section');if(!section||document.querySelector('#participantChoice'))return;
@@ -23,7 +30,7 @@ function initIncantoExtras(){
   document.querySelectorAll('[data-open-route]').forEach(button=>button.addEventListener('click',()=>window.openRoute?.(button.dataset.openRoute)));
   document.querySelectorAll('[data-route-filter]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();const key=link.dataset.routeFilter;document.querySelector('#routes')?.scrollIntoView({behavior:'smooth',block:'start'});setTimeout(()=>window.applyRouteFilter?.(key),280)}));
   document.querySelectorAll('[data-scroll-target]').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();document.querySelector(button.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'})}));
-  injectParticipantChoice();injectFavoriteHeaderLink();updateFavoriteLinks();loadSelectionAssets().then(()=>{window.initIncantoParticipant?.();decorateSelectionHearts();const observer=new MutationObserver(()=>decorateSelectionHearts());observer.observe(document.body,{subtree:true,childList:true,characterData:true});window.addEventListener('incanto:routes-ready',decorateSelectionHearts);window.addEventListener('incanto:selection-changed',decorateSelectionHearts);window.addEventListener('incanto:dialog-route-changed',decorateSelectionHearts)});
+  injectParticipantChoice();injectFavoriteHeaderLink();updateFavoriteLinks();loadSelectionAssets().then(()=>{window.initIncantoParticipant?.();decorateSelectionHearts();installTargetedDecorators();window.addEventListener('incanto:routes-ready',scheduleSelectionDecoration);window.addEventListener('incanto:selection-changed',scheduleSelectionDecoration);window.addEventListener('incanto:dialog-route-changed',scheduleSelectionDecoration)});
   const requestedRoute=new URLSearchParams(location.search).get('route');if(requestedRoute){const openRequested=()=>setTimeout(()=>window.openRoute?.(requestedRoute),80);if(window.incantoRoutes?.length)openRequested();else window.addEventListener('incanto:routes-ready',openRequested,{once:true})}
 }
-window.addEventListener('DOMContentLoaded',initIncantoExtras);
+window.addEventListener('DOMContentLoaded',initIncantoExtras,{once:true});
