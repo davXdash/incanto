@@ -3,27 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="Desiderio Lieblingsrouten – gemeinsame Reiseentscheidung von David und Kay.">
+  <meta name="description" content="Desiderio Lieblingsrouten – persönliche und gemeinsame Reiseentscheidung von David und Kay.">
   <title>Lieblingsrouten · Desiderio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&family=Italiana&family=Parisienne&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="favorites.css?v=20260722-4">
+  <link rel="stylesheet" href="favorites.css?v=20260722-5">
 </head>
 <body>
 <header class="fav-topbar"><a href="index.html" class="fav-brand">✣ <strong>DESIDERIO</strong><span>VIVIAMO IL SOGNO.</span></a><a href="index.html" class="fav-back">← ZURÜCK ZU DESIDERIO</a></header>
 <main>
-  <section class="fav-hero"><p class="eyebrow">LE NOSTRE SCELTE</p><h1>Unsere Lieblingsrouten</h1><p>Ihr könnt getrennt auf verschiedenen Geräten oder nacheinander auf demselben Tablet arbeiten. David und Kay behalten jeweils ihre eigene Auswahl, Rangfolge und Historie.</p></section>
-  <section class="fav-panel" id="identityPanel"><div><p class="step">TEILNEHMER</p><h2>Wessen Auswahl wird jetzt geöffnet?</h2><p>Es ist niemand vorausgewählt. Beim Wechsel bleiben beide persönlichen Stände vollständig erhalten.</p></div><div class="identity-buttons"><button type="button" data-person="david">David</button><button type="button" data-person="kay">Kay</button></div><p id="activePerson" class="status-line"></p></section>
-  <section class="fav-panel"><div class="panel-heading"><div><p class="step">SCHRITT 1</p><h2>Persönliche Grundauswahl</h2><p>Hier erscheinen nur die auf der Hauptseite markierten Routen. Maximal sechs. Ein kurzer Grund ist freiwillig und hilft der anderen Person, deine Wahl zu verstehen.</p></div><strong id="selectionCount">0 / 6</strong></div><div id="routePicker" class="route-picker"></div></section>
-  <section class="fav-panel file-panel"><div><p class="step">SCHRITT 2 · SICHERN &amp; AUSTAUSCHEN</p><h2>Auswahl als JSON austauschen</h2><p>Wählt zuerst David oder Kay.</p></div><div class="file-actions"><button type="button" id="exportState">JSON herunterladen</button><label class="upload-button">JSON hochladen<input id="importState" type="file" accept="application/json,.json"></label></div><p id="fileStatus" class="status-line"></p></section>
-  <section class="fav-panel" id="combinedPanel"><div class="panel-heading"><div><p class="step">SCHRITT 3</p><h2>Beide Auswahlen zusammen</h2><p>Eine von euch beiden gewählte Route erscheint nur einmal, bleibt aber deutlich David und Kay zugeordnet. Alle Begründungen bleiben getrennt sichtbar.</p></div><span id="combinedCount"></span></div><div id="combinedRoutes" class="combined-routes empty-state"></div></section>
-  <section class="fav-panel" id="rankingPanel"><div><p class="step">SCHRITT 4</p><h2>Persönliche Rangfolge</h2><p>Tippe direkt auf einen Rang. Mehrere Routen dürfen denselben Platz erhalten. Nicht eingeordnete Routen bleiben im Rennen und erhalten gemeinsam den nächsten Rang hinter deiner höchsten Zahl.</p></div><div id="rankingRoutes" class="ranking-routes empty-state"></div></section>
-  <section class="fav-panel" id="roundsPanel"><div><p class="step">SCHRITT 5</p><h2>Ausscheidungsrunden</h2><p>Wähle in jeder Runde eine oder zwei Routen aus, die nicht weitergehen. Rangfolge, ausgeschiedene Routen und alle Zwischenstände bleiben sichtbar.</p></div><div id="activeRound" class="active-round empty-state"></div><div id="roundHistory" class="round-history"></div></section>
-  <section class="fav-panel final-panel"><div><p class="step">PERSÖNLICHES FINALE</p><h2>Ein oder zwei persönliche Finalisten</h2><p>Nach dem Festlegen wird direkt erklärt, welche Finaldatei heruntergeladen, verschickt und wieder hochgeladen werden muss.</p></div><div id="finalists" class="finalists empty-state"></div></section>
-  <section class="fav-panel shared-final-panel"><div><p class="step">GEMEINSAME SCHLUSSRUNDE</p><h2>Eure endgültige Auswahl</h2><p>Sobald beide persönlichen Finalstände vorliegen, könnt ihr gemeinsam ein oder zwei Routen übrig lassen. Doppelte Finalisten erscheinen nur einmal.</p></div><div id="sharedFinal" class="active-round empty-state"></div><div id="sharedHistory" class="round-history"></div></section>
+  <section class="fav-hero"><p class="eyebrow">LE NOSTRE SCELTE</p><h1>Unsere Lieblingsrouten</h1><p>Persönlich, gemeinsam oder nacheinander auf demselben Gerät. Jeder Stand bleibt erhalten und jede Desiderio-Datei kann jederzeit wieder eingelesen werden.</p></section>
+
+  <section class="fav-panel mode-panel" id="identityPanel">
+    <div><p class="step">ARBEITSMODUS</p><h2>Wer arbeitet jetzt?</h2><p>David und Kay sehen im persönlichen Modus nur den eigenen Prozess. Gemeinsam ist ein eigener Arbeitsstand, der eine oder beide persönlichen Auswahlen übernehmen kann.</p></div>
+    <div class="identity-buttons"><button type="button" data-mode="david">David</button><button type="button" data-mode="kay">Kay</button><button type="button" class="together-mode" data-mode="together">Gemeinsam <span aria-hidden="true">♥</span></button></div>
+    <p id="activeMode" class="status-line"></p>
+  </section>
+
+  <section class="fav-panel checkpoint-panel">
+    <div><p class="step">JEDERZEIT SICHERN &amp; FORTSETZEN</p><h2>Desiderio-Zwischenstand</h2><p>Der Download enthält immer den vollständigen Stand dieses Geräts. Jede Desiderio- oder ältere Incanto-Datei kann in jedem Modus hochgeladen werden. Danach arbeitest du genau im gewählten Modus weiter.</p></div>
+    <div class="file-actions"><button type="button" id="exportState">ZWISCHENSTAND HERUNTERLADEN</button><label class="upload-button">ZWISCHENSTAND HOCHLADEN<input id="importState" type="file" multiple accept="application/json,.json"></label></div>
+    <p id="fileStatus" class="status-line"></p>
+  </section>
+
+  <section class="fav-panel" id="selectionPanel">
+    <div class="panel-heading"><div><p class="step">SCHRITT 1</p><h2 id="selectionHeading">Auswahl</h2><p id="selectionIntro">Wähle zuerst einen Arbeitsmodus.</p></div><strong id="selectionCount">0 / 6</strong></div>
+    <div id="sourceStatus" class="source-status"></div>
+    <div id="routePicker" class="route-picker empty-state"></div>
+  </section>
+
+  <section class="fav-panel" id="rankingPanel">
+    <div><p class="step">SCHRITT 2</p><h2>Rangfolge</h2><p>Tippe direkt auf einen Rang. Gleichstände sind möglich. Nicht eingeordnete Routen erhalten gemeinsam den nächsten Rang hinter der höchsten vergebenen Zahl.</p></div>
+    <div id="rankingRoutes" class="ranking-routes empty-state"></div>
+  </section>
+
+  <section class="fav-panel" id="roundsPanel">
+    <div><p class="step">SCHRITT 3</p><h2>Ausscheidungsrunden</h2><p>Wähle pro Runde eine oder zwei Routen aus, die nicht weitergehen. Jeder Zwischenstand kann davor oder danach heruntergeladen werden.</p></div>
+    <div id="activeRound" class="active-round empty-state"></div>
+    <div id="roundHistory" class="round-history"></div>
+  </section>
+
+  <section class="fav-panel final-panel">
+    <div><p class="step">FINALE</p><h2 id="finalHeading">Finale</h2><p>Eine oder zwei Routen dürfen übrig bleiben. Der vollständige Stand lässt sich anschließend über den allgemeinen Zwischenstand weitergeben oder später fortsetzen.</p></div>
+    <div id="finalists" class="finalists empty-state"></div>
+  </section>
 </main>
 <footer><blockquote><em>Desiderio sammelt keine Orte.<br>Desiderio sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span>✣</span><p><strong>David &amp; Kay</strong><br>FÜR UNSERE GEMEINSAMEN REISEN.<small>PER I NOSTRI VIAGGI INSIEME.</small></p></footer>
-<script src="favorites.js?v=20260722-4"></script>
+<script src="favorites.js?v=20260722-5"></script>
 </body>
 </html>
