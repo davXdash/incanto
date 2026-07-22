@@ -1,0 +1,3 @@
+async function loadExtendedRouteDetails(){try{const response=await fetch('route-details-11.json?v=20260723-1');if(!response.ok)return;const details=await response.json();(window.incantoRoutes||[]).forEach(route=>{if(details[route.id])route.details=details[route.id]});window.dispatchEvent(new CustomEvent('incanto:routes-enriched',{detail:{routes:window.incantoRoutes||[]}}))}catch(error){console.warn('Zusätzliche Routendetails konnten nicht geladen werden.',error)}}
+window.addEventListener('incanto:routes-ready',loadExtendedRouteDetails,{once:true});
+if(window.incantoRoutes?.length)loadExtendedRouteDetails();
