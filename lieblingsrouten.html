@@ -8,52 +8,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&family=Italiana&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="favorites.css?v=20260722-2">
+  <link rel="stylesheet" href="favorites.css?v=20260722-3">
 </head>
 <body>
 <header class="fav-topbar"><a href="index.html" class="fav-brand">✣ <strong>INCANTO</strong><span>VIVIAMO IL SOGNO.</span></a><a href="index.html" class="fav-back">← ZURÜCK ZU INCANTO</a></header>
 <main>
   <section class="fav-hero"><p class="eyebrow">LE NOSTRE SCELTE</p><h1>Unsere Lieblingsrouten</h1><p>Jeder wählt in Ruhe. Danach werden beide Stände zusammengeführt, gelesen, eingeordnet und Schritt für Schritt auf ein oder zwei persönliche Finalisten reduziert.</p></section>
-
-  <section class="fav-panel" id="identityPanel">
-    <div><p class="step">TEILNEHMER</p><h2>Für wen ist diese Auswahl?</h2><p>Die Auswahl von der Hauptseite wird übernommen. Ihr könnt hier bei Bedarf zwischen David und Kay wechseln.</p></div>
-    <div class="identity-buttons"><button type="button" data-person="david">David</button><button type="button" data-person="kay">Kay</button></div>
-    <p id="activePerson" class="status-line">Noch keine Person gewählt.</p>
-  </section>
-
-  <section class="fav-panel">
-    <div class="panel-heading"><div><p class="step">SCHRITT 1</p><h2>Persönliche Grundauswahl</h2><p>Hier erscheinen ausschließlich die Routen, die auf der Hauptseite mit einem Herz markiert wurden. Maximal sechs. Ein kurzer Grund ist freiwillig, hilft dem anderen aber später, deine Auswahl wirklich zu verstehen.</p></div><strong id="selectionCount">0 / 6</strong></div>
-    <div id="routePicker" class="route-picker"></div>
-  </section>
-
-  <section class="fav-panel file-panel">
-    <div><p class="step">SCHRITT 2 · SICHERN &amp; AUSTAUSCHEN</p><h2>Auswahl als JSON austauschen</h2><p>Der Stand bleibt auf diesem Gerät gespeichert. Sichere ihn zusätzlich als JSON-Datei, damit du ihn verschicken, auf einem anderen Gerät öffnen oder später fortsetzen kannst.</p></div>
-    <div class="file-actions"><button type="button" id="exportState">JSON herunterladen</button><label class="upload-button">JSON hochladen<input id="importState" type="file" accept="application/json,.json"></label></div>
-    <p id="fileStatus" class="status-line"></p>
-  </section>
-
-  <section class="fav-panel" id="combinedPanel">
-    <div class="panel-heading"><div><p class="step">SCHRITT 3</p><h2>Beide Auswahlen zusammen</h2><p>Nach dem Import stehen eigene und fremde Wahl gemeinsam bereit. Eine von euch beiden gewählte Route erscheint nur einmal, bleibt aber deutlich David und Kay zugeordnet. Alle Begründungen bleiben getrennt sichtbar.</p></div><span id="combinedCount"></span></div>
-    <div id="combinedRoutes" class="combined-routes empty-state">Lade die Auswahl des anderen hoch, sobald sie vorliegt.</div>
-  </section>
-
-  <section class="fav-panel" id="rankingPanel">
-    <div><p class="step">SCHRITT 4</p><h2>Persönliche Rangfolge</h2><p>Vergib nur dort einen Rang, wo du schon eine Reihenfolge fühlst. Mehrere Routen dürfen denselben Platz erhalten. Nicht eingeordnete Routen bleiben im Rennen und stehen gemeinsam auf dem nächsten Rang hinter deiner höchsten Zahl.</p></div>
-    <div id="rankingRoutes" class="ranking-routes empty-state">Die Rangfolge erscheint, sobald Routen im gemeinsamen Stand liegen.</div>
-  </section>
-
-  <section class="fav-panel" id="roundsPanel">
-    <div><p class="step">SCHRITT 5</p><h2>Ruhige Ausscheidungsrunden</h2><p>Wähle in jeder Runde eine oder zwei Routen, die du vorerst loslassen möchtest. Die bisherige Rangfolge bleibt sichtbar. Frühere Runden und alle weitergeführten Routen bleiben in der Historie nachvollziehbar.</p></div>
-    <div id="activeRound" class="active-round empty-state">Noch keine gemeinsame Kandidatenliste vorhanden.</div>
-    <div id="roundHistory" class="round-history"></div>
-  </section>
-
-  <section class="fav-panel final-panel">
-    <div><p class="step">PERSÖNLICHES FINALE</p><h2>Ein oder zwei persönliche Finalisten</h2><p>Nach dem Festlegen kannst du den vollständigen Finalstand direkt hier herunterladen und mit der anderen Person für die gemeinsame Schlussrunde austauschen.</p></div>
-    <div id="finalists" class="finalists empty-state">Noch keine Finalisten festgelegt.</div>
-  </section>
+  <section class="fav-panel" id="identityPanel"><div><p class="step">TEILNEHMER</p><h2>Für wen ist diese Auswahl?</h2><p>Die Auswahl von der Hauptseite wird übernommen. Ihr könnt hier bei Bedarf zwischen David und Kay wechseln.</p></div><div class="identity-buttons"><button type="button" data-person="david">David</button><button type="button" data-person="kay">Kay</button></div><p id="activePerson" class="status-line">Noch keine Person gewählt.</p></section>
+  <section class="fav-panel"><div class="panel-heading"><div><p class="step">SCHRITT 1</p><h2>Persönliche Grundauswahl</h2><p>Hier erscheinen ausschließlich die Routen, die auf der Hauptseite mit einem Herz markiert wurden. Maximal sechs. Ein kurzer Grund ist freiwillig, hilft dem anderen aber später, deine Auswahl wirklich zu verstehen.</p></div><strong id="selectionCount">0 / 6</strong></div><div id="routePicker" class="route-picker"></div></section>
+  <section class="fav-panel file-panel"><div><p class="step">SCHRITT 2 · SICHERN &amp; AUSTAUSCHEN</p><h2>Auswahl als JSON austauschen</h2><p>Der Stand bleibt auf diesem Gerät gespeichert. Sichere ihn zusätzlich als JSON-Datei, damit du ihn verschicken, auf einem anderen Gerät öffnen oder später fortsetzen kannst.</p></div><div class="file-actions"><button type="button" id="exportState">JSON herunterladen</button><label class="upload-button">JSON hochladen<input id="importState" type="file" accept="application/json,.json"></label></div><p id="fileStatus" class="status-line"></p></section>
+  <section class="fav-panel" id="combinedPanel"><div class="panel-heading"><div><p class="step">SCHRITT 3</p><h2>Beide Auswahlen zusammen</h2><p>Nach dem Import stehen eigene und fremde Wahl gemeinsam bereit. Eine von euch beiden gewählte Route erscheint nur einmal, bleibt aber deutlich David und Kay zugeordnet. Alle Begründungen bleiben getrennt sichtbar.</p></div><span id="combinedCount"></span></div><div id="combinedRoutes" class="combined-routes empty-state">Lade die Auswahl des anderen hoch, sobald sie vorliegt.</div></section>
+  <section class="fav-panel" id="rankingPanel"><div><p class="step">SCHRITT 4</p><h2>Persönliche Rangfolge</h2><p>Vergib nur dort einen Rang, wo du schon eine Reihenfolge fühlst. Mehrere Routen dürfen denselben Platz erhalten. Nicht eingeordnete Routen bleiben im Rennen und stehen gemeinsam auf dem nächsten Rang hinter deiner höchsten Zahl.</p></div><div id="rankingRoutes" class="ranking-routes empty-state">Die Rangfolge erscheint, sobald Routen im gemeinsamen Stand liegen.</div></section>
+  <section class="fav-panel" id="roundsPanel"><div><p class="step">SCHRITT 5</p><h2>Ruhige Ausscheidungsrunden</h2><p>Wähle in jeder Runde eine oder zwei Routen, die du vorerst loslassen möchtest. Die bisherige Rangfolge bleibt sichtbar. Frühere Runden und alle weitergeführten Routen bleiben in der Historie nachvollziehbar.</p></div><div id="activeRound" class="active-round empty-state">Noch keine gemeinsame Kandidatenliste vorhanden.</div><div id="roundHistory" class="round-history"></div></section>
+  <section class="fav-panel final-panel"><div><p class="step">PERSÖNLICHES FINALE</p><h2>Ein oder zwei persönliche Finalisten</h2><p>Nach dem Festlegen kannst du den vollständigen Finalstand direkt hier herunterladen und mit der anderen Person für die gemeinsame Schlussrunde austauschen.</p></div><div id="finalists" class="finalists empty-state">Noch keine Finalisten festgelegt.</div></section>
+  <section class="fav-panel shared-final-panel"><div><p class="step">GEMEINSAME SCHLUSSRUNDE</p><h2>Eure endgültige Auswahl</h2><p>Dieser Bereich wird aktiv, sobald beide persönlichen Finalstände eingelesen sind. Öffnet ihn gemeinsam. Bis zu vier Finalisten werden zusammengeführt, ohne doppelte Routen doppelt anzuzeigen. Ihr entscheidet bewusst, welche ein oder zwei Routen am Ende bleiben.</p></div><div id="sharedFinal" class="active-round empty-state">Es fehlen noch beide persönlichen Finalstände.</div><div id="sharedHistory" class="round-history"></div></section>
 </main>
 <footer><blockquote><em>Incanto sammelt keine Orte.<br>Incanto sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span>✣</span><p><strong>David &amp; Kay</strong><br>FÜR UNSERE GEMEINSAMEN REISEN.</p></footer>
-<script src="favorites.js?v=20260722-2"></script>
+<script src="favorites.js?v=20260722-3"></script>
 </body>
 </html>
