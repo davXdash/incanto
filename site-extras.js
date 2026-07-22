@@ -6,6 +6,7 @@ function loadRefinementAssets(){
   if(!document.querySelector('link[href*="site-refinements.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-refinements.css?v=20260722-1';document.head.appendChild(css)}
   if(!document.querySelector('script[src*="site-refinements.js"]')){const script=document.createElement('script');script.src='site-refinements.js?v=20260722-1';document.head.appendChild(script)}
   if(!document.querySelector('script[src*="route-compare.js?v=20260722-4"]')){const script=document.createElement('script');script.src='route-compare.js?v=20260722-4';document.head.appendChild(script)}
+  if(!document.querySelector('script[src*="route-details-loader.js"]')){const script=document.createElement('script');script.src='route-details-loader.js?v=20260723-1';document.head.appendChild(script)}
 }
 function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
 let decorationPending=false;
@@ -32,7 +33,7 @@ function injectFavoriteHeaderLink(){const actions=document.querySelector('.heade
 function updateFavoriteLinks(){document.querySelectorAll('.journey-grid article').forEach(article=>{if(article.querySelector('h3')?.textContent.trim()==='Unsere Lieblingsrouten'){const link=article.querySelector('a');if(link){link.href='lieblingsrouten.html';link.textContent='LIEBLINGSROUTEN ÖFFNEN →'}const text=article.querySelector('p');if(text)text.textContent='Sammelt persönliche oder gemeinsame Favoriten und setzt euren Zwischenstand jederzeit fort.'}})}
 function initIncantoExtras(){
   loadRefinementAssets();
-  const topButton=document.querySelector('#backToTop');if(topButton){const update=()=>topButton.classList.toggle('visible',window.scrollY>520);window.addEventListener('scroll',update,{passive:true});topButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));update()}
+  const topButton=document.querySelector('#backToTop');if(topButton){const update=()=>topButton.classList.toggle('visible',window.scrollY>520);window.addEventListener('scroll',update,{passive:true});update()}
   document.querySelectorAll('[data-open-route]').forEach(button=>button.addEventListener('click',()=>window.openRoute?.(button.dataset.openRoute)));
   document.querySelectorAll('[data-route-filter]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();const key=link.dataset.routeFilter;document.querySelector('#routes')?.scrollIntoView({behavior:'smooth',block:'start'});setTimeout(()=>window.applyRouteFilter?.(key),280)}));
   document.querySelectorAll('[data-scroll-target]').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();document.querySelector(button.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'})}));
