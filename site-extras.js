@@ -1,6 +1,6 @@
 function loadSelectionAssets(){
-  if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260722-3';document.head.appendChild(css)}
-  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-3';script.onload=resolve;document.head.appendChild(script)})
+  if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260722-4';document.head.appendChild(css)}
+  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-4';script.onload=resolve;document.head.appendChild(script)})
 }
 function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
 function decorateSelectionHearts(){
@@ -13,11 +13,11 @@ function decorateSelectionHearts(){
 }
 function injectParticipantChoice(){
   const section=document.querySelector('.choice-section');if(!section||document.querySelector('#participantChoice'))return;
-  const panel=document.createElement('div');panel.id='participantChoice';panel.className='participant-choice';panel.innerHTML='<p class="eyebrow">EURE PERSÖNLICHE AUSWAHL</p><h3>Wer entdeckt heute?</h3><p>Wählt aus, für wen auf der gesamten Seite Lieblingsrouten gesammelt werden.</p><div class="participant-buttons"><button type="button" data-site-person="david">David</button><button type="button" data-site-person="kay">Kay</button></div><p class="participant-status" id="participantStatus"></p>';
+  const panel=document.createElement('div');panel.id='participantChoice';panel.className='participant-choice';panel.innerHTML='<p class="eyebrow">EURE AUSWAHL</p><h3>Wer entdeckt heute?</h3><p>David und Kay behalten eigene Stände. Gemeinsam ist ein eigener Arbeitsmodus für eure gemeinsame Auswahl.</p><div class="participant-buttons"><button type="button" data-site-person="david">David</button><button type="button" data-site-person="kay">Kay</button><button type="button" class="together-button" data-site-person="together">Gemeinsam <span aria-hidden="true">♥</span></button></div><p class="participant-status" id="participantStatus"></p>';
   section.querySelector('.section-heading')?.insertAdjacentElement('afterend',panel);
 }
 function injectFavoriteHeaderLink(){const actions=document.querySelector('.header-actions');if(!actions||actions.querySelector('[data-favorite-access]'))return;const link=document.createElement('a');link.href='lieblingsrouten.html';link.className='favorite-header-link';link.setAttribute('data-favorite-access','');link.innerHTML='<span>♡</span><small data-favorite-access-count>Lieblingsrouten</small>';actions.insertAdjacentElement('afterbegin',link)}
-function updateFavoriteLinks(){document.querySelectorAll('.journey-grid article').forEach(article=>{if(article.querySelector('h3')?.textContent.trim()==='Unsere Lieblingsrouten'){const link=article.querySelector('a');if(link){link.href='lieblingsrouten.html';link.textContent='LIEBLINGSROUTEN ÖFFNEN →'}const text=article.querySelector('p');if(text)text.textContent='Sammelt eure Favoriten beim Entdecken und führt eure beiden Auswahlen anschließend zusammen.'}})}
+function updateFavoriteLinks(){document.querySelectorAll('.journey-grid article').forEach(article=>{if(article.querySelector('h3')?.textContent.trim()==='Unsere Lieblingsrouten'){const link=article.querySelector('a');if(link){link.href='lieblingsrouten.html';link.textContent='LIEBLINGSROUTEN ÖFFNEN →'}const text=article.querySelector('p');if(text)text.textContent='Sammelt persönliche oder gemeinsame Favoriten und setzt euren Zwischenstand jederzeit fort.'}})}
 function initIncantoExtras(){
   const topButton=document.querySelector('#backToTop');if(topButton){const update=()=>topButton.classList.toggle('visible',window.scrollY>520);window.addEventListener('scroll',update,{passive:true});topButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));update()}
   document.querySelectorAll('[data-open-route]').forEach(button=>button.addEventListener('click',()=>window.openRoute?.(button.dataset.openRoute)));
