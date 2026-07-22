@@ -5,7 +5,6 @@ function loadSelectionAssets(){
 function loadRefinementAssets(){
   if(!document.querySelector('link[href*="site-refinements.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-refinements.css?v=20260722-1';document.head.appendChild(css)}
   if(!document.querySelector('script[src*="site-refinements.js"]')){const script=document.createElement('script');script.src='site-refinements.js?v=20260722-1';document.head.appendChild(script)}
-  if(!document.querySelector('script[src*="route-compare.js?v=20260722-3"]')){const script=document.createElement('script');script.src='route-compare.js?v=20260722-3';document.head.appendChild(script)}
 }
 function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
 let decorationPending=false;
