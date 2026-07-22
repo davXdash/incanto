@@ -8,48 +8,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&family=Italiana&family=Parisienne&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="favorites.css?v=20260722-5">
+  <link rel="stylesheet" href="favorites.css?v=20260722-6">
 </head>
 <body>
 <header class="fav-topbar"><a href="index.html" class="fav-brand">✣ <strong>DESIDERIO</strong><span>VIVIAMO IL SOGNO.</span></a><a href="index.html" class="fav-back">← ZURÜCK ZU DESIDERIO</a></header>
 <main>
   <section class="fav-hero"><p class="eyebrow">LE NOSTRE SCELTE</p><h1>Unsere Lieblingsrouten</h1><p>Persönlich, gemeinsam oder nacheinander auf demselben Gerät. Jeder Stand bleibt erhalten und jede Desiderio-Datei kann jederzeit wieder eingelesen werden.</p></section>
-
-  <section class="fav-panel mode-panel" id="identityPanel">
-    <div><p class="step">ARBEITSMODUS</p><h2>Wer arbeitet jetzt?</h2><p>David und Kay sehen im persönlichen Modus nur den eigenen Prozess. Gemeinsam ist ein eigener Arbeitsstand, der eine oder beide persönlichen Auswahlen übernehmen kann.</p></div>
-    <div class="identity-buttons"><button type="button" data-mode="david">David</button><button type="button" data-mode="kay">Kay</button><button type="button" class="together-mode" data-mode="together">Gemeinsam <span aria-hidden="true">♥</span></button></div>
-    <p id="activeMode" class="status-line"></p>
-  </section>
-
-  <section class="fav-panel checkpoint-panel">
-    <div><p class="step">JEDERZEIT SICHERN &amp; FORTSETZEN</p><h2>Desiderio-Zwischenstand</h2><p>Der Download enthält immer den vollständigen Stand dieses Geräts. Jede Desiderio- oder ältere Incanto-Datei kann in jedem Modus hochgeladen werden. Danach arbeitest du genau im gewählten Modus weiter.</p></div>
-    <div class="file-actions"><button type="button" id="exportState">ZWISCHENSTAND HERUNTERLADEN</button><label class="upload-button">ZWISCHENSTAND HOCHLADEN<input id="importState" type="file" multiple accept="application/json,.json"></label></div>
-    <p id="fileStatus" class="status-line"></p>
-  </section>
-
-  <section class="fav-panel" id="selectionPanel">
-    <div class="panel-heading"><div><p class="step">SCHRITT 1</p><h2 id="selectionHeading">Auswahl</h2><p id="selectionIntro">Wähle zuerst einen Arbeitsmodus.</p></div><strong id="selectionCount">0 / 6</strong></div>
-    <div id="sourceStatus" class="source-status"></div>
-    <div id="routePicker" class="route-picker empty-state"></div>
-  </section>
-
-  <section class="fav-panel" id="rankingPanel">
-    <div><p class="step">SCHRITT 2</p><h2>Rangfolge</h2><p>Tippe direkt auf einen Rang. Gleichstände sind möglich. Nicht eingeordnete Routen erhalten gemeinsam den nächsten Rang hinter der höchsten vergebenen Zahl.</p></div>
-    <div id="rankingRoutes" class="ranking-routes empty-state"></div>
-  </section>
-
-  <section class="fav-panel" id="roundsPanel">
-    <div><p class="step">SCHRITT 3</p><h2>Ausscheidungsrunden</h2><p>Wähle pro Runde eine oder zwei Routen aus, die nicht weitergehen. Jeder Zwischenstand kann davor oder danach heruntergeladen werden.</p></div>
-    <div id="activeRound" class="active-round empty-state"></div>
-    <div id="roundHistory" class="round-history"></div>
-  </section>
-
-  <section class="fav-panel final-panel">
-    <div><p class="step">FINALE</p><h2 id="finalHeading">Finale</h2><p>Eine oder zwei Routen dürfen übrig bleiben. Der vollständige Stand lässt sich anschließend über den allgemeinen Zwischenstand weitergeben oder später fortsetzen.</p></div>
-    <div id="finalists" class="finalists empty-state"></div>
-  </section>
+  <section class="fav-panel mode-panel" id="identityPanel"><div><p class="step">ARBEITSMODUS</p><h2>Wer arbeitet jetzt?</h2><p>David und Kay sehen im persönlichen Modus nur den eigenen Prozess. Gemeinsam ist ein eigener Arbeitsstand, der eine oder beide persönlichen Auswahlen übernehmen kann.</p></div><div class="identity-buttons"><button type="button" data-mode="david">David</button><button type="button" data-mode="kay">Kay</button><button type="button" class="together-mode" data-mode="together">Gemeinsam <span aria-hidden="true">♥</span></button></div><p id="activeMode" class="status-line"></p></section>
+  <section class="fav-panel checkpoint-panel"><div><p class="step">JEDERZEIT SICHERN &amp; FORTSETZEN</p><h2>Desiderio-Zwischenstand</h2><p>Der Download enthält immer den vollständigen Stand dieses Geräts. Jede Desiderio- oder ältere Incanto-Datei kann in jedem Modus hochgeladen werden. Danach arbeitest du genau im gewählten Modus weiter.</p></div><div class="file-actions"><button type="button" id="exportState">ZWISCHENSTAND HERUNTERLADEN</button><label class="upload-button">ZWISCHENSTAND HOCHLADEN<input id="importState" type="file" multiple accept="application/json,.json"></label></div><p id="fileStatus" class="status-line"></p></section>
+  <section class="fav-panel" id="selectionPanel"><div class="panel-heading"><div><p class="step">SCHRITT 1</p><h2 id="selectionHeading">Auswahl</h2><p id="selectionIntro">Wähle zuerst einen Arbeitsmodus.</p></div><strong id="selectionCount">0 / 6</strong></div><div id="sourceStatus" class="source-status"></div><div id="routePicker" class="route-picker empty-state"></div></section>
+  <section class="fav-panel" id="rankingPanel"><div><p class="step">SCHRITT 2</p><h2>Rangfolge</h2><p>Tippe direkt auf einen Rang. Gleichstände sind möglich. Nicht eingeordnete Routen erhalten gemeinsam den nächsten Rang hinter der höchsten vergebenen Zahl.</p></div><div id="rankingRoutes" class="ranking-routes empty-state"></div></section>
+  <section class="fav-panel" id="roundsPanel"><div><p class="step">SCHRITT 3</p><h2>Ausscheidungsrunden</h2><p>Wähle pro Runde eine oder zwei Routen aus, die nicht weitergehen. Jeder Zwischenstand kann davor oder danach heruntergeladen werden.</p></div><div id="activeRound" class="active-round empty-state"></div><div id="roundHistory" class="round-history"></div></section>
+  <section class="fav-panel final-panel"><div><p class="step">FINALE</p><h2 id="finalHeading">Finale</h2><p>Eine oder zwei Routen dürfen übrig bleiben. Der vollständige Stand lässt sich anschließend über den allgemeinen Zwischenstand weitergeben oder später fortsetzen.</p></div><div id="finalists" class="finalists empty-state"></div></section>
 </main>
-<footer><blockquote><em>Desiderio sammelt keine Orte.<br>Desiderio sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span>✣</span><p><strong>David &amp; Kay</strong><br>FÜR UNSERE GEMEINSAMEN REISEN.<small>PER I NOSTRI VIAGGI INSIEME.</small></p></footer>
+<footer><blockquote><em>Desiderio sammelt keine Orte.<br>Desiderio sammelt Gründe, sich an sie zu erinnern.</em></blockquote><span>✣</span><div class="fav-footer-signature"><strong>David &amp; Kay</strong><small class="fav-footer-italian">Per i nostri viaggi insieme.</small><small>FÜR UNSERE GEMEINSAMEN REISEN.</small></div></footer>
 <script src="favorites.js?v=20260722-5"></script>
 </body>
 </html>
