@@ -1,33 +1,28 @@
+function loadSelectionAssets(){
+  if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260722-1';document.head.appendChild(css)}
+  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-1';script.onload=resolve;document.head.appendChild(script)})
+}
+function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
+function decorateSelectionHearts(){
+  if(!window.incantoHeart)return;
+  document.querySelectorAll('.route-card[data-id]').forEach(card=>{if(!card.querySelector('[data-selection-route]'))card.insertAdjacentHTML('afterbegin',window.incantoHeart(card.dataset.id))});
+  const dialog=document.querySelector('#routeDialog'),dialogTitle=dialog?.querySelector('.dialog-hero h2');if(dialogTitle){const id=routeIdFromTitle(dialogTitle.textContent);if(id&&!dialog.querySelector('.dialog-selection-heart'))dialog.insertAdjacentHTML('afterbegin',`<div class="dialog-selection-heart">${window.incantoHeart(id)}</div>`)}
+  document.querySelectorAll('.compare-head').forEach(head=>{const id=head.querySelector('[data-open-route]')?.dataset.openRoute;if(id&&!head.querySelector('[data-selection-route]'))head.insertAdjacentHTML('beforeend',window.incantoHeart(id))});
+  const mapTitle=document.querySelector('#routeMapTitle'),panel=document.querySelector('.route-map-panel');if(mapTitle&&panel){const id=routeIdFromTitle(mapTitle.textContent);let slot=panel.querySelector('.map-selection-slot');if(!slot){slot=document.createElement('div');slot.className='map-selection-slot';mapTitle.insertAdjacentElement('afterend',slot)}if(id&&slot.dataset.routeId!==id){slot.dataset.routeId=id;slot.innerHTML=window.incantoHeart(id)}}
+  window.incantoBindHearts(document);window.incantoRefreshHearts?.();
+}
+function injectParticipantChoice(){
+  const section=document.querySelector('.choice-section');if(!section||document.querySelector('#participantChoice'))return;
+  const panel=document.createElement('div');panel.id='participantChoice';panel.className='participant-choice';panel.innerHTML='<p class="eyebrow">EURE PERSÖNLICHE AUSWAHL</p><h3>Wer entdeckt heute?</h3><p>Wählt aus, für wen auf der gesamten Seite Lieblingsrouten gesammelt werden.</p><div class="participant-buttons"><button type="button" data-site-person="david">David</button><button type="button" data-site-person="kay">Kay</button></div><p class="participant-status" id="participantStatus"></p>';
+  section.querySelector('.section-heading')?.insertAdjacentElement('afterend',panel);
+}
+function updateFavoriteLinks(){document.querySelectorAll('.journey-grid article').forEach(article=>{if(article.querySelector('h3')?.textContent.trim()==='Unsere Lieblingsrouten'){const link=article.querySelector('a');if(link){link.href='lieblingsrouten.html';link.textContent='LIEBLINGSROUTEN ÖFFNEN →'}const text=article.querySelector('p');if(text)text.textContent='Sammelt eure Favoriten beim Entdecken und führt eure beiden Auswahlen anschließend zusammen.'}})}
 function initIncantoExtras(){
-  const topButton=document.querySelector('#backToTop');
-  if(topButton){
-    const update=()=>topButton.classList.toggle('visible',window.scrollY>520);
-    window.addEventListener('scroll',update,{passive:true});
-    topButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-    update();
-  }
+  const topButton=document.querySelector('#backToTop');if(topButton){const update=()=>topButton.classList.toggle('visible',window.scrollY>520);window.addEventListener('scroll',update,{passive:true});topButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));update()}
   document.querySelectorAll('[data-open-route]').forEach(button=>button.addEventListener('click',()=>window.openRoute?.(button.dataset.openRoute)));
-  document.querySelectorAll('[data-route-filter]').forEach(link=>link.addEventListener('click',event=>{
-    event.preventDefault();
-    const key=link.dataset.routeFilter;
-    document.querySelector('#routes')?.scrollIntoView({behavior:'smooth',block:'start'});
-    setTimeout(()=>window.applyRouteFilter?.(key),280);
-  }));
-  document.querySelectorAll('[data-scroll-target]').forEach(button=>button.addEventListener('click',event=>{
-    event.preventDefault();
-    document.querySelector(button.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'});
-  }));
-  const favoriteCard=[...document.querySelectorAll('.journey-grid article')].find(card=>card.querySelector('h3')?.textContent.trim()==='Unsere Lieblingsrouten');
-  if(favoriteCard){
-    const link=favoriteCard.querySelector('a');
-    const text=favoriteCard.querySelector('p');
-    if(link){link.href='lieblingsrouten.html';link.textContent='LIEBLINGSROUTEN AUSWÄHLEN →'}
-    if(text)text.textContent='Wählt getrennt bis zu vier Routen, tauscht eure Stände aus und findet Schritt für Schritt eure Finalisten.';
-  }
-  const requestedRoute=new URLSearchParams(location.search).get('route');
-  if(requestedRoute){
-    const openRequested=()=>setTimeout(()=>window.openRoute?.(requestedRoute),80);
-    if(window.incantoRoutes?.length)openRequested();else window.addEventListener('incanto:routes-ready',openRequested,{once:true});
-  }
+  document.querySelectorAll('[data-route-filter]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();const key=link.dataset.routeFilter;document.querySelector('#routes')?.scrollIntoView({behavior:'smooth',block:'start'});setTimeout(()=>window.applyRouteFilter?.(key),280)}));
+  document.querySelectorAll('[data-scroll-target]').forEach(button=>button.addEventListener('click',event=>{event.preventDefault();document.querySelector(button.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'})}));
+  injectParticipantChoice();updateFavoriteLinks();loadSelectionAssets().then(()=>{window.dispatchEvent(new Event('DOMContentLoaded'));decorateSelectionHearts();const observer=new MutationObserver(()=>decorateSelectionHearts());observer.observe(document.body,{subtree:true,childList:true,characterData:true});window.addEventListener('incanto:routes-ready',decorateSelectionHearts);window.addEventListener('incanto:selection-changed',decorateSelectionHearts)});
+  const requestedRoute=new URLSearchParams(location.search).get('route');if(requestedRoute){const openRequested=()=>setTimeout(()=>window.openRoute?.(requestedRoute),80);if(window.incantoRoutes?.length)openRequested();else window.addEventListener('incanto:routes-ready',openRequested,{once:true})}
 }
 window.addEventListener('DOMContentLoaded',initIncantoExtras);
