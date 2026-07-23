@@ -1,3 +1,7 @@
+function loadFreshVisualModules(){
+  if(!document.querySelector('script[src*="editorial-highlights.js?v=20260723-3"]')){const editorial=document.createElement('script');editorial.src='editorial-highlights.js?v=20260723-3';document.head.appendChild(editorial)}
+  if(!document.querySelector('script[src*="route-map-new-routes.js"]')){const mapScript=document.createElement('script');mapScript.src='route-map-new-routes.js?v=20260723-1';document.head.appendChild(mapScript)}
+}
 function applyDesiderioVisualFixes(){
   const heroCopy=document.querySelector('.hero-copy');
   if(heroCopy){
@@ -18,5 +22,6 @@ function applyDesiderioVisualFixes(){
     const incanto=articles.find(article=>article.querySelector('.eyebrow')?.textContent.trim()==='INCANTO');
     incanto?.classList.add('incanto-definition-compact');
   }
+  loadFreshVisualModules();
 }
 if(document.readyState==='loading')window.addEventListener('DOMContentLoaded',applyDesiderioVisualFixes,{once:true});else applyDesiderioVisualFixes();
