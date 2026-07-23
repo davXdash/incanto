@@ -1,12 +1,14 @@
 function loadSelectionAssets(){
-  if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260722-4';document.head.appendChild(css)}
-  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260722-6';script.onload=resolve;script.onerror=resolve;document.head.appendChild(script)})
+  if(!document.querySelector('link[href*="site-selection.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-selection.css?v=20260723-1';document.head.appendChild(css)}
+  return new Promise(resolve=>{if(window.incantoHeart){resolve();return}const script=document.createElement('script');script.src='site-selection.js?v=20260723-1';script.onload=resolve;script.onerror=resolve;document.head.appendChild(script)})
 }
 function loadRefinementAssets(){
   if(!document.querySelector('link[href*="site-refinements.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-refinements.css?v=20260722-1';document.head.appendChild(css)}
   if(!document.querySelector('script[src*="site-refinements.js"]')){const script=document.createElement('script');script.src='site-refinements.js?v=20260722-1';document.head.appendChild(script)}
   if(!document.querySelector('script[src*="route-compare.js?v=20260722-4"]')){const script=document.createElement('script');script.src='route-compare.js?v=20260722-4';document.head.appendChild(script)}
   if(!document.querySelector('script[src*="route-details-loader.js"]')){const script=document.createElement('script');script.src='route-details-loader.js?v=20260723-1';document.head.appendChild(script)}
+  if(!document.querySelector('link[href*="site-visual-fixes.css"]')){const css=document.createElement('link');css.rel='stylesheet';css.href='site-visual-fixes.css?v=20260723-1';document.head.appendChild(css)}
+  if(!document.querySelector('script[src*="site-visual-fixes.js"]')){const script=document.createElement('script');script.src='site-visual-fixes.js?v=20260723-1';document.head.appendChild(script)}
 }
 function routeIdFromTitle(title){return window.incantoRoutes?.find(route=>route.title.trim()===String(title||'').trim())?.id||null}
 let decorationPending=false;
